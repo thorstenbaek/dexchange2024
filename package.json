@@ -22,6 +22,9 @@
 	},
 	"type": "module",
 	"engines": {
-		"node": ">=18.13 <19"
+		"node": ">=18.13"
+	},
+	"dependencies": {
+		"moment": "^2.30.1"
 	}
 }
