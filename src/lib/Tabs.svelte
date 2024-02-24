@@ -37,7 +37,7 @@
 
     .hidden {        
         overflow: hidden;
-        max-width: 15px;
+        max-width: 15px;        
     }
 
     ul {
@@ -68,6 +68,15 @@
     }
 
     @media screen and (min-width: 42.5rem) {
+        .hidden {
+            max-width: 300px;
+        }
+        .tabs {
+            display: none;
+        }        
+    }
+
+    @media print {
         .hidden {
             max-width: 300px;
         }

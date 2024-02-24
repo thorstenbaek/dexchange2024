@@ -39,10 +39,10 @@
         display: grid;
         margin: 5px;
         grid-area: 1;
-        width: 365px;
+        width: 365px;        
     }
 
-    :global(.card) {
+    :global(.card) {        
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -55,6 +55,7 @@
                 align-items: flex-start;
         padding: 15px;
         max-width: 300px;
+        width: 300px;
         color: var(--white);
     }
 
@@ -71,6 +72,19 @@
         :global(.title) {
             visibility: visible;
             display: inline;
+        }
+    }
+
+    @media print {
+        main {
+            width: auto;
+        }
+        :global(.title) {
+            visibility: visible;
+            display: inline;
+        }
+        :global(.card) {        
+            color: black;
         }
     }
 </style>

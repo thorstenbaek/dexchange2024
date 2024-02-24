@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Track from "./track";
     import { onMount } from "svelte";
     import Tabs from "./Tabs.svelte";
 
@@ -12,8 +13,9 @@
             
             var tracks = data.schedule.tracks;
             var temp = []
+            
             for (let i = 0; i < tracks.length; i++) {
-                temp.push({track: tracks[i], index: i});
+                temp.push({track: new Track(tracks[i], data.schedule.startTime), index: i});
             }
             tabs = temp;
             
