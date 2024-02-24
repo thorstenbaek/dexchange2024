@@ -3,6 +3,7 @@
         "tracks": [
             {
                 "name": "Arena",
+                "room": "Arena 2. etasje",
                 "sessions": [
                     {
                         "time": "2024-04-17T:11:00:00+0100",
@@ -82,6 +83,7 @@
             ]},
             {
                 "name": "Hinnøya",
+                "room": "Hinnøya 6. etasje",
                 "sessions": [                        
                     {
                         "time": "2024-04-17T:12:45:00+0100",
@@ -121,6 +123,7 @@
             ]},
             {
                 "name": "Kantina",
+                "room": "Kantina i 6. etasje",
                 "sessions": [{
                     "time": "2024-04-17T:13:50:00+0100",
                     "title": "Verdi og brukervennlighet",
@@ -146,6 +149,20 @@
                     "title": "Aktiv lytting",
                     "speaker": "Nathalie Jonkers"
                 }                
+            ]},
+            {
+                "name": "Klasserom",
+                "room": "Ved siden av kantina i 6. etasje",
+                "sessions": [{
+                    "time": "2024-04-17T:13:50:00+0100",
+                    "title": "Workshop med masse overraskelser",
+                    "speaker": ""
+                },
+                {
+                    "time": "2024-04-17T:14:50:00+0100",
+                    "title": "Pause 20 minutter",
+                    "break": true
+                }                                                    
             ]}       
         ]
     }        
