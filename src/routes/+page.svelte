@@ -7,8 +7,8 @@
     <h2>onsdag 17. april</h2>
     <Schedule day="dag1.json"/>
 
-    <h2>torsdag 18. april</h2>
-    <Schedule day="dag2.json"/>
+    <!-- <h2>torsdag 18. april</h2>
+    <Schedule day="dag2.json"/> -->
 </main>
 
 <style>
@@ -19,7 +19,7 @@
         --accent-1: hsl(31, 77%, 52%);
         --accent-2: hsl(184, 100%, 22%);
         --accent-3: hsl(179, 100%, 13%);
-        --accent-4: hsl(199, 100%, 22%);
+        --accent-4: hsl(0, 100%, 22%);
         --black: hsl(0, 0%, 0%);
         --font-body: helvetica, sans-serif;
         --font-heading: helvetica, sans-serif;

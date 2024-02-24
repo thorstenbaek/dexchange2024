@@ -10,10 +10,10 @@
 
 </script>
 
-<ul>
-    {#each items as item}        
+<ul class="tabs">
+    {#each items as item, i}        
         <li class={activeTab === item.index ? 'active' : ''}>
-            <span on:click={() => handleClick(item.index)}>
+            <span on:click={() => handleClick(item.index)} style="background-color:var(--accent-{i + 1})">
                 {item.track.name}
             </span>
         </li>
@@ -53,27 +53,25 @@
     }
 
     span {
-        border: 1px solid transparent;
-        border-top-left-radius: 0.25rem;
-        border-top-right-radius: 0.25rem;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
         display: inline;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 1rem 0.1rem 1rem;
         cursor: pointer;
-    }
-
-    span:hover {
-        border-color: #e9ecef #e9ecef #dee2e6;
+        color: var(--white);
     }
 
     li.active > span {
-        color: #495057;
-        background-color: #fff;
+        color: var(--white);
         border-color: #dee2e6 #dee2e6 #fff;
     }
 
     @media screen and (min-width: 42.5rem) {
         .hidden {
             max-width: 300px;
+        }
+        .tabs {
+            display: none;
         }
     }
 </style>
