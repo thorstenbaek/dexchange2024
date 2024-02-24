@@ -69,7 +69,7 @@
 
     @media screen and (min-width: 42.5rem) {
         .hidden {
-            max-width: 300px;
+            max-width: 350px;
         }
         .tabs {
             display: none;
@@ -78,7 +78,7 @@
 
     @media print {
         .hidden {
-            max-width: 300px;
+            max-width: 350px;
         }
         .tabs {
             display: none;

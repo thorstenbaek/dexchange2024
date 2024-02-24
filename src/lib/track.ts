@@ -1,4 +1,5 @@
 import Session from "./session";
+import Break from "./break";
 
 export default class Track {
 
@@ -15,12 +16,25 @@ export default class Track {
         for(let i = 0; i < track.sessions.length; i++) {
             const session = track.sessions[i];
             const nextSession = i < track.sessions.length - 1 ? track.sessions[i + 1] : null;
-            this.sessions.push(
-                new Session(                
+            
+            var newSession = null;
+            
+            if (session.break) {
+                newSession = new Break(                
                 session.time,
                 nextSession?.time,
-                session.title,
-                session.speaker));
+                session.title);
+            }
+            else {
+                newSession = new Session(                
+                    session.time,
+                    nextSession?.time,
+                    session.title,
+                    session.speaker);
+            }
+
+            this.sessions.push(
+                newSession);
         }
     }
 }
