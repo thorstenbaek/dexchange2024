@@ -4,7 +4,7 @@
 </script>
 
 <div class="card" style="background-color:var({color})">
-    <h2>{track.name}</h2>
+    <p class="title">{track.name}</p>
     <ul>
         {#each track.sessions as session}
             <li>

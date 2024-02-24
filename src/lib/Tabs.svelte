@@ -22,7 +22,7 @@
 <div class="container">
     {#each items as item, i}
         <div class="box {activeTab != i ? 'hidden':''}" on:click={() => handleClick(i)} style="z-index:{activeTab == item.index ? 999 : item.index};">
-            <Track track={item.track} color="--accent-{i + 1}"/>
+            <Track track={item.track} color="--accent-{i + 1}" />
         </div>        
     {/each}
 </div>
@@ -49,15 +49,16 @@
         border-bottom: 1px solid #dee2e6;
     }
     li {
-            margin-bottom: -1px;
+         padding-bottom: 0;
     }
 
     span {
         border-top-left-radius: 0.5rem;
         border-top-right-radius: 0.5rem;
         display: inline;
-        padding: 0.5rem 1rem 0.1rem 1rem;
+        padding: 0.5rem 0.5rem 0.1rem 0.5rem;
         cursor: pointer;
+        font-size: 1.2rem;
         color: var(--white);
     }
 
@@ -72,6 +73,6 @@
         }
         .tabs {
             display: none;
-        }
+        }        
     }
 </style>

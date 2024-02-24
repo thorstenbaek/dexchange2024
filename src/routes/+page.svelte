@@ -55,13 +55,22 @@
                 align-items: flex-start;
         padding: 15px;
         max-width: 300px;
-        background-color: var(--accent-1);
         color: var(--white);
+    }
+
+    :global(.title) {
+        visibility: hidden;
+        display: none;
+        font-size: 1.2rem;
     }
 
     @media screen and (min-width: 42.5rem) {
         main {
             width: auto;
+        }
+        :global(.title) {
+            visibility: visible;
+            display: inline;
         }
     }
 </style>
