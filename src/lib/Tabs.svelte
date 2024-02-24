@@ -21,7 +21,7 @@
 </ul>
 <div class="container">
     {#each items as item, i}
-        <div class="box" on:click={() => handleClick(i)} style="z-index:{activeTab == item.index ? 999 : item.index};margin-left:{item.index*15}px">
+        <div class="box {activeTab != i ? 'hidden':''}" on:click={() => handleClick(i)} style="z-index:{activeTab == item.index ? 999 : item.index};">
             <Track track={item.track} color="--accent-{i + 1}"/>
         </div>        
     {/each}
@@ -31,12 +31,13 @@
     .container {
         display: grid;
         
-        /*grid-template-columns: auto auto auto auto;
-        grid-gap: 0;*/
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 0;
     }
 
-    .box {        
-        grid-area: 1/1;
+    .hidden {        
+        overflow: hidden;
+        max-width: 15px;
     }
 
     ul {
@@ -68,5 +69,11 @@
         color: #495057;
         background-color: #fff;
         border-color: #dee2e6 #dee2e6 #fff;
+    }
+
+    @media screen and (min-width: 42.5rem) {
+        .hidden {
+            max-width: 300px;
+        }
     }
 </style>

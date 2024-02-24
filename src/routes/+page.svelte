@@ -24,20 +24,23 @@
         --font-body: helvetica, sans-serif;
         --font-heading: helvetica, sans-serif;
         --neutral: hsl(0, 0%, 95%);
-        --white: hsla(0, 0%, 100%, 0.75);
+        --white: hsla(0, 0%, 100%, 0.95);
     }
 
     :global(body) {
         background: var(--neutral);
         font-family: var(--font-body);
+        margin: 0;
+        padding: 0;
         font-size: 0.9375rem;
     }
 
     main {
-        padding: 1.5rem 0.2rem;
+        display: grid;
+        margin: 5px;
+        grid-area: 1;
+        width: 365px;
     }
-
-    
 
     :global(.card) {
         display: -webkit-box;
@@ -50,20 +53,15 @@
         -webkit-box-align: start;
             -ms-flex-align: start;
                 align-items: flex-start;
-        padding: 1.375rem;
-        border-radius: 0.95rem;
-        width: 200px;
+        padding: 15px;
+        max-width: 300px;
         background-color: var(--accent-1);
         color: var(--white);
     }
 
     @media screen and (min-width: 42.5rem) {
-        :global(.container) {
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: row;
-                    flex-direction: row;
-            max-width: 53.75rem;
+        main {
+            width: auto;
         }
     }
 </style>
