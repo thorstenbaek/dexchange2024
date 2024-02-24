@@ -1,15 +1,21 @@
 <script lang="ts">
     import { onMount } from "svelte";
+    import Tabs from "./Tabs.svelte";
 
     export let day: string;
-    let tracks: any = [];
+    let tabs: any = [];
 
     onMount(async () => {
         try {
             const response = await fetch(`/data/${day}`);
             const data = await response.json();
             
-            tracks = data.schedule.tracks;
+            var tracks = data.schedule.tracks;
+            var temp = []
+            for (let i = 0; i < tracks.length; i++) {
+                temp.push({track: tracks[i], index: i});
+            }
+            tabs = temp;
             
         } catch (error) {
             console.error(error);
@@ -17,20 +23,8 @@
     });
 </script>
 
-{#if tracks.length === 0}
-    <p>Loading...</p>
-{:else}
-    {#each tracks as track}
-        <section>
-            <h3>{track.name}</h3>
-            <ul>
-                {#each track.sessions as session}
-                    <li>
-                        <h4>{session.title}</h4>
-                        <p>{session.speaker}</p>
-                    </li>
-                {/each}
-            </ul>
-        </section>
-    {/each}
-{/if}
+    {#if tabs.length === 0}
+        <p>Loading tracks...</p>
+    {:else}
+        <Tabs items={tabs}/>
+    {/if}
