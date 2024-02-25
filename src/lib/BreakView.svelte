@@ -13,13 +13,17 @@
         var result = endTime.getTime() - startTime.getTime() ;
         return result / 10000;
     }
+
+    const displayTime = (() =>  {
+        return moment(startTime).format("HH:mm");
+    })
 </script>
 
 <div class="session" style="height:{calculateHeight()}px">
     <div></div>
     <div></div>
     <div class="time">
-        {moment(startTime).format("HH:mm")}
+        {displayTime()}  
     </div>
     <div class="session-title">
         {title}

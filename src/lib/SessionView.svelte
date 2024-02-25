@@ -1,18 +1,36 @@
 <script lang="ts">
-    import Session from "./session";
-    export let session: Session;
+    import moment from "moment";
+
+    export let title: string;
+    export let speaker: string;
+    export let startTime: Date;
+    export let endTime: Date;
+
+    function calculateHeight() {
+        if(endTime == null) {
+            return 0;
+        }
+
+        var result = endTime.getTime() - startTime.getTime() ;
+        return result / 10000;
+    }
+
+    const displayTime = (() =>  {
+        return moment(startTime).format("HH:mm");
+    })
+
 </script>
 
-<div class="session" style="height:{session.calculateHeight()}px">
+<div class="session" style="height:{calculateHeight()}px">
     <div/><div/>
     <div class="time">
-        {session.displayTime()}
+        {displayTime()}
     </div>
     <div class="session-title">
-        {session.title}
+        {title}
         
         <div class="speaker">
-            {session.speaker}
+            {speaker}
         </div>    
     </div>
 </div>

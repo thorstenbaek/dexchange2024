@@ -2,7 +2,6 @@ import moment from "moment";
 import SessionView from "./SessionView.svelte";
 import BreakView from "./BreakView.svelte";
 import SpacerView from "./SpacerView.svelte";
-import Session from "./session";
 
 export default class Track {
 
@@ -35,13 +34,12 @@ export default class Track {
                             props: {title: thisSession.title, startTime: thisTime, endTime: nextTime}
                         });
                 }
-                else {
-                    const session = new Session(                
-                        thisTime,
-                        nextTime,
-                        thisSession.title,
-                        thisSession.speaker);
-                    this.sessions.push({component: SessionView, props: {session}});
+                else {                    
+                    this.sessions.push(
+                        {
+                            component: SessionView, 
+                            props: {title: thisSession.title, speaker: thisSession.speaker, startTime: thisTime, endTime: nextTime}
+                        });
                 }
             }
         }

@@ -7,11 +7,11 @@
 
 <div class="card" style="background-color:var({color})">
     <p class="title">{track.name}</p>
-        <div class="sessions">
-            {#each track.sessions as session}
-                <svelte:component this={session.component} {...session.props} />
-            {/each}
-        </div>
+    <div class="sessions">
+        {#each track.sessions as session}
+            <svelte:component this={session.component} {...session.props} />
+        {/each}
+    </div>
 </div>
 
 <style>
