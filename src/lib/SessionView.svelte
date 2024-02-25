@@ -5,9 +5,20 @@
     export let speaker: string;
     export let startTime: Date;
     export let endTime: Date;
+    export let dayTime: Date;
+    export let trackIndex: number;
 
     function calculateTop() {
-        var result = startTime.getTime() - endTime.getTime();
+        var result = startTime.getTime() - dayTime.getTime();
+        return result / 10000;
+    }
+
+    function calculateHeight() {        
+        if (endTime == null) {
+            return 0;
+        }
+
+        var result = endTime.getTime() - startTime.getTime() ;
         return result / 10000;
     }
 
@@ -17,8 +28,7 @@
 
 </script>
 
-<div class="session" style="top:{calculateTop()}px">
-    <div/><div/>
+<div class="session" style="top:{calculateTop()}px;height:{calculateHeight()}px;background-color:var(--accent-{trackIndex + 1})">    
     <div class="time">
         {displayTime()}
     </div>
@@ -39,12 +49,11 @@
     }
 
     .session-title {
-        font-size: 1.4rem;        
+        font-size: 1.0rem;        
     }
 
     .speaker {
         font-size: 1.0rem;        
-        font-weight: bold;
         padding-top: 5px;
     }
 
@@ -52,10 +61,10 @@
         position: absolute;
         display: grid;
         grid-template-columns: 40px auto;     
-        grid-template-rows: 10px auto;     
         grid-gap: 5px;
         overflow: hidden;
-        width: 300px;        
+        width: 270px;
         border-top: 1px rgba(255, 255, 255, 0.4) solid;        
+        padding: 1rem;
     }
 </style>

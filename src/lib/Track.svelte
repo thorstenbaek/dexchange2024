@@ -1,6 +1,7 @@
 <script lang="ts">
     import Track from "./track";
     import {activeTrackStore} from "../stores/trackStore";
+    import Sessions from "./Sessions.svelte";
 
     export let track: Track;
     export let index: number;
@@ -13,47 +14,31 @@
 </script>
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div class="track  {$activeTrackStore != index ? 'hidden':''} {$activeTrackStore == index ? 'ontop':''}" on:click={() => handleClick(index)}>
+    <div class="track {$activeTrackStore != index ? 'hidden':''} {$activeTrackStore == index ? 'ontop':''}" 
+        style="height: 5000px"
+        on:click={() => handleClick(index)}>
         <div class="title" style="background-color:var(--accent-{index + 1})">
             {track.name}
         </div>                
-        <div class="content" style="background-color:var(--accent-{index + 1})">
-            <p>
-                Velkommen
-            </p>
-            <p>
-                Keynote
-            </p>
-            <p>
-                Verdi og brukervennlighet
-            </p>
-            <p>
-                Utvikling i klinikken
-            </p>
-        </div>
+        <Sessions {track} trackIndex={index}/>
     </div>
 
 <style>
     .track {
         max-width: 300px;
         min-width: 1rem;
-        color: var(--white);
+        color: var(--white);        
     }
 
-    .hidden {        
-        overflow: hidden;
+    .hidden {   
+        overflow: hidden;     
         max-width: 1rem;     
         width: 1rem;
     }
 
     .ontop {
         width: 300px;
-    }
-
-    .content {
-        width: 270px;
-        padding: 1rem;
-    }
+    }    
 
     .title {
         width: 270px;
@@ -61,8 +46,14 @@
     }
 
     @media screen and (min-width: 42.5rem) {
-        .hidden {
-            overflow: hidden;
+        .hidden {            
+            max-width: 300px;         
+            width: auto;   
+        }
+    }
+
+    @media print {
+        .hidden {            
             max-width: 300px;         
             width: auto;   
         }

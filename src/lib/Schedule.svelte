@@ -15,7 +15,7 @@
             var temp = new Array<Track>()
             
             for (let i = 0; i < tracks.length; i++) {
-                temp.push(new Track(tracks[i], data.schedule.startTime));
+                temp.push(new Track(tracks[i], data.schedule.startTime, i));
             }
 
             $trackStore = temp;

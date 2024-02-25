@@ -1,24 +1,23 @@
 import moment from "moment";
 import SessionView from "./SessionView.svelte";
 import BreakView from "./BreakView.svelte";
-import SpacerView from "./SpacerView.svelte";
 
 export default class Track {
 
-    startTime: Date;
+    dayTime: Date;
+    index: number;
     name: string;
     room: string;
     sessions: Array<any> = [];
 
-    constructor(track: any, startTime: string) {
-        this.startTime =  moment(startTime, "YYYY-MM-DDTHH:mm:ss ZZ").toDate();    
+    constructor(track: any, dayTime: string, index: number) {
+        this.dayTime =  moment(dayTime, "YYYY-MM-DDTHH:mm:ss ZZ").toDate();    
+        this.index = index;
         this.name = track.name;
         this.room = track.room;
 
         if (track.sessions.length > 0) {
             const endTime = moment(track.sessions[0].time, "YYYY-MM-DDTHH:mm:ss ZZ").toDate();    
-
-            //this.sessions.push({component: SpacerView, props: {startTime: this.startTime, endTime: endTime}});
 
             for(let i = 0; i < track.sessions.length; i++) {
                 const thisSession = track.sessions[i];
@@ -31,14 +30,25 @@ export default class Track {
                     this.sessions.push(
                         {
                             component: BreakView, 
-                            props: {title: thisSession.title, startTime: thisTime, endTime: this.startTime}
+                            props: {
+                                title: thisSession.title, 
+                                startTime: thisTime, 
+                                endTime: nextTime, 
+                                dayTime: this.dayTime}
                         });
                 }
                 else {                    
                     this.sessions.push(
                         {
                             component: SessionView, 
-                            props: {title: thisSession.title, speaker: thisSession.speaker, startTime: thisTime, endTime: this.startTime}
+                            props: {
+                                title: thisSession.title, 
+                                speaker: thisSession.speaker, 
+                                startTime: thisTime, 
+                                endTime: nextTime, 
+                                dayTime: this.dayTime,
+                                trackIndex: this.index
+                            }
                         });
                 }
             }

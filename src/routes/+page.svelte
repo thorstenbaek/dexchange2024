@@ -42,49 +42,15 @@
         width: 360px;        
     }
 
-    :global(.card) {        
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
-        padding: 15px;
-        max-width: 300px;
-        width: 300px;
-        color: var(--white);
-    }
-
-    :global(.track-title) {
-        /*visibility: hidden;
-        display: none;*/
-        font-size: 1.2rem;
-    }
-
     @media screen and (min-width: 42.5rem) {
         main {
             width: auto;
-        }
-        /*:global(.track-title) {
-            visibility: visible;
-            display: inline;
-        }*/
+        }        
     }
 
     @media print {
         main {
             width: auto;
-        }
-        :global(.track-title) {
-            visibility: visible;
-            display: inline;
-        }
-        :global(.card) {        
-            color: black;
         }
     }
 </style>

@@ -4,9 +4,10 @@
     export let title: string;
     export let startTime: Date;
     export let endTime: Date;
+    export let dayTime: Date;
 
     function calculateTop() {
-        var result = startTime.getTime() - endTime.getTime();
+        var result = startTime.getTime() - dayTime.getTime();
         return result / 10000;
     }
 
@@ -24,9 +25,7 @@
     })
 </script>
 
-<div class="session" style="top:{calculateTop()}px">
-    <div></div>
-    <div></div>
+<div class="session" style="top:{calculateTop()}px;height:{calculateHeight()}px">
     <div class="time">
         {displayTime()}  
     </div>
@@ -51,10 +50,9 @@
         position: absolute;
         display: grid;
         grid-template-columns: 40px auto;     
-        grid-template-rows: 10px auto;     
         grid-gap: 5px;
-        overflow: hidden;
-        border-top: 1px rgba(255, 255, 255, 0.4) solid;        
-        width: 300px;                
+        width: 270px; 
+        color: black;                 
+        padding: 3rem 1rem;
     }
 </style>
