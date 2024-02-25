@@ -12,7 +12,7 @@
 
 <ul class="tabs">
     {#each items as item, i}        
-        <li class={activeTab === item.index ? 'active' : ''}>
+        <li class="{activeTab === item.index ? 'active' : ''}" >
             <span on:click={() => handleClick(item.index)} style="background-color:var(--accent-{i + 1})">
                 {item.track.name}
             </span>
@@ -37,26 +37,22 @@
 
     .hidden {        
         overflow: hidden;
-        max-width: 15px;
+        max-width: 15px;        
     }
 
     ul {
         display: flex;
         flex-wrap: wrap;
-        padding-left: 0;
-        margin-bottom: 0;
+        padding: 0;
+        margin: 0;
         list-style: none;
         border-bottom: 1px solid #dee2e6;
     }
-    li {
-         padding-bottom: 0;
-    }
-
+    
     span {
-        border-top-left-radius: 0.5rem;
-        border-top-right-radius: 0.5rem;
+        border-radius: 0.5rem;
         display: inline;
-        padding: 0.5rem 0.5rem 0.1rem 0.5rem;
+        padding: 0.5rem;
         cursor: pointer;
         font-size: 1.2rem;
         color: var(--white);
@@ -69,7 +65,16 @@
 
     @media screen and (min-width: 42.5rem) {
         .hidden {
-            max-width: 300px;
+            max-width: 350px;
+        }
+        .tabs {
+            display: none;
+        }        
+    }
+
+    @media print {
+        .hidden {
+            max-width: 350px;
         }
         .tabs {
             display: none;

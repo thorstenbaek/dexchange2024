@@ -1,82 +1,78 @@
 {
     "schedule": {
+        "startTime": "2024-04-17T11:00:00+0200",            
         "tracks": [
             {
                 "name": "Arena",
                 "room": "Arena 2. etasje",
                 "sessions": [
                     {
-                        "time": "2024-04-17T:11:00:00+0100",
+                        "time": "2024-04-17T11:00:00+0200",
                         "title": "Velkommen",
-                        "speaker": ""
-                    },
-                    {
-                        "time": "2024-04-17T:11:05:00+0100",
-                        "title": "Intro",
                         "speaker": "Thomas Smedsrud"
                     },
                     {
-                        "time": "2024-04-17T:11:15:00+0100",
+                        "time": "2024-04-17T11:15:00+0200",
                         "title": "Keynote",
                         "speaker": "Jon Gjengset"
                     },
                     {
-                        "time": "2024-04-17T:12:00:00+0100",
+                        "time": "2024-04-17T12:00:00+0200",
                         "title": "Lunsj 45 minutter",
                         "break": true
                     },
                     {
-                        "time": "2024-04-17T:12:45:00+0100",
+                        "time": "2024-04-17T12:45:00+0200",
                         "title": "Verdi og brukervennlighet",
                         "speaker": "Ove Dalen"
                     },
                     {
-                        "time": "2024-04-17T:13:30:00+0100",
+                        "time": "2024-04-17T13:30:00+0200",
                         "title": "Pause 20 minutter",
                         "break": true   
                     },
                     {
-                        "time": "2024-04-17T:13:50:00+0100",
+                        "time": "2024-04-17T13:50:00+0200",
                         "title": "Utvikling i klinikken",
                         "speaker": "Bifrost"
                     },
                     {
-                        "time": "2024-04-17T:14:20:00+0100",
+                        "time": "2024-04-17T14:20:00+0200",
                         "title": "Arena på web",
                         "speaker": "Trond Fredrik Schjander-Opsahl"
                     },
                     {
-                        "time": "2024-04-17T:14:50:00+0100",
+                        "time": "2024-04-17T14:50:00+0200",
                         "title": "Pause 20 minutter",
                         "break": true
                     },                    
                     {
-                        "time": "2024-04-17T:15:10:00+0100",
+                        "time": "2024-04-17T15:10:00+0200",
                         "title": "Transformasjon",
                         "speaker": "Agnete Enga og Trond Fredrik Schjander-Opsahl"
                     },
                     {
-                        "time": "2024-04-17T:15:30:00+0100",
+                        "time": "2024-04-17T15:30:00+0200",
                         "title": "Hvorfor trenger vi å endre måten vi driver produktutvikling på?",
                         "speaker": "Kjell-Arne Fransplass"
                     },
                     {  
-                        "time": "2024-04-17T:15:55:00+0100",
+                        "time": "2024-04-17T15:55:00+0200",
                         "title": "Pause 20 minutter",
                         "break": true
                     },
                     {
-                        "time": "2024-04-17T:16:15:00+0100",
+                        "time": "2024-04-17T16:15:00+0200",
                         "title": "Erfaringer fra SMUD",
                         "speaker": "Per Arne Engstad"
                     },
                     {  
-                        "time": "2024-04-17T:17:00:00+0100",
+                        "time": "2024-04-17T17:00:00+0200",
                         "title": "Pause 15 minutter",
                         "break": true
                     },
                     {
-                        "time": "2024-04-17T:17:15:00+0100",
+                        "time": "2024-04-17T17:15:00+0200",
                         "title": "Bodø/Glimt",
                         "speaker": ""
                     }
@@ -86,37 +82,37 @@
                 "room": "Hinnøya 6. etasje",
                 "sessions": [                        
                     {
-                        "time": "2024-04-17T:12:45:00+0100",
+                        "time": "2024-04-17T12:45:00+0200",
                         "title": "Bildegjenkjenning på begrenset maskinvare ved hjelp av syntetisk treningsdata",
                         "speaker": "Eivind Holt"
                     },
                     {
-                        "time": "2024-04-17T:13:15:00+0100",
+                        "time": "2024-04-17T13:15:00+0200",
                         "title": "Diffusjonsmodeller er eksperter på latskap  ",
                         "speaker": "William Dalheim"
                     },
                     {
-                        "time": "2024-04-17T:13:30:00+0100",
+                        "time": "2024-04-17T13:30:00+0200",
                         "title": "Pause 20 minutter",
                         "break": true
                     },
                     {
-                        "time": "2024-04-17T:13:50:00+0100",
+                        "time": "2024-04-17T13:50:00+0200",
                         "title": "AT styret rerun",
                         "speaker": "AT styret"
                     },
                     {
-                        "time": "2024-04-17T:14:20:00+0100",
+                        "time": "2024-04-17T14:20:00+0200",
                         "title": " Hva alle utviklere må vite om personproxy i databasen",
                         "speaker": "Helene Brinchmann Halvorsen"
                     },
                     {
-                        "time": "2024-04-17T:14:50:00+0100",
+                        "time": "2024-04-17T14:50:00+0200",
                         "title": "Pause 20 minutter",
                         "break": true
                     },                    
                     {
-                        "time": "2024-04-17T:15:10:00+0100",
+                        "time": "2024-04-17T15:10:00+0200",
                         "title": "Langtidslagringskyen",
                         "speaker": "Anders Steinvik"
                     }
@@ -125,27 +121,27 @@
                 "name": "Kantina",
                 "room": "Kantina i 6. etasje",
                 "sessions": [{
-                    "time": "2024-04-17T:13:50:00+0100",
+                    "time": "2024-04-17T13:50:00+0200",
                     "title": "Verdi og brukervennlighet",
                     "speaker": "Ove Dalen"
                 },
                 {
-                    "time": "2024-04-17T:14:50:00+0100",
+                    "time": "2024-04-17T14:50:00+0200",
                     "title": "Pause 20 minutter",
                     "break": true
                 },                    
                 {
-                    "time": "2024-04-17T:15:10:00+0100",
+                    "time": "2024-04-17T15:10:00+0200",
                     "title": "Failure - plug and play. Right way to get it wrong.",
                     "speaker": "Alexandra Bieliei"
                 },
                 {  
-                    "time": "2024-04-17T:15:55:00+0100",
+                    "time": "2024-04-17T15:55:00+0200",
                     "title": "Pause 20 minutter",
                     "break": true
                 },
                 {
-                    "time": "2024-04-17T:16:15:00+0100",
+                    "time": "2024-04-17T16:15:00+0200",
                     "title": "Aktiv lytting",
                     "speaker": "Nathalie Jonkers"
                 }                
@@ -154,12 +150,12 @@
                 "name": "Klasserom",
                 "room": "Ved siden av kantina i 6. etasje",
                 "sessions": [{
-                    "time": "2024-04-17T:13:50:00+0100",
+                    "time": "2024-04-17T13:50:00+0200",
                     "title": "Workshop med masse overraskelser",
                     "speaker": ""
                 },
                 {
-                    "time": "2024-04-17T:14:50:00+0100",
+                    "time": "2024-04-17T14:50:00+0200",
                     "title": "Pause 20 minutter",
                     "break": true
                 }                                                    
