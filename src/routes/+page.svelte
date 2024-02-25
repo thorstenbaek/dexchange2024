@@ -37,9 +37,9 @@
 
     main {
         display: grid;
-        margin: 5px;
+        margin: 5px 7px 5px 8px;
         grid-area: 1;
-        width: 365px;        
+        width: 360px;        
     }
 
     :global(.card) {        
@@ -59,9 +59,9 @@
         color: var(--white);
     }
 
-    :global(.title) {
-        visibility: hidden;
-        display: none;
+    :global(.track-title) {
+        /*visibility: hidden;
+        display: none;*/
         font-size: 1.2rem;
     }
 
@@ -69,17 +69,17 @@
         main {
             width: auto;
         }
-        :global(.title) {
+        /*:global(.track-title) {
             visibility: visible;
             display: inline;
-        }
+        }*/
     }
 
     @media print {
         main {
             width: auto;
         }
-        :global(.title) {
+        :global(.track-title) {
             visibility: visible;
             display: inline;
         }

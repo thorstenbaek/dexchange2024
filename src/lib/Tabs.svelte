@@ -21,9 +21,9 @@
 </ul>
 <div class="container">
     {#each items as item, i}
-        <div class="box {activeTab != i ? 'hidden':''}" on:click={() => handleClick(i)} style="z-index:{activeTab == item.index ? 999 : item.index};">
+        <!-- <div class="box {activeTab != i ? 'hidden':''}" on:click={() => handleClick(i)}> -->
             <Track track={item.track} color="--accent-{i + 1}" />
-        </div>        
+        <!-- </div>         -->
     {/each}
 </div>
 
@@ -37,7 +37,7 @@
 
     .hidden {        
         overflow: hidden;
-        max-width: 15px;        
+        max-width: 15px;
     }
 
     ul {

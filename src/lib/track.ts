@@ -18,7 +18,7 @@ export default class Track {
         if (track.sessions.length > 0) {
             const endTime = moment(track.sessions[0].time, "YYYY-MM-DDTHH:mm:ss ZZ").toDate();    
 
-            this.sessions.push({component: SpacerView, props: {startTime: this.startTime, endTime: endTime}});
+            //this.sessions.push({component: SpacerView, props: {startTime: this.startTime, endTime: endTime}});
 
             for(let i = 0; i < track.sessions.length; i++) {
                 const thisSession = track.sessions[i];
@@ -31,14 +31,14 @@ export default class Track {
                     this.sessions.push(
                         {
                             component: BreakView, 
-                            props: {title: thisSession.title, startTime: thisTime, endTime: nextTime}
+                            props: {title: thisSession.title, startTime: thisTime, endTime: this.startTime}
                         });
                 }
                 else {                    
                     this.sessions.push(
                         {
                             component: SessionView, 
-                            props: {title: thisSession.title, speaker: thisSession.speaker, startTime: thisTime, endTime: nextTime}
+                            props: {title: thisSession.title, speaker: thisSession.speaker, startTime: thisTime, endTime: this.startTime}
                         });
                 }
             }

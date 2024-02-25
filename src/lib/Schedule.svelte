@@ -1,7 +1,8 @@
 <script lang="ts">
+    import Tracks from "./Tracks.svelte";
     import Track from "./track";
     import { onMount } from "svelte";
-    import Tabs from "./Tabs.svelte";
+    import {trackStore} from "../stores/trackStore";
 
     export let day: string;
     let tabs: any = [];
@@ -12,12 +13,13 @@
             const data = await response.json();
             
             var tracks = data.schedule.tracks;
-            var temp = []
+            var temp = new Array<Track>()
             
             for (let i = 0; i < tracks.length; i++) {
-                temp.push({track: new Track(tracks[i], data.schedule.startTime), index: i});
+                temp.push(new Track(tracks[i], data.schedule.startTime));
             }
-            tabs = temp;
+
+            $trackStore = temp;
             
         } catch (error) {
             console.error(error);
@@ -25,8 +27,4 @@
     });
 </script>
 
-    {#if tabs.length === 0}
-        <p>Loading tracks...</p>
-    {:else}
-        <Tabs items={tabs}/>
-    {/if}
+<Tracks />   
