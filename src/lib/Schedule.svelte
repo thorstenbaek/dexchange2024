@@ -5,7 +5,6 @@
     import {trackStore} from "../stores/trackStore";
 
     export let day: string;
-    let tabs: any = [];
 
     onMount(async () => {
         try {
