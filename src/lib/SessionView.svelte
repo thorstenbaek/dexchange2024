@@ -1,10 +1,10 @@
 <script lang="ts">
     import Session from "./session";
-    
     export let session: Session;
 </script>
 
 <div class="session" style="height:{session.calculateHeight()}px">
+    <div/><div/>
     <div class="time">
         {session.displayTime()}
     </div>
@@ -36,12 +36,11 @@
 
     .session {
         display: grid;
-        grid-template-columns: 40px auto;        
+        grid-template-columns: 40px auto;     
+        grid-template-rows: 10px auto;     
         grid-gap: 5px;
         overflow: hidden;
-        border-bottom: 1px white solid;        
-        width: 300px;
-        padding: 10px 0 0 0;
-        margin: 0;
+        width: 300px;        
+        border-top: 1px rgba(255, 255, 255, 0.4) solid;        
     }
 </style>

@@ -1,40 +1,49 @@
+import moment from "moment";
+import SessionView from "./SessionView.svelte";
+import BreakView from "./BreakView.svelte";
+import SpacerView from "./SpacerView.svelte";
 import Session from "./session";
-import Break from "./break";
 
 export default class Track {
 
-    startTime: string;
+    startTime: Date;
     name: string;
     room: string;
-    sessions: Array<Session> = [];
+    sessions: Array<any> = [];
 
     constructor(track: any, startTime: string) {
-        this.startTime = startTime;
+        this.startTime =  moment(startTime, "YYYY-MM-DDTHH:mm:ss ZZ").toDate();    
         this.name = track.name;
         this.room = track.room;
 
-        for(let i = 0; i < track.sessions.length; i++) {
-            const session = track.sessions[i];
-            const nextSession = i < track.sessions.length - 1 ? track.sessions[i + 1] : null;
-            
-            var newSession = null;
-            
-            if (session.break) {
-                newSession = new Break(                
-                session.time,
-                nextSession?.time,
-                session.title);
-            }
-            else {
-                newSession = new Session(                
-                    session.time,
-                    nextSession?.time,
-                    session.title,
-                    session.speaker);
-            }
+        if (track.sessions.length > 0) {
+            const endTime = moment(track.sessions[0].time, "YYYY-MM-DDTHH:mm:ss ZZ").toDate();    
 
-            this.sessions.push(
-                newSession);
+            this.sessions.push({component: SpacerView, props: {startTime: this.startTime, endTime: endTime}});
+
+            for(let i = 0; i < track.sessions.length; i++) {
+                const thisSession = track.sessions[i];
+                const nextSession = i < track.sessions.length - 1 ? track.sessions[i + 1] : null;            
+
+                const thisTime: Date = moment(thisSession.time, "YYYY-MM-DDTHH:mm:ss ZZ").toDate();
+                const nextTime: any = nextSession ? moment(nextSession.time, "YYYY-MM-DDTHH:mm:ss ZZ").toDate() : null;
+                
+                if (thisSession.break) {
+                    this.sessions.push(
+                        {
+                            component: BreakView, 
+                            props: {title: thisSession.title, startTime: thisTime, endTime: nextTime}
+                        });
+                }
+                else {
+                    const session = new Session(                
+                        thisTime,
+                        nextTime,
+                        thisSession.title,
+                        thisSession.speaker);
+                    this.sessions.push({component: SessionView, props: {session}});
+                }
+            }
         }
     }
 }

@@ -6,14 +6,18 @@ export default class Session {
     title: string;    
     speaker: string;
 
-    constructor(startTime: string, endTime: string, title: string, speaker: string) {
-        this.startTime = moment(startTime, "YYYY-MM-DDTHH:mm:ss ZZ").toDate();    
-        this.endTime = moment(endTime, "YYYY-MM-DDTHH:mm:ss ZZ").toDate(),
+    constructor(startTime: Date, endTime: Date, title: string, speaker: string) {
+        this.startTime = startTime;    
+        this.endTime = endTime,
         this.title = title;
         this.speaker = speaker;
     }
 
     calculateHeight(): number {
+        if (!this.endTime) {
+            return 0;
+        }
+        
         var test = this.endTime.getTime() - this.startTime.getTime();
         return test / 10000;
     }

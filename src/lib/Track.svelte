@@ -1,6 +1,5 @@
 <script lang="ts">
     import Track from "./track";
-    import Session from "./Session.svelte";
 
     export let track: Track;
     export let color: string;
@@ -8,11 +7,11 @@
 
 <div class="card" style="background-color:var({color})">
     <p class="title">{track.name}</p>
-    <div class="sessions">
-        {#each track.sessions as session}
-            <Session {session}/>
-        {/each}
-    </div>
+        <div class="sessions">
+            {#each track.sessions as session}
+                <svelte:component this={session.component} {...session.props} />
+            {/each}
+        </div>
 </div>
 
 <style>
