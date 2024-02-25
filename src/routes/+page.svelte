@@ -37,54 +37,20 @@
 
     main {
         display: grid;
-        margin: 5px;
+        margin: 5px 7px 5px 8px;
         grid-area: 1;
-        width: 365px;        
-    }
-
-    :global(.card) {        
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
-        padding: 15px;
-        max-width: 300px;
-        width: 300px;
-        color: var(--white);
-    }
-
-    :global(.title) {
-        visibility: hidden;
-        display: none;
-        font-size: 1.2rem;
+        width: 360px;        
     }
 
     @media screen and (min-width: 42.5rem) {
         main {
             width: auto;
-        }
-        :global(.title) {
-            visibility: visible;
-            display: inline;
-        }
+        }        
     }
 
     @media print {
         main {
             width: auto;
-        }
-        :global(.title) {
-            visibility: visible;
-            display: inline;
-        }
-        :global(.card) {        
-            color: black;
         }
     }
 </style>
