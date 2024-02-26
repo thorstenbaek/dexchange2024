@@ -1,10 +1,20 @@
 <script lang="ts">
+    import { browser } from '$app/environment';
     import Tracks from "./Tracks.svelte";
     import Track from "./track";
     import { onMount } from "svelte";
-    import {trackStore} from "../stores/trackStore";
+    import {trackStore, nowStore} from "../stores/trackStore";
 
     export let day: string;
+
+    function scrollTo(time: number) {
+        if (browser) {
+            window.scroll(0, 50*time/10000);
+        }
+    }
+    
+    nowStore.subscribe(time => {scrollTo(time)});
+
 
     onMount(async () => {
         try {

@@ -28,7 +28,7 @@
 
 </script>
 
-<div class="session" style="top:{calculateTop()}px;height:{calculateHeight()}px;background-color:var(--accent-{trackIndex + 1})">    
+<div class="session" style="top:{calculateTop()}px;height:{calculateHeight()}px;background-color:var(--accent-{trackIndex})">    
     <div class="time">
         {displayTime()}
     </div>
