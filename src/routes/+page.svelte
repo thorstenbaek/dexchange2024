@@ -16,23 +16,23 @@
     ** Variables
     -----------------------------*/
     :global(:root) {
-        --accent-0: #001219;
-        --accent-1: #005f73;
-        --accent-2: #0A9396;
-        --accent-3: #94d2bd;
-        --accent-4: #e9d8a6;
-        --accent-5: #ee9b00;
-        --accent-6: #ca6702;
-        --accent-7: #bb3e03;
-        --accent-8: #ae2012;
-        --accent-9: #9b2226;
-        --contrast-0: white;
-        --contrast-1: white;
+        --accent-0: #0A9396;
+        --accent-1: #94d2bd;
+        --accent-2: #e9d8a6;
+        --accent-3: #ee9b00;
+        --accent-4: #ca6702;
+        --accent-5: #bb3e03;
+        --accent-6: #ae2012;
+        --accent-7: #9b2226;
+        --accent-8: #001219;
+        --accent-9: #005f73;
+        --contrast-0: black;
+        --contrast-1: black;
         --contrast-2: black;
         --contrast-3: black;
         --contrast-4: black;
-        --contrast-5: black;
-        --contrast-6: black;
+        --contrast-5: white;
+        --contrast-6: white;
         --contrast-7: white;
         --contrast-8: white;
         --contrast-9: white;
