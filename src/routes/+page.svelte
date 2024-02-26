@@ -16,10 +16,26 @@
     ** Variables
     -----------------------------*/
     :global(:root) {
-        --accent-1: hsl(31, 77%, 52%);
-        --accent-2: hsl(184, 100%, 22%);
-        --accent-3: hsl(179, 100%, 13%);
-        --accent-4: hsl(0, 100%, 22%);
+        --accent-0: #001219;
+        --accent-1: #005f73;
+        --accent-2: #0A9396;
+        --accent-3: #94d2bd;
+        --accent-4: #e9d8a6;
+        --accent-5: #ee9b00;
+        --accent-6: #ca6702;
+        --accent-7: #bb3e03;
+        --accent-8: #ae2012;
+        --accent-9: #9b2226;
+        --contrast-0: white;
+        --contrast-1: white;
+        --contrast-2: black;
+        --contrast-3: black;
+        --contrast-4: black;
+        --contrast-5: black;
+        --contrast-6: black;
+        --contrast-7: white;
+        --contrast-8: white;
+        --contrast-9: white;
         --black: hsl(0, 0%, 0%);
         --font-body: helvetica, sans-serif;
         --font-heading: helvetica, sans-serif;

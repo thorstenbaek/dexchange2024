@@ -14,10 +14,10 @@
 </script>
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div class="track {$activeTrackStore != index ? 'hidden':''} {$activeTrackStore == index ? 'ontop':''}" 
-        style="height: 5000px"
+    <div class="track {$activeTrackStore != index ? 'hidden':''} {$activeTrackStore == index ? 'ontop':''}" style="color:var(--contrast-{index});height: 5000px"
+        
         on:click={() => handleClick(index)}>
-        <div class="title" style="background-color:var(--accent-{index + 1})">
+        <div class="title" style="background-color:var(--accent-{index})">
             {track.name}
         </div>                
         <Sessions {track} trackIndex={index}/>
@@ -27,7 +27,6 @@
     .track {
         max-width: 300px;
         min-width: 1rem;
-        color: var(--white);        
     }
 
     .hidden {   
