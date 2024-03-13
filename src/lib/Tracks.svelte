@@ -24,16 +24,16 @@
             <div class="overlay">                                
                 <div class="buttons" style="grid-template-columns:repeat({$trackStore.length}, auto)">
                     {#each $trackStore as track, index}
-                        <div class="{$activeTrackStore == index ? 'hidden':'visible'}">
+                        <!-- <div class="{$activeTrackStore == index ? 'hidden':'visible'}">
                             <!-- svelte-ignore a11y-click-events-have-key-events -->
                             <!-- svelte-ignore a11y-no-static-element-interactions -->
-                            <div class="button" 
+                            <!--<div class="button" 
                                 title={track.name}                                
                                 style="background-color:var(--accent-{index});color:var(--contrast-{index});margin-top:{index*0}px"
                                 on:click={() => $activeTrackStore = index}>
                                 {track.name[0]}                                
                             </div>    
-                        </div>
+                        </div> -->
                     {/each}
                 </div>
             </div>

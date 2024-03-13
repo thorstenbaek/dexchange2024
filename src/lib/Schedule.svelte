@@ -5,7 +5,7 @@
     import { onMount } from "svelte";
     import {trackStore, nowStore} from "../stores/trackStore";
 
-    export let day: string;
+    export let day: number = 0;
 
     function scrollTo(time: number) {
         if (browser) {
@@ -18,14 +18,14 @@
 
     onMount(async () => {
         try {
-            const response = await fetch(`/data/${day}`);
+            const response = await fetch(`/data/schedule.json`);
             const data = await response.json();
-            
-            var tracks = data.schedule.tracks;
+
+            var tracks = data.schedule.days[day].tracks;
             var temp = new Array<Track>()
             
             for (let i = 0; i < tracks.length; i++) {
-                temp.push(new Track(tracks[i], data.schedule.startTime, i));
+                temp.push(new Track(tracks[i], data.schedule.days[0], i));
             }
 
             $trackStore = temp;
@@ -35,4 +35,4 @@
     });
 </script>
 
-<Tracks />   
+<Tracks />

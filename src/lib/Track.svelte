@@ -18,7 +18,7 @@
         
         on:click={() => handleClick(index)}>
         <div class="title" style="background-color:var(--accent-{index})">
-            {track.name}
+            {track.room}
         </div>                
         <Sessions {track} trackIndex={index}/>
     </div>
@@ -42,6 +42,7 @@
     .title {
         width: 270px;
         padding: 1rem;      
+        font-size: 1.4rem;
     }
 
     @media screen and (min-width: 42.5rem) {

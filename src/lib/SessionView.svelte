@@ -1,16 +1,18 @@
 <script lang="ts">
     import moment from "moment";
+    import Track from "./track";
+
+    const pageHeight: number = 10000;
 
     export let title: string;
     export let speaker: string;
     export let startTime: Date;
     export let endTime: Date;
-    export let dayTime: Date;
-    export let trackIndex: number;
+    export let track: Track;
 
     function calculateTop() {
-        var result = startTime.getTime() - dayTime.getTime();
-        return result / 10000;
+        var result = startTime.getTime() - track.start.getTime();
+        return result / pageHeight;
     }
 
     function calculateHeight() {        
@@ -19,7 +21,7 @@
         }
 
         var result = endTime.getTime() - startTime.getTime() ;
-        return result / 10000;
+        return result / pageHeight;
     }
 
     const displayTime = (() =>  {
@@ -28,7 +30,7 @@
 
 </script>
 
-<div class="session" style="top:{calculateTop()}px;height:{calculateHeight()}px;background-color:var(--accent-{trackIndex})">    
+<div class="session" style="top:{calculateTop()}px;height:{calculateHeight()}px;background-color:var(--accent-{track.index})">    
     <div class="time">
         {displayTime()}
     </div>
