@@ -29,7 +29,6 @@
             }
 
             $trackStore = temp;
-            
         } catch (error) {
             console.error(error);
         }
