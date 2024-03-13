@@ -31,25 +31,30 @@
 </script>
 
 <div class="session" style="top:{calculateTop()}px;height:{calculateHeight()}px;background-color:var(--accent-{track.index})">    
-    <div class="time">
-        {displayTime()}
-    </div>
-    <div class="session-title">
-        {title}
-        
-        <div class="speaker">
-            {speaker}
-        </div>    
+    <div class="content">
+        <div>{displayTime()}</div>
+        <div>{title}</div>
+        <div/>
+        <div>{speaker}</div>
     </div>
 </div>
 
 <style>
-    .time {
+    /*.time {
         display: inline-block;
         font-size: 0.8rem;
         font-weight: bold;
-    }
+    }*/
 
+    .content {
+       margin: 20px; 
+       display: grid;
+       grid-template-columns: 40px auto;     
+       grid-template-rows: auto auto;     
+       grid-gap: 5px;
+    }
+    
+    /*
     .session-title {
         font-size: 1.0rem;        
     }
@@ -57,15 +62,12 @@
     .speaker {
         font-size: 1.0rem;        
         padding-top: 5px;
-    }
+    }*/
 
     .session {
         position: absolute;
-        display: grid;
-        grid-template-columns: 40px auto;     
-        grid-gap: 5px;
+        
+        width: 300px;
         overflow: hidden;
-        width: 270px;        
-        padding: 1rem;
     }
 </style>

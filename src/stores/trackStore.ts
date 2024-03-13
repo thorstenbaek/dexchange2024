@@ -1,8 +1,10 @@
 import {writable, readable} from "svelte/store";
 import type {Writable, Readable} from "svelte/store";
 import type Track from "../lib/track";
+import type Break from "../lib/break";
 
 export const trackStore: Writable<Array<Track>> = writable([]);
+export const breakStore: Writable<Array<Break>> = writable([]);
 export const activeTrackStore: Writable<number> = writable(0);
 
 export const startTime:Date = new Date(2024, 4, 17, 11, 0, 0);

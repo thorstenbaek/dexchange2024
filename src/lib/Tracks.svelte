@@ -1,49 +1,36 @@
 <script lang="ts">
     import Track from "./Track.svelte";
     import {trackStore, activeTrackStore, nowStore} from "../stores/trackStore";    
-
-    function generateGridTemplate() {
-        var template = "auto";
-        for(let i = 0; i < $trackStore.length - 1; i++)
-        {
-            template += " auto";
-        }
-        return template;
-    }
 </script>
-    <div class="container">
-        {#if $trackStore.length === 0}
-            <p>Loading tracks...</p>
-        {:else}
-            <div class="tracks" style="grid-template-columns:repeat({$trackStore.length}, auto)">                
+    {#if $trackStore.length === 0}
+        <p>Loading tracks...</p>
+    {:else}
+        <div class="tracks" style="grid-template-columns:repeat({$trackStore.length}, auto)">                
+            {#each $trackStore as track, index}
+                <Track {track} {index}/>     
+            {/each}
+        </div>
+
+        <div class="overlay">                                
+            <div class="buttons" style="grid-template-columns:repeat({$trackStore.length}, auto)">
                 {#each $trackStore as track, index}
-                    <Track {track} {index}/>     
+                    <!-- <div class="{$activeTrackStore == index ? 'hidden':'visible'}">
+                        <!-- svelte-ignore a11y-click-events-have-key-events -->
+                        <!-- svelte-ignore a11y-no-static-element-interactions -->
+                        <!--<div class="button" 
+                            title={track.name}                                
+                            style="background-color:var(--accent-{index});color:var(--contrast-{index});margin-top:{index*0}px"
+                            on:click={() => $activeTrackStore = index}>
+                            {track.name[0]}                                
+                        </div>    
+                    </div> -->
                 {/each}
             </div>
-
-            <div class="overlay">                                
-                <div class="buttons" style="grid-template-columns:repeat({$trackStore.length}, auto)">
-                    {#each $trackStore as track, index}
-                        <!-- <div class="{$activeTrackStore == index ? 'hidden':'visible'}">
-                            <!-- svelte-ignore a11y-click-events-have-key-events -->
-                            <!-- svelte-ignore a11y-no-static-element-interactions -->
-                            <!--<div class="button" 
-                                title={track.name}                                
-                                style="background-color:var(--accent-{index});color:var(--contrast-{index});margin-top:{index*0}px"
-                                on:click={() => $activeTrackStore = index}>
-                                {track.name[0]}                                
-                            </div>    
-                        </div> -->
-                    {/each}
-                </div>
-            </div>
-        {/if}
-    </div>
+        </div>
+    {/if}
 
 <style>
-    .container {
-        display: grid;
-    }
+    
     
     .tracks {
         grid-area: 1/1;

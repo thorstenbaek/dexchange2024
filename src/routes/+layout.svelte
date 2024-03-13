@@ -1,12 +1,11 @@
-
-<nav>
-    <a href="/day1">Day 1</a>
-    <a href="/day2">Day 2</a>
-</nav>
-
-<h1>d:exchange 2024</h1>
-
-<slot />
+<main>
+    <nav>
+        <a href="/day1">Day 1</a>
+        <a href="/day2">Day 2</a>
+    </nav>
+    <h1>d:exchange 2024</h1>
+    <slot />
+</main>
 
 <style>
     /*---------------------------

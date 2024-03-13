@@ -2,7 +2,6 @@
     import Track from "./track";
 
     export let track: Track;
-    export let trackIndex: number;
 </script>
 
 <div class="sessions">
@@ -14,11 +13,5 @@
 <style>
     .sessions {
         position: relative;
-    }
-
-    .session {
-        position: absolute;
-        width: 270px;
-        padding: 1rem;
     }
 </style>
