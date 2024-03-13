@@ -52,7 +52,7 @@
         grid-template-columns: 40px auto;     
         grid-gap: 5px;
         width: 270px; 
-        color: black;                 
+        color: var(--white);                 
         padding: 3rem 1rem;
     }
 </style>

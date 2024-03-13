@@ -16,26 +16,25 @@
     ** Variables
     -----------------------------*/
     :global(:root) {
-        --accent-0: #0A9396;
-        --accent-1: #94d2bd;
-        --accent-2: #e9d8a6;
-        --accent-3: #ee9b00;
-        --accent-4: #ca6702;
-        --accent-5: #bb3e03;
-        --accent-6: #ae2012;
-        --accent-7: #9b2226;
-        --accent-8: #001219;
-        --accent-9: #005f73;
+        --accent-0: #00d4d4;
+        --accent-1: #f3583d;        
+        --accent-2: #050948;
+        --accent-3: #12565c;
+        --accent-4: #811c0b;
+        --accent-5: #8da9e4;
+        --accent-6: #9aeded;
+        --accent-7: #fbc7bb;
+        --accent-8: #00149e;
+        
         --contrast-0: black;
         --contrast-1: black;
-        --contrast-2: black;
-        --contrast-3: black;
-        --contrast-4: black;
-        --contrast-5: white;
-        --contrast-6: white;
-        --contrast-7: white;
+        --contrast-2: white;
+        --contrast-3: white;
+        --contrast-4: white;
+        --contrast-5: black;
+        --contrast-6: black;
+        --contrast-7: black;
         --contrast-8: white;
-        --contrast-9: white;
         --black: hsl(0, 0%, 0%);
         --font-body: helvetica, sans-serif;
         --font-heading: helvetica, sans-serif;
@@ -44,8 +43,10 @@
     }
 
     :global(body) {
-        background: var(--neutral);
+        background: #eeeeee;
+        /*background: linear-gradient(90deg, #00149e 69%, rgba(243,88,61,1) 100%);*/
         font-family: var(--font-body);
+        color: var(--white);
         margin: 0;
         padding: 0;
         font-size: 0.9375rem;

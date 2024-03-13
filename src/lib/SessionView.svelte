@@ -63,8 +63,7 @@
         grid-template-columns: 40px auto;     
         grid-gap: 5px;
         overflow: hidden;
-        width: 270px;
-        border-top: 1px rgba(255, 255, 255, 0.4) solid;        
+        width: 270px;        
         padding: 1rem;
     }
 </style>
