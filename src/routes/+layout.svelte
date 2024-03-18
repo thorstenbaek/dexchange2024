@@ -58,6 +58,8 @@
     @media screen and (min-width: 42.5rem) {
         main {
             width: auto;
+            max-width: 1200px;
+            margin: auto;
         }        
     }
 
