@@ -40,27 +40,21 @@
 
     :global(body) {
         background: #eeeeee;
-        /*background: linear-gradient(90deg, #00149e 69%, rgba(243,88,61,1) 100%);*/
+        /*background: linear-gradient(90deg, #00149e 69%, rgba(243,88,61,1) 100%);*/     
         font-family: var(--font-body);
         color: var(--black);
-        margin: 0;
+        margin: 5px 7px 5px 8px;
         padding: 0;
         font-size: 0.9375rem;
     }
 
     main {
         display: grid;
-        margin: 5px 7px 5px 8px;
+        margin: auto;
         grid-area: 1;
-        width: 360px;        
-    }
-
-    @media screen and (min-width: 42.5rem) {
-        main {
-            width: auto;
-            max-width: 1200px;
-            margin: auto;
-        }        
+        width: auto;
+        max-width: 1200px;
+        min-width: 360px;
     }
 
     @media print {

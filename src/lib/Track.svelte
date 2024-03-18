@@ -30,7 +30,7 @@
 
     .hidden {
         overflow: hidden;
-        max-width: 20px;
+        /*max-width: 20px;*/
     }
 
     .ontop {
@@ -45,7 +45,7 @@
 
     @media screen and (min-width: 42.5rem) {
         .hidden {
-            max-width: 300px;
+            /*max-width: 300px;*/
         }
     }
 
