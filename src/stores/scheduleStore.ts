@@ -1,5 +1,6 @@
 import {asyncReadable, writable, derived} from "@square/svelte-store";
 import type {Writable, Readable} from "@square/svelte-store";
+import yaml from "js-yaml";
 
 import type Day from "../lib/day";
 import type Track from "../lib/track";
@@ -7,8 +8,11 @@ import type Break from "../lib/break";
 import Schedule from "../lib/schedule";
 
 export const scheduleStore = asyncReadable(undefined, async () => {
-    const response = await fetch(`/data/schedule.json`);
-    const data = await response.json();            
+    const response = await fetch(`/data/schedule.yaml`);
+    const text: string = await response.text();
+    const data: any = yaml.load(text, {schema: yaml.JSON_SCHEMA});
+
+    //const data = await response.json();            
     return new Schedule(data.schedule);
 });
 
