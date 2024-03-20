@@ -1,6 +1,6 @@
 <script>
     import Day from "$lib/Day.svelte";
 </script>
-<Day />
+<Day day="0"/>
 
 
