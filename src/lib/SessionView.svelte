@@ -11,7 +11,7 @@
     export let track: Track;
 
     function calculateTop() {
-        var result = startTime.getTime() - track.start.getTime();
+        var result = startTime.getTime() - track.day.start.getTime();
         return result / pageHeight;
     }
 

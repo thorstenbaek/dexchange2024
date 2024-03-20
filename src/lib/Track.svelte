@@ -1,14 +1,13 @@
 <script lang="ts">
     import Track from "./track";
-    import {activeTrackStore} from "../stores/trackStore";
     import Sessions from "./Sessions.svelte";
+    import {activeTrackStore} from "../stores/scheduleStore";
 
     export let track: Track;
     export let index: number;
 
 
     function handleClick(tabValue:number) {
-        console.log("Handle click", tabValue);
         $activeTrackStore = tabValue;
     }
 

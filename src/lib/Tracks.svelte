@@ -1,16 +1,16 @@
 <script lang="ts">
     import Track from "./Track.svelte";
-    import {trackStore, activeTrackStore, nowStore} from "../stores/trackStore";    
+    import {dayStore, activeTrackStore, /*nowStore*/} from "../stores/scheduleStore";    
 </script>
-    {#if $trackStore.length === 0}
+    <!-- {#if $dayStore.length === 0}
         <p>Loading tracks...</p>
-    {:else}
-        <div class="tracks" style="grid-template-columns:repeat({$trackStore.length}, auto)">                
-            {#each $trackStore as track, index}
+    {:else} -->
+        <div class="tracks" style="grid-template-columns:repeat({$dayStore?.tracks.length}, auto)">
+            {#each $dayStore?.tracks as track, index}
                 <Track {track} {index}/>     
             {/each}
         </div>
-
+<!--
         <div class="overlay">                                
             <div class="buttons" style="grid-template-columns:repeat({$trackStore.length}, auto)">
                 {#each $trackStore as track, index}
@@ -24,10 +24,10 @@
                             {track.name[0]}                                
                         </div>    
                     </div> -->
-                {/each}
+        <!--        {/each}
             </div>
-        </div>
-    {/if}
+        </div> -->
+    <!-- {/if} -->
 
 <style>
     

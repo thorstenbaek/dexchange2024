@@ -25,6 +25,7 @@
 		"node": ">=18.13"
 	},
 	"dependencies": {
+		"@square/svelte-store": "^1.0.18",
 		"moment": "^2.30.1"
 	}
 }

@@ -7,7 +7,7 @@
     export let _break: Break;
 
     function calculateTop() {
-        var result = _break.start.getTime() - _break.day.getTime();        
+        var result = _break.start.getTime() - _break.day.start.getTime();
         return result / pageHeight;
         
     }
@@ -36,7 +36,7 @@
 
 <style>
     .content {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         text-align: center;
         margin: auto;
     }

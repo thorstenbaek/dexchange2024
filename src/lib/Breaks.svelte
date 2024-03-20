@@ -1,10 +1,10 @@
 <script>
-    import {breakStore} from "../stores/trackStore";    
+    import {dayStore} from "../stores/scheduleStore";    
     import Break from "./Break.svelte";
 </script>
 
 <div class="breaks">
-    {#each $breakStore as _break}        
+    {#each $dayStore.breaks as _break}        
         <Break {_break}/>
     {/each}
 </div>

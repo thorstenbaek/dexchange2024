@@ -1,7 +1,14 @@
 <script lang="ts">
     import Schedule from "./Schedule.svelte";
+    import { loadAll } from "@square/svelte-store";
+    import {scheduleStore, dayIndexStore} from "../stores/scheduleStore";
 
-    export let day: number = 0;
+    export let day = 0;
+
+    $: $dayIndexStore = day;
 </script>
-
-<Schedule {day}/>
+{#await loadAll([scheduleStore])}
+    Loading Schedule...
+{:then}    
+    <Schedule/>
+{/await}
