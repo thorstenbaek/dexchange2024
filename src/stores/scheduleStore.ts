@@ -4,6 +4,7 @@ import yaml from "js-yaml";
 
 import type Day from "../lib/day";
 import Schedule from "../lib/schedule";
+import Session from "../lib/session";
 
 export const scheduleStore = asyncReadable(undefined, async () => {
     const response = await fetch(`/data/schedule.yaml`);
@@ -15,6 +16,7 @@ export const scheduleStore = asyncReadable(undefined, async () => {
 
 export const dayIndexStore: Writable<number> = writable(0);
 export const activeTrackStore: Writable<number> = writable(0);
+export const activeSessionStore: Writable<Session> = writable();
 
 export const dayStore: Readable<Day> = derived(
     [scheduleStore, dayIndexStore], ([$scheduleStore, $dayIndexStore], set) => {

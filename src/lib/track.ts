@@ -1,6 +1,5 @@
-import moment from "moment";
-import SessionView from "./SessionView.svelte";
 import Day from "./day";
+import Session from "./session";
 
 export default class Track {
 
@@ -8,7 +7,7 @@ export default class Track {
     name: string;
     room: string;
     day: Day;
-    sessions: Array<any> = [];
+    sessions: Array<Session> = [];
 
     constructor(track: any, day: Day, index: number) {
         this.day = day;
@@ -20,8 +19,9 @@ export default class Track {
             const session = track.sessions[i];
 
             this.sessions.push(
-                {
-                    component: SessionView, 
+                
+                    new Session(session, this)
+                    /*component: SessionView, 
                     props: {
                         title: session.title, 
                         speaker: session.speaker, 
@@ -29,8 +29,8 @@ export default class Track {
                         startTime: moment(session.start, "YYYY-MM-DDTHH:mm").toDate(),
                         endTime: moment(session.end, "YYYY-MM-DDTHH:mm").toDate(),
                         track: this,
-                    }
-                });
+                    }*/
+                );
             
         }
     }
