@@ -1,7 +1,7 @@
 <script lang="ts">
     import Track from "./track";
     import Sessions from "./Sessions.svelte";
-    import {activeTrackStore} from "../stores/scheduleStore";
+    import {activeTrackStore, heightStore} from "../stores/scheduleStore";
 
     export let track: Track;
     export let index: number;
@@ -14,7 +14,7 @@
 </script>
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div class="track {$activeTrackStore != index ? 'hidden':''} {$activeTrackStore == index ? 'ontop':''}" style="color:var(--contrast-{index});height: 5000px" on:click={() => handleClick(index)}>
+    <div class="track {$activeTrackStore != index ? 'hidden':''} {$activeTrackStore == index ? 'ontop':''}" style="color:var(--contrast-{index});height: {$heightStore}px" on:click={() => handleClick(index)}>
         <div class="title" style="background:var(--accent-{index})">
             {track.room}
         </div>
