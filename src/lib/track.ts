@@ -25,6 +25,7 @@ export default class Track {
                     props: {
                         title: session.title, 
                         speaker: session.speaker, 
+                        description: session.description,
                         startTime: moment(session.start, "YYYY-MM-DDTHH:mm").toDate(),
                         endTime: moment(session.end, "YYYY-MM-DDTHH:mm").toDate(),
                         track: this,
