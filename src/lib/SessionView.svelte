@@ -1,8 +1,8 @@
 <script lang="ts">
     import moment from "moment";
+    import {calculateTop, calculateHeight} from "./timeUtils";
     import Track from "./track";
 
-    const pageHeight: number = 10000;
     const maxDescriptionLength = 350;
 
     export let title: string;
@@ -12,18 +12,12 @@
     export let endTime: Date;
     export let track: Track;
 
-    function calculateTop() {
-        var result = startTime.getTime() - track.day.start.getTime();
-        return result / pageHeight;
+    function getTop() {
+        return calculateTop(startTime, track.day.start);
     }
 
-    function calculateHeight() {        
-        if (endTime == null) {
-            return 0;
-        }
-
-        var result = endTime.getTime() - startTime.getTime() ;
-        return result / pageHeight;
+    function getHeight() {        
+        return calculateHeight(startTime, endTime);
     }
 
     const displayTime = (() =>  {
@@ -44,12 +38,12 @@
     });
 
     const showDescriptionPopup = (() => {
-    
+        // TODO: setCurrentSession in store
     })
 
 </script>
 
-<div class="session" style="top:{calculateTop()}px;height:{calculateHeight()}px;background-color:var(--accent-{track.index})">    
+<div class="session" style="top:{getTop()}px;height:{getHeight()}px;background-color:var(--accent-{track.index})">    
     <div class="content">
         <h3>{displayTime()}</h3>
         <h3 class="title">{title}</h3>

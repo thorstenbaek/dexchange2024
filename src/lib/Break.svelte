@@ -1,34 +1,21 @@
 <script lang="ts">
-    import moment from "moment";
     import Break from "./break";
-
-    const pageHeight: number = 10000;
+    import {calculateTop, calculateHeight} from "./timeUtils";
     
     export let _break: Break;
 
-    function calculateTop() {
-        var result = _break.start.getTime() - _break.day.start.getTime();
-        return result / pageHeight;
-        
+    function getTop() {
+        return calculateTop(_break.start, _break.day.start);        
     }
 
-    function calculateHeight() {        
-        if (_break.end == null) {
-            return 0;
-        }
-
-        var result = _break.end.getTime() - _break.start.getTime() ;
-        return result / pageHeight;
+    function getHeight() {        
+        return calculateHeight(_break.start, _break.end);
     }
-
-    const displayTime = (() =>  {
-        return moment(_break.start).format("HH:mm");
-    })
 </script>
 
 
 
-<div class="break" style="top:{calculateTop()}px;height:{calculateHeight()}px">    
+<div class="break" style="top:{getTop()}px;height:{getHeight()}px">    
     <div class="content">
         {_break.title}
     </div>
