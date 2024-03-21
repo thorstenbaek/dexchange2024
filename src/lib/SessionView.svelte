@@ -12,6 +12,8 @@
     export let endTime: Date;
     export let track: Track;
 
+    let contentHeight: number;
+    
     function getTop() {
         return calculateTop(startTime, track.day.start);
     }
@@ -20,41 +22,30 @@
         return calculateHeight(startTime, endTime);
     }
 
+    function getLines(): number {
+        let result = Math.trunc(getHeight() / 16) - 2;
+        console.log(result);
+        return result;
+    }
+
     const displayTime = (() =>  {
         return moment(startTime).format("HH:mm");
     });
-
-    const displayDescription = (() => {
-        if (!description) {
-            return "";
-        }
-        //TODO: Vary length based on calculatedHeight    
-        if (description.length > maxDescriptionLength) {
-            return description.substring(0, maxDescriptionLength);
-        } 
-        else {
-            return description;
-        }        
-    });
-
-    const showDescriptionPopup = (() => {
-        // TODO: setCurrentSession in store
+    
+    const showSessionPopup = (() => {
+        //$currentSession = 
     })
 
 </script>
 
 <div class="session" style="top:{getTop()}px;height:{getHeight()}px;background-color:var(--accent-{track.index})">    
-    <div class="content">
-        <h3>{displayTime()}</h3>
-        <h3 class="title">{title}</h3>
-        <p/>
+    <div class="content" style="-webkit-line-clamp: {getLines()}">
+        <h3 class="title">{displayTime()} {title}</h3>
         <h4 class="speaker">{speaker}</h4>
-        <!-- <div class="description">{@html displayDescription()}</div> -->
-        <p class="description">
-            {displayDescription()}
-            {#if description?.length > maxDescriptionLength}
-                <a href="#" on:click={() => showDescriptionPopup()}>mer...</a>
-            {/if}
+        <p style="-webkit-line-clamp: {getLines()}" on:click={() => showSessionPopup()}>
+            {#if description}
+                {description}
+            {/if}         
         </p>
     </div>
 </div>
@@ -77,35 +68,18 @@
     }
 
     p {
-        font-size: 0.8rem;
+        font-size: 0.8rem;               
     }
-
+    
     .content {
-       margin: 20px; 
-       display: grid;
-       grid-template-columns: 40px auto;            
-       grid-template-rows: auto auto;     
-       grid-column-gap: 8px;
+       margin: 20px;          
+       display: -webkit-box;        
+       -webkit-box-orient: vertical;        
+       overflow: hidden;
+       border-top: solid 1px;
     }
-
-    .description {
-        margin: 0;
-        grid-column: 1/ span 2
-    }
-
-    /*
-    .session-title {
-        font-size: 1.0rem;        
-    }
-
-    .speaker {
-        font-size: 1.0rem;        
-        padding-top: 5px;
-    }*/
-
     .session {
         position: absolute;
-        
         width: 300px;
         overflow: hidden;
     }
