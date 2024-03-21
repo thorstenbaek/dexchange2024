@@ -239,6 +239,7 @@ schedule:
             - start: 2024-04-18:15.30
               end: 2024-04-18:15.45
               title: Avslutning
+              description: Vel hjem!
               speaker: d:exchange-komiteen
         - room: Hinnøya
           sessions:

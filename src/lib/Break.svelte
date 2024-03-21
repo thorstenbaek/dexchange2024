@@ -24,13 +24,14 @@
 <style>
     .content {
         font-size: 1.4rem;
-        text-align: center;
-        margin: auto;
+        text-align: left;
+        margin: auto auto auto 20px;
     }
 
     .break {
         position: absolute;
         background: white;
+        color: var(--accent-0);
         width: 100%;
         display: grid;            
     }

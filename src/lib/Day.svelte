@@ -7,8 +7,13 @@
 
     $: $dayIndexStore = day;
 </script>
+
 {#await loadAll([scheduleStore])}
     Loading Schedule...
 {:then}    
     <Schedule/>
 {/await}
+
+<style>
+    
+</style>
