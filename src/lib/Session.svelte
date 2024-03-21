@@ -24,24 +24,19 @@
     const displayTime = (() =>  {
         return moment(session.start).format("HH:mm");
     });
-    
-    const showSessionPopup = (() => {
-        $activeSessionStore = session;
-    })
-
 </script>
 
 <div class="session" style="top:{getTop()}px;height:{getHeight()}px;background-color:var(--accent-{session.track.index})">    
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
     <div class="content" style="-webkit-line-clamp: {getLines()}">
         <h3 class="title">{displayTime()} {session.title}</h3>
-        <h4 class="speaker">{session.speaker}</h4>
-        <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <p style="-webkit-line-clamp: {getLines()}" on:click={() => showSessionPopup()}>
+        <h4 class="speaker">{session.speaker}</h4>        
+        <a href="./session/{session.id}" style="color:var(--contrast-{session.track.index}">
             {#if session.description}
                 {session.description}
             {/if}         
-        </p>
+        </a>
     </div>
 </div>
 
@@ -62,8 +57,9 @@
         margin: 5px 0;    
     }
 
-    p {
-        font-size: 0.8rem;               
+    a {
+        font-size: 0.8rem;  
+        text-decoration: none;             
     }
     
     .content {

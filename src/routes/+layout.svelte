@@ -1,10 +1,19 @@
+<script>
+    import {dayIndexStore} from "../stores/scheduleStore";
+</script>
+
 <main>
     <div class="logo">
         <h1>
-            <img src="logo.svg" width="200"/>
+            <img src="/logo.svg" width="200" alt="d:exchange"/>
             2024
         </h1>
-    </div>    
+    </div> 
+    <nav class="days">
+        <a class={$dayIndexStore == 0 ? 'selected':''} href="/day1">Onsdag</a>
+        |
+        <a class={$dayIndexStore == 1 ? 'selected':''} href="/day2">Torsdag</a>
+    </nav>   
     <slot />
 </main>
 
@@ -13,6 +22,23 @@
         background: linear-gradient(90deg, rgba(0,20,158,1) 30%, rgba(243,88,61,1) 100%);
         margin: 0;
         padding: 0 0 0 12px;
+    }
+
+    .days {
+        font-size: 1.3rem;
+        background: var(--white);
+        color: var(--accent-0);
+        padding: 4px 15px;
+    }
+
+    a {
+        color: var(--accent-0);
+        font-weight: bold;
+        text-decoration: none;    
+    }
+
+    .selected {
+        color: var(--accent-1);
     }
 
     h1 {

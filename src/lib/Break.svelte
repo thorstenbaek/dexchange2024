@@ -31,6 +31,7 @@
     .break {
         position: absolute;
         background: white;
+        color: var(--accent-0);
         width: 100%;
         display: grid;            
     }
