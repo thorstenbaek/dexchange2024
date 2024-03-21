@@ -20,10 +20,10 @@
 
 <style>
     .days {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         background: var(--accent-0);
         color: var(--accent-1);
-        padding: 0 15px;
+        padding: 4px 15px;
     }
 
     a {
