@@ -34,13 +34,7 @@ schedule:
               end: 2024-04-17:12.00
               title: Keynote - System of systems
               description: |
-                Her kan vi snakke om verdien av å bruke standardiserte grensesnitt for å 
-                maksimalisere fleksibilitet, men også om hvordan grensesnitt kan brukes 
-                internt for å bygge "systems of systems" slik at man også kan bytte ut 
-                individuelle underkomponenter. Dette kan også dekke punktet ditt rundt 
-                lagring av data når man også har eldre systemer man må samarbeide med, 
-                samt når det gjelder innovasjon: - Det er lettere å innovere når man 
-                kan jobbe parallelt med gode API-er.
+                Jon skal presentere verdien av å bruke standardiserte grensesnitt for å maksimalisere fleksibilitet og hvordan grensesnitt kan brukes internt for å bygge "systems of systems" slik at man også kan bytte ut individuelle underkomponenter. Gode API-er er også viktig for å kunne skape innovative løsninger og for å kunne integrere seg med eldre systemer.
               speaker: Jon Gjengset
             - start: 2024-04-17:12.45
               end: 2024-04-17:13.30
