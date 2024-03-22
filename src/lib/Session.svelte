@@ -33,9 +33,11 @@
         <h3 class="title">{displayTime()} {session.title}</h3>
         <h4 class="speaker">{session.speaker}</h4>        
         <a href="./session/{session.id}" style="color:var(--contrast-{session.track.index}">
-            {#if session.description}
-                {session.description}
+            {#if session.ingress}
+                {session.ingress} ...
+                <!-- <img class="more-button {}" src="/noun-more-symbol.svg" alt="Les mer"/> -->
             {/if}         
+            
         </a>
     </div>
 </div>
@@ -61,6 +63,19 @@
         font-size: 0.8rem;  
         text-decoration: none;             
     }
+
+    /*.more-button {
+        margin: 0;
+        padding: 0;
+        height: 1rem;
+        width: 1rem;
+        align-items: center;
+        vertical-align: bottom;        
+    }
+
+    .invert {
+        filter: invert(100%);
+    }*/
     
     .content {
        margin: 20px;          

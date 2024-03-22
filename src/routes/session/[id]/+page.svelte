@@ -4,6 +4,7 @@
     import Day from "$lib/day";
     import Session from "$lib/session";
     import Schedule from "$lib/schedule";
+    import { backIn } from "svelte/easing";
 
     let session: Session;
     
@@ -32,14 +33,22 @@
 <div class="session">
     <h1>{session?.title}</h1>
     <h2>{session.speaker}</h2>
+    <p class="ingress">
+        {session.ingress}
+    </p>    
     <p>
         {session.description}
-    </p>    
+    </p> 
+    <button on:click={() => history.back()}>Tilbake</button>   
 </div>    
 {/if}
 
 <style>
     .session {
         padding: 20px;
+    }
+
+    .ingress {
+        font-weight: bold;
     }
 </style>
