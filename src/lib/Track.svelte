@@ -6,7 +6,6 @@
     export let track: Track;
     export let index: number;
 
-
     function handleClick(tabValue:number) {
         $activeTrackStore = tabValue;
     }
@@ -15,15 +14,20 @@
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <!-- svelte-ignore a11y-no-static-element-interactions -->
     <div class="track {$activeTrackStore != index ? 'hidden':''} {$activeTrackStore == index ? 'ontop':''}" style="color:var(--contrast-{index});height: {$heightStore}px" on:click={() => handleClick(index)}>
-        <div class="title" style="background:var(--accent-{index})">
-            {track.room}
+        <div class="title" style="background:var(--accent-{index})">            
+            <div class="inner-title">
+                <div class="text-box">
+                    {track.room}
+                </div>
+            </div>
         </div>
         <Sessions {track} />
     </div>
 
 <style>
     .track {
-        max-width: 300px;
+        position: relative;
+        max-width: 297px;
         min-width: 20px;
     }
 
@@ -32,24 +36,31 @@
     }
 
     .ontop {
-        width: 300px;
+        width: 297px;
     }
 
     .title {
-        width: 260px;
-        padding: 20px;
-        font-size: 1.4rem;
+        border-radius: 10px;
+        margin: 0 0 4px 0;
     }
 
-    @media screen and (min-width: 42.5rem) {
-        .hidden {
-        }
+    .inner-title {
+        width: calc(100% - 10px);
+        overflow: hidden;
+    }
+
+    .text-box {
+        width: 297px;
+        padding: 12px;
+        font-size: 1.4rem;
+        
+        overflow: hidden;
     }
 
     @media print {
         .hidden {
-            max-width: 300px;
-            width: 300px;
+            max-width: 297px;
+            width: 297px;
         }
     }
 </style>

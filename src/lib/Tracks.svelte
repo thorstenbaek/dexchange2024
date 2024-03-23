@@ -35,7 +35,7 @@
     .tracks {
         grid-area: 1/1;
         display: grid;
-        grid-gap: 0;
+        column-gap:4px;
     }
 
     .overlay {
@@ -66,7 +66,7 @@
     }
     .hidden {
         visibility: hidden;
-        width: 304px
+        width: 297px
     }
 
     @media screen and (min-width: 42.5rem) {
