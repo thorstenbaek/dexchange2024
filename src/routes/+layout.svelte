@@ -10,9 +10,9 @@
         </h1>
     </div> 
     <nav class="days">
-        <a class={$dayIndexStore == 0 ? 'selected':''} href="/day1">Onsdag</a>
+        <a class={$dayIndexStore == 0 ? 'selected':''} href="/day1">onsdag 17. apr</a>
         |
-        <a class={$dayIndexStore == 1 ? 'selected':''} href="/day2">Torsdag</a>
+        <a class={$dayIndexStore == 1 ? 'selected':''} href="/day2">torsdag 18. apr</a>
     </nav>   
     <slot />
 </main>
@@ -29,7 +29,9 @@
         font-size: 1.3rem;
         background: var(--white);
         color: var(--accent-0);
+        margin: 4px 0 4px 0;
         padding: 4px 15px;
+        border-radius: 10px;
     }
 
     a {
