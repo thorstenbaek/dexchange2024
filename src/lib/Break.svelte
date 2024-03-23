@@ -15,7 +15,7 @@
 
 
 
-<div class="break" style="top:{getTop()}px;height:{getHeight()}px">    
+<div class="break" style="top:{getTop()}px;height:{getHeight() - 4}px">    
     <div class="content">
         {_break.title}
     </div>
@@ -25,7 +25,7 @@
     .content {
         font-size: 1.4rem;
         text-align: left;
-        margin: auto auto auto 20px;
+        margin: 20px;
     }
 
     .break {
@@ -33,6 +33,6 @@
         background: white;
         color: var(--accent-0);
         width: 100%;
-        display: grid;            
+        border-radius: 10px;
     }
 </style>

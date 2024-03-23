@@ -22,6 +22,7 @@
         background: linear-gradient(90deg, rgba(0,20,158,1) 30%, rgba(243,88,61,1) 100%);
         margin: 0;
         padding: 0 0 0 12px;
+        border-radius: 10px;
     }
 
     .days {
@@ -89,14 +90,14 @@
         background: #eeeeee;
         font-family: var(--font-body);
         color: var(--black);
-        margin: 0 7px 0 8px;
+        margin: 0 2px 0 2px;
         padding: 0;
         font-size: 0.9375rem;
     }
 
     main {
         display: grid;
-        margin: 0 auto 0 auto;
+        margin: 4px auto 4px auto;
         grid-area: 1;
         width: auto;
         max-width: 1200px;

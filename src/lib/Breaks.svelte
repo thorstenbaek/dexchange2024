@@ -15,7 +15,7 @@
         display: grid;
         grid-gap: 0;
 
-        top: 66px;
+        top: 54px;
         position: relative;
     }
 </style>
