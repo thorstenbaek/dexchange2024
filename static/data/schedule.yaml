@@ -156,11 +156,10 @@ schedule:
             - start: 2024-04-17:13.50
               end: 2024-04-17:14.50
               title: Asynkrone integrasjoner
-              ingress: Vi møtes for å dele erfaring rundt asynkrone integrasjoner. 
+              ingress: Vi møtes for å dele erfaring rundt asynkrone integrasjoner. Først blir det en liten gjennomgang av teori rundt meldingssystemer for å ha et felles vokabular. Deretter diskuterer vi oss gjennom utfordringer, tankesett og løsninger i flere eksisterende implementasjoner i DIPS, hvor man har tatt i bruk asynkrone integrasjoner. 
               description: |
-                Først blir det en liten gjennomgang av teori rundt meldingssystemer for å ha et felles vokabular. Deretter diskuterer vi oss gjennom utfordringer, tankesett og løsninger i flere eksisterende implementasjoner i DIPS, hvor man har tatt i bruk asynkrone integrasjoner. 
-                
                 Etter workshopen ønsker vi at deltakerne har en dypere forståelse for pros and cons med forskjellige asynkrone patterns og har fått et nettverk man kan bruke fremover.
+                
                 Det er mange team som nå jobber med å forstå og implementere asynkrone arbeidsflyter. Det er store fordeler med en asynkron arkitektur, men det er også store fallgruver.
               speaker: Øyvind Røed Lynne
             - start: 2024-04-17:15.10

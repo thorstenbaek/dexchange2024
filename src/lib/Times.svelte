@@ -53,8 +53,6 @@
     .time {
         position: absolute;
         text-align: left;        
-        
-        width: 1125px;
     }
     
     .times {     
