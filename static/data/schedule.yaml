@@ -119,16 +119,16 @@ schedule:
             - start: 2024-04-17:12.45
               end: 2024-04-17:13.00
               title: Late diffusjonsmodeller
-              ingress: Diffusjonsmodeller har den merkelige egenskapen at de gjør den minste mengden arbeid som er nødvendig for å nå målet sitt. 
+              ingress: Diffusjonsmodeller har den merkelige... 
               description: |
-                Dette kan vi utnytte for å få et innblikk i deres beslutningsevne og skjønne hvorfor visse data blir generert. 
+                egenskapen at de gjør den minste mengden arbeid som er nødvendig for å nå målet sitt. Dette kan vi utnytte for å få et innblikk i deres beslutningsevne og skjønne hvorfor visse data blir generert. 
 
                 Lyntalen trår i stor grad utenfor domenet til DIPS. Likevel kan det være interessant å se hvordan moderne generativ AI innen maskinsyn fungerer. 
               speaker: William Dalheim
             - start: 2024-04-17:13.15
               end: 2024-04-17:13.30
               title: Personproxy i databasen
-              ingress: Hva alle utviklere må vite om personproxy i databasen
+              ingress: Hva alle utviklere må vite om personproxy
               description: |
                 Beskrivelse av modellen og hvorfor det er viktig å forstå denne. Ved pasientsammenslåing kan én person få flere ulike proxyguid'er. Dersom koden ikke tar høyde for dette kan det føre til at brukeren går glipp av viktig informasjon om en pasient. 
                 **Feil på dette området er vanskelig å oppdage, og kan ha alvorlige konsekvenser.**

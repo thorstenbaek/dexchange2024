@@ -60,8 +60,7 @@
         font-size: 0.8rem;  
         text-decoration: none;             
     }
-
-    /*.more-button {
+     /*.more-button {
         margin: 0;
         padding: 0;
         height: 1rem;
@@ -83,8 +82,8 @@
     .inner-session {
         position: relative;
         overflow: hidden;
-        height: calc(100% - 20px);
-        padding: 10px 12px;
+        height: calc(100% - 16px);
+        padding: 8px 12px;
     }
 
     .content {

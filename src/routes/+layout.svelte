@@ -100,6 +100,11 @@
         font-size: 0.9375rem;
     }
 
+    :global(p) {
+        margin: 5px 0;
+        padding: 0;
+    }
+
     main {
         display: grid;
         margin: 4px auto 4px auto;
