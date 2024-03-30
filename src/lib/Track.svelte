@@ -27,8 +27,8 @@
 <style>
     .track {
         position: relative;
-        max-width: 297px;
-        min-width: 20px;
+        max-width: var(--expanded-width);
+        min-width: var(--collapsed-width);
     }
 
     .hidden {
@@ -36,7 +36,7 @@
     }
 
     .ontop {
-        width: 297px;
+        width: var(--expanded-width);
     }
 
     .title {
@@ -50,7 +50,7 @@
     }
 
     .text-box {
-        width: 297px;
+        width: var(--expanded-width);
         padding: 12px;
         font-size: 1.4rem;
         
@@ -59,8 +59,8 @@
 
     @media print {
         .hidden {
-            max-width: 297px;
-            width: 297px;
+            max-width: var(--expanded-width);
+            width: var(--expanded-width);
         }
     }
 </style>

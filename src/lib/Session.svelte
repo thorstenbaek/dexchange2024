@@ -2,11 +2,8 @@
     import moment from "moment";
     import {calculateTop, calculateHeight} from "./timeUtils";
     import Session from "./session";
-    import {activeSessionStore} from "../stores/scheduleStore";
 
     export let session: Session;
-
-    let contentHeight: number;
     
     function getTop() {
         return calculateTop(session.start, session.track.day.start);
@@ -14,11 +11,6 @@
 
     function getHeight() {        
         return calculateHeight(session.start, session.end);
-    }
-
-    function getLines(): number {
-        let result = Math.trunc(getHeight() / 16) - 2;
-        return result;
     }
 
     const displayTime = (() =>  {
