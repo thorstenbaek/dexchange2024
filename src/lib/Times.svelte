@@ -61,7 +61,7 @@
         position: relative;   
         color: #aaaaaa;
         border-radius: 10px;
-        font-size: 1rem;   
+        font-size: 0.8rem;   
         padding-left: 3px;     
         /*margin-right: 4px;*/
         font-weight: bold;
