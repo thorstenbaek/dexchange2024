@@ -20,7 +20,7 @@
 <style>
     .logo {
         background: linear-gradient(90deg, rgba(0,20,158,1) 30%, rgba(243,88,61,1) 100%);
-        margin: 0;
+        margin: 0 0 0 24px;
         padding: 0 0 0 12px;
         border-radius: 10px;
     }
@@ -29,7 +29,7 @@
         font-size: 1.3rem;
         background: var(--white);
         color: var(--accent-0);
-        margin: 4px 0 4px 0;
+        margin: 4px 0 4px 24px;
         padding: 4px 15px;
         border-radius: 10px;
     }
