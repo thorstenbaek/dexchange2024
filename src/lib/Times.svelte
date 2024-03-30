@@ -3,7 +3,7 @@
     import {calculateTop, calculateHeight} from "./timeUtils";
 
     function getTop(time: Date): number {
-        return calculateTop(time, $dayStore.start) + 32;        
+        return calculateTop(time, $dayStore.start) + 35;        
     }
 
     function getTimes(): Array<Date> {
@@ -62,7 +62,7 @@
         color: #aaaaaa;
         border-radius: 10px;
         font-size: 0.8rem;   
-        padding-left: 3px;     
+        padding-left: 4px;     
         /*margin-right: 4px;*/
         font-weight: bold;
         
