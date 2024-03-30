@@ -1,5 +1,6 @@
 <script lang="ts">
     import moment from "moment";
+    import {marked} from "marked";
     import {calculateTop, calculateHeight} from "./timeUtils";
     import Session from "./session";
 
@@ -28,7 +29,7 @@
                 <h4 class="speaker">{session.speaker}</h4>        
                 <a href="./session/{session.id}" style="color:var(--contrast-{session.track.index}">
                     {#if session.ingress}
-                        {session.ingress} ...
+                        {@html marked(session.ingress)}
                         <!-- <img class="more-button {}" src="/noun-more-symbol.svg" alt="Les mer"/> -->
                     {/if}         
                     
@@ -94,6 +95,6 @@
 
     .textbox {
         position: absolute;                
-        width: 260px;
+        width: 240px;
     }
 </style>

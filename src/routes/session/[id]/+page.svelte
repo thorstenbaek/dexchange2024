@@ -4,7 +4,8 @@
     import Day from "$lib/day";
     import Session from "$lib/session";
     import Schedule from "$lib/schedule";
-    import { backIn } from "svelte/easing";
+    import {marked} from "marked";
+    import moment from "moment";
 
     let session: Session;
     
@@ -31,13 +32,17 @@
 
 {#if session}
 <div class="session">
+    <h4>        
+        {session.track.room} <br/>
+        {moment(session.start).format("DD. MMMM HH.mm")} - {moment(session.end).format("HH.mm")}
+    </h4>
     <h1>{session?.title}</h1>
     <h2>{session.speaker}</h2>
     <p class="ingress">
-        {session.ingress}
+        {@html marked(session.ingress)}
     </p>    
     <p>
-        {session.description}
+        {@html marked(session.description)}
     </p> 
     <button on:click={() => history.back()}>Tilbake</button>   
 </div>    
@@ -45,7 +50,7 @@
 
 <style>
     .session {
-        padding: 20px;
+        padding: 24px;
     }
 
     .ingress {

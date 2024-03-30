@@ -36,7 +36,9 @@ schedule:
               title: Keynote - System of systems
               ingress: Jon skal presentere verdien av å bruke standardiserte grensesnitt for å maksimalisere fleksibilitet. 
               description: |
-                Han viser også hvordan grensesnitt kan brukes internt for å bygge "systems of systems" slik at man kan bytte ut individuelle underkomponenter. Gode API-er er også viktig for å kunne skape innovative løsninger og for å kunne integrere seg med eldre systemer.
+                Han viser også hvordan grensesnitt kan brukes internt for å bygge *systems of systems* slik at man kan bytte ut individuelle underkomponenter. 
+                
+                Gode API-er er også viktig for å kunne skape innovative løsninger og for å kunne integrere seg med eldre systemer.
               speaker: Jon Gjengset
             - start: 2024-04-17:12.45
               end: 2024-04-17:13.30
@@ -47,14 +49,17 @@ schedule:
               title: Hvordan foregår test av versjonsoppgraderinger i Sykehuspartner?
               ingress: Camilla og Marius skal ta oss igjennom hvordan de jobber med test av versjonsoppgraderinger i Sykehuspartner.
               description: |
-                De vil beskrive hvordan de nå jobber parallelt med at HF-ene konsolideres inn i felles base. - Hvordan ser de for seg hverdagen når konsolideringen er over og moderniseringsprosjektet er ferdige med sine oppgaver? 
+                De vil beskrive hvordan de nå jobber parallelt med at HF-ene konsolideres inn i felles base.
+                
+                - Hvordan ser de for seg hverdagen når konsolideringen er over og moderniseringsprosjektet er ferdige med sine oppgaver? 
               speaker: Camilla Brynhildsen og Marius Emilson Holmesland, Sykehuspartner              
             - start: 2024-04-17:15.10
               end: 2024-04-17:15.55
               title: Transformasjon - hva kan DIPS lære av andre virksomheter?
               ingress: Siv Marie, Trond Fredrik og Agnete har gjennomført flere kaffeprater med sentrale personer involvert i transformasjonene hos Politiet, Gyldendal, Nav og Sparebank 1. 
               description: |
-                Dette var for å hente inspirasjon til hvordan andre som ligger foran oss i løypa har jobbet med transformasjon. Trond Fredrik og Agnete deler hva som kom frem i samtalene. Dette blir delvis presentasjon og delvis diskusjon - hva betyr dette for oss?
+                Dette var for å hente inspirasjon fra hvordan andre som ligger foran oss i løypa har jobbet med transformasjon. Trond Fredrik og Agnete deler hva som kom frem i samtalene. Dette blir delvis presentasjon og delvis diskusjon 
+                - hva betyr dette for oss?
               speaker: Trond Fredrik Schjander-Opsahl og Agnete Enga
             - start: 2024-04-17:16.15
               end: 2024-04-17:16.45              
@@ -62,7 +67,9 @@ schedule:
               ingress: DIPS er i endring, både når det gjelder måten vi organiserer produktutviklingen og hvordan vi kan jobbe enda tettere på brukerne for å forstå hvordan vi kan gi kundene våre en enklere og mer effektiv hverdag. 
               description: |                 
                 Vi har over flere år rigget utviklingsprosessen rundt overgangen fra Classic til Arena med mål om å få 99% av funksjonalieten over, og der strategien har vært å lage programvare som er «god nok» til at vi får rullet ut Arena hos våre største kunder. 
-                Etter at DIPS etablerte designavdelingen for to år siden har målet vært å jobbe enda mer brukernært og i tettere samarbeid med kundene våre. «Designer i team» innfører ikke bare en ny rolle i teamene og måten vi jobber på, det bringer med seg en helt ny type kompetanse som gir oss ny metodikk og nye verktøy å jobbe med. Det er en ny måte å tenke på som stiller helt andre krav til hvordan man som team nå tar et helhetlig ansvar for hvordan man utforsker problemene man skal løse, og ikke minst endrer det hva det vil si å være en produktleder.                
+                
+                Etter at DIPS etablerte designavdelingen for to år siden har målet vært å jobbe enda mer brukernært og i tettere samarbeid med kundene våre. *Designer i team* innfører ikke bare en ny rolle i teamene og måten vi jobber på, det bringer med seg en helt ny type kompetanse som gir oss ny metodikk og nye verktøy å jobbe med. Det er en ny måte å tenke på som stiller helt andre krav til hvordan man som team nå tar et helhetlig ansvar for hvordan man utforsker problemene man skal løse, og ikke minst endrer det hva det vil si å være en produktleder.    
+
                 I stillingen som produktutviklingsansvarlig har jeg vært i kontakt med de fleste utviklingsteamene i DIPS og snakket med produktansvarlige, prosessansvarlige og utviklere om hva de mener fungerer bra med dagens utviklingsprosess, hva som fungerer mindre bra og hva som skal til for at vi skal klare å jobbe enda mer effektivt og brukernært. Jeg ønsker å oppsummere hva jeg sitter igjen med etter å ha snakket med teamene, hvilke aktiviteter jeg tror kan hjelpe teamene der de står i dag og forsøke å tegne et målbilde av hvor jeg tror vi skal bevege oss som produktutviklingsorganisasjon de neste 2-5 årene.
               speaker: Kjell-Arne Fransplass
             - start: 2024-04-17:16.45
@@ -85,7 +92,11 @@ schedule:
               title: Eventyr i Eventland
               ingress: Vi i Team Backbone deler vår erfaring med å publisere asynkrone meldinger basert på databasehendelser. For å komme frem til løsningen har vi vært gjennom en prosess, der arkitektur og løsningsforslag har endret seg underveis. 
               description: |
-                Vi har hatt løpende dialog med konsumenter, arkitekter og AT-styre. I dette foredraget forteller vi om de sentrale problemstillingene og beslutningene. Målet er å dele og diskutere våre erfaringer. Asynkrone meldinger blir en kritisk del av arkitekturen til DIPS fremover. Vi bør ha en tydelig best practice, slik at team både kan lytte til og publisere meldinger uten å finne opp hjulet på nytt. Meldinger som ikke kommer frem kan føre til alvorlige feil i systemet, så det er enormt viktig at vi har trygge mekanismer for dette. Nå har Backbone vært gjennom en reise på dette området, og da tror vi det gir verdi å dele dette med resten av bedriften.
+                Vi har hatt løpende dialog med konsumenter, arkitekter og AT-styre. I dette foredraget forteller vi om de sentrale problemstillingene og beslutningene. Målet er å dele og diskutere våre erfaringer. 
+                
+                Asynkrone meldinger blir en kritisk del av arkitekturen til DIPS fremover. Vi bør ha en tydelig *best practice*, slik at team både kan lytte til og publisere meldinger uten å finne opp hjulet på nytt. Meldinger som ikke kommer frem kan føre til alvorlige feil i systemet, så det er enormt viktig at vi har trygge mekanismer for dette. 
+                
+                Nå har Backbone vært gjennom en reise på dette området, og da tror vi det gir verdi å dele dette med resten av bedriften.
               speaker: Team Backbone
             - start: 2024-04-17:15.10
               end: 2024-04-17:15.55
@@ -99,13 +110,15 @@ schedule:
               title: Referansearkitektur Q&A
               ingress: Flere team er godt igang med å benytte ny referansearkitektur, mens andre mener det fortsatt er uklarheter og ønsker dialog.
               description: |
-                I denne sesjonen tar vi en gjennomgang av hva som har skjedd i etterkant av roadshow og spørsmål vi har fått. Og kanskje det har dukket opp nye spørsmål ila dagen?
+                I denne sesjonen tar vi en gjennomgang av hva som har skjedd i etterkant av roadshow og spørsmål vi har fått. 
+                
+                Kanskje det dukker opp nye spørsmål i løpet av dagen?
               speaker: AT-styret
         - room: Kantina
           sessions:
             - start: 2024-04-17:12.45
               end: 2024-04-17:13.00
-              title: Diffusjonsmodeller er late
+              title: Late diffusjonsmodeller
               ingress: Diffusjonsmodeller har den merkelige egenskapen at de gjør den minste mengden arbeid som er nødvendig for å nå målet sitt. 
               description: |
                 Dette kan vi utnytte for å få et innblikk i deres beslutningsevne og skjønne hvorfor visse data blir generert. 
@@ -117,9 +130,8 @@ schedule:
               title: Personproxy i databasen
               ingress: Hva alle utviklere må vite om personproxy i databasen
               description: |
-                Beskrivelse av modellen og hvorfor det er viktig å forstå denne. Ved pasientsammenslåing kan én person få flere ulike proxyguid'er. Dersom koden ikke tar høyde for dette kan det føre til at brukeren går glipp av viktig informasjon om en pasient.
-
-                Feil på dette området er vanskelig å oppdage, og kan ha alvorlige konsekvenser.
+                Beskrivelse av modellen og hvorfor det er viktig å forstå denne. Ved pasientsammenslåing kan én person få flere ulike proxyguid'er. Dersom koden ikke tar høyde for dette kan det føre til at brukeren går glipp av viktig informasjon om en pasient. 
+                **Feil på dette området er vanskelig å oppdage, og kan ha alvorlige konsekvenser.**
               speaker: Helene Brinchmann Halvorsen            
             - start: 2024-04-17:13.50
               end: 2024-04-17:14.50
@@ -146,8 +158,9 @@ schedule:
               title: Asynkrone integrasjoner
               ingress: Vi møtes for å dele erfaring rundt asynkrone integrasjoner. 
               description: |
-                Først blir det en liten gjennomgang av teori rundt meldingssystemer for å ha et felles vokabular. Deretter diskuterer vi oss gjennom utfordringer, tankesett og løsninger i flere eksisterende implementasjoner i DIPS, hvor man har tatt i bruk asynkrone integrasjoner. Etter workshopen ønsker vi at deltakerne har en dypere forståelse for pros and cons med forskjellige asynkrone patterns og har fått et nettverk man kan bruke fremover.
-
+                Først blir det en liten gjennomgang av teori rundt meldingssystemer for å ha et felles vokabular. Deretter diskuterer vi oss gjennom utfordringer, tankesett og løsninger i flere eksisterende implementasjoner i DIPS, hvor man har tatt i bruk asynkrone integrasjoner. 
+                
+                Etter workshopen ønsker vi at deltakerne har en dypere forståelse for pros and cons med forskjellige asynkrone patterns og har fått et nettverk man kan bruke fremover.
                 Det er mange team som nå jobber med å forstå og implementere asynkrone arbeidsflyter. Det er store fordeler med en asynkron arkitektur, men det er også store fallgruver.
               speaker: Øyvind Røed Lynne
             - start: 2024-04-17:15.10
@@ -200,17 +213,15 @@ schedule:
               ingress: Mange i DIPS jobber med kliniske data, enten direkte eller indirekte. På grunn av taushetsplikt er innholdet i disse utilgjengelig for den jevne DIPS-er. 
               description: |
                 Dette foredraget tar utgangspunkt i tall fra kundenes databaser for å gi et overordnet blikk på hva slags informasjon kundene faktisk legger inn i journalen. 
-
-                Siden vi ikke kan ha reelle kundedata i våre interne miljøer, er det vanskelig å danne seg et korrekt bilde av hva journaldokumentene inneholder. Dette foredraget gir et oversiktsbilde av journalen, både med tanke på innhold, antall og ulike tekniske parametere som størrelse og formater. 
+                Siden vi ikke kan ha reelle kundedata i våre interne miljøer, er det vanskelig å danne seg et korrekt bilde av hva journaldokumentene inneholder. Dette foredraget gir et oversiktsbilde av journalen, både med tanke på innhold, antall og ulike tekniske parametere som størrelser og formater. 
               speaker: Øystein Olsen
             - start: 2024-04-18:11.25
               end: 2024-04-18:12.00
               title: Embracing GitHub CoPilot in our daily work
               ingress: "GitHub CoPilot: Vi snakker om gevinster, svakheter og muligheter med dette verktøyet."
               description: |
-                Vi kommer også til å vise en live-demo med real world eksempler fra hvordan en utvikler i DIPS har brukt CoPilot i sitt daglige arbeid.
-
-                Vi ønsker å vise utviklere i DIPS hvordan de kan effektivisere hverdagen sin ved å bruke Github CoPilot.
+                Vi kommer til å vise en live-demo med real world eksempler fra hvordan en utvikler i DIPS har brukt CoPilot i sitt daglige arbeid.
+                Vi ønsker også å vise utviklere i DIPS hvordan de kan effektivisere hverdagen sin ved å bruke Github CoPilot.
               speaker: Askar Mehdi og Bjørn Fjukstad
             - start: 2024-04-18:12.45
               end: 2024-04-18:13.15
@@ -222,8 +233,9 @@ schedule:
             - start: 2024-04-18:13.15
               end: 2024-04-18:13.45
               title: 🐹 Hvorfor dør hamsterne mine? - en UX casestudie
-              ingress: Bli med på reisen fra konseptualisering til andre iterasjon av en mobilapp for hamstereiere, og få et innblikk i hvordan en designer jobber med å identifisere et problem og komme frem til en løsning. 
+              ingress: Bli med på reisen fra konseptualisering til andre iterasjon av en mobilapp for hamstereiere.
               description: |
+                Få et innblikk i hvordan en designer jobber med å identifisere et problem og komme frem til en løsning. 
                 Obs! Forvent drama, intriger, parkonflikt, og søte bilder av hamstere 🐹🆘😵‍💫
                 
                 Foredraget gir god innsikt i alt som ligger bak et design og hvordan designet påvirker brukeropplevelsen, og kan dermed gi ikke-designere en bedre forståelse for hva en UX-designers jobb faktisk er og hvordan de jobber.
@@ -232,7 +244,7 @@ schedule:
               end: 2024-04-18:14.40
               title: Arena og web
               ingress: |
-                "Vi skal på web!" - Hva betyr det egentlig? 
+                *Vi skal på web!* - Hva betyr det egentlig? 
               description: |
                 Hvor er vi i dag, hvor skal vi og hvordan skal vi komme dit?
               speaker: Trond Fredrik Schjander-Opsahl
@@ -253,10 +265,10 @@ schedule:
             - start: 2024-04-18:10.20
               end: 2024-04-18:11.15
               title: Automatisert test møter universell utforming
-              ingress: Det finnes mye rart ute på nettet. Noen nettsteder er et mareritt å navigere for alle, andre er bare forferdelig for mennesker med nedsatt funksjonsevne. 
+              ingress: Det finnes mye rart ute på nettet. Noen nettsteder er et mareritt å navigere for alle, andre er bare forferdelig for mennesker med nedsatt funksjonsevne. Noen nettsteder er umulige å navigere med en skjermleser. Andre inneholder tastaturfeller eller bruker farger som er bedre egnet til å kamuflere teksten enn å gjøre den lesbar. 
+                Heldigvis for oss er nettet bygget av mennesker. Vi kan gjøre det tilgjengelig hvis vi bare prøver å gjøre det.
               description: |
-                Noen nettsteder er umulige å navigere med en skjermleser. Andre inneholder tastaturfeller eller bruker farger som er bedre egnet til å kamuflere teksten enn å gjøre den lesbar. 
-                Heldigvis for oss er nettet bygget av mennesker. Vi kan gjøre det tilgjengelig hvis vi bare prøver å gjøre det. Det finnes flere verktøy som kan være til stor hjelp hvis du vil verifisere at du lager et tilgjengelig nettsted. Automatiske tilgjengelighetstester kan være til enda større hjelp, og frigjøre tid til å fokusere på endringene som vil gjøre nettstedet ditt bedre for alle. 
+                Det finnes flere verktøy som kan være til stor hjelp hvis du vil verifisere at du lager et tilgjengelig nettsted. Automatiske tilgjengelighetstester kan være til enda større hjelp, og frigjøre tid til å fokusere på endringene som vil gjøre nettstedet ditt bedre for alle. 
                 I dette foredraget vil du lære hva automatiske tilgjengelighetstester er, hvorfor du bør bruke de og hvordan du kan bruke de i et prosjekt. Underveis vil du lære om noen av de vanligste tilgjengelighetsfeilene som kan oppdages automatisk. 
               speaker: Cecilie Haugstvedt, Soco
             - start: 2024-04-18:11.25
@@ -266,17 +278,15 @@ schedule:
             - start: 2024-04-18:12.45
               end: 2024-04-18:13.45
               title: Figmakurs
-              ingress: For de som ønsker å lære seg å bruke figma. Det blir en interaktiv workshop der man får en oppgave, med veiledning.
-              description: |
-                Det vil også være mulig å spørre om tips og triks for det "nivået" man har kommet i figma
+              ingress: For de som ønsker å lære seg å bruke figma. Det blir en interaktiv workshop der man får en oppgave, med veiledning. Det vil også være mulig å spørre om tips og triks for det *nivået* man har kommet i Figma.
+              description: |                
                 Flere har uttrykt et ønske om å lære seg Figma for å raskere kunne lage skisser eller prototyper, og kunne diskutere løsningsforslag med visuelle virkemidler. Men terskelen for å komme i gang kan være litt stor. Dette kurset er ment som en inngangsport for å senke terskelen.
               speaker: Lisa Haugen
             - start: 2024-04-18:13.55
               end: 2024-04-18:14.40
               title: Aktiv lytting
-              ingress: Ønsker du å forstå mennesker for å lage løsninger som treffer? Da er det essensielt å lytte!
+              ingress: Ønsker du å forstå mennesker for å lage løsninger som treffer? Da er det essensielt å lytte! Denne sesjonen vil handle om hva brukerinnsikt er og hvilke teknikker som finnes. Vi vil se nærmere på aktiv lytting og hvordan du kan bruke dette i din arbeidshverdag. Aktiv lytting er en metodikk som kommer fra psykologien og er et godt verktøy når vi ønsker å sette oss inn i og forstå perspektivene til folk.
               description: |
-                Denne sesjonen vil handle om hva brukerinnsikt er og hvilke teknikker som finnes. Vi vil se nærmere på aktiv lytting og hvordan du kan bruke dette i din arbeidshverdag. Aktiv lytting er en metodikk som kommer fra psykologien og er et godt verktøy når vi ønsker å sette oss inn i og forstå perspektivene til folk.
                 Sesjonen vil være relevant for deg som vil forsøke å forstå mennesker (og da våre brukere) bedre.
                 Den vil for det meste bestå av praktiske øvelser. (Maks 30 pers - 10 grupper med tre personer i hver)
 
@@ -304,18 +314,19 @@ schedule:
             - start: 2024-04-18:12.45
               end: 2024-04-18:13.45
               title: Failure - plug and play. Right way to get it wrong.
-              ingress: Go through the process of learning from failure step-by-step.
+              ingress: Go through the process of learning from failure step-by-step. Working with complex solutions in an uncertain environment, failure becomes a natural part of the work process. It is important to know how to turn challenges into opportunities.
               description: |                
-                Working with complex solutions in an uncertain environment, failure becomes a natural part of the work process. It is important to know how to turn challenges into opportunities.
+                
               speaker: Alexandra Bieliei            
             - start: 2024-04-18:13.55
               end: 2024-04-18:14.40
               title: Avhengigheter i databasen
-              ingress: Under AT-styrets roadshow ble det tydelig at en av de store utfordringene vi har i dag er mengden avhengigheter i databasen. 
+              ingress: Under AT-styrets roadshow ble det tydelig at en av de store utfordringene vi har i dag er mengden avhengigheter i databasen. Dette hindrer flere store målsettinger som oppgradering uten nedetid, migrere tjenester over til kubernetes og remodellering for å modernisere domenemodeller.
+                
               description: |
-                Dette hindrer flere store målsettinger som oppgradering uten nedetid, migrere tjenester over til kubernetes og remoddelering for å modernisere domenemodeller  Team DDE vil innlede med en beskrivelse av problemstillingene og hvordan man kan identifisere slike problemer i egen datamodell, så vil team Selecta, team Nightingale og team DDE vil presentere ulike migreringsteknikker som  er gjennomført i produksjon i dag. Vi legger opp til diskusjoner underveis i presentasjonen.
-
-                Dette er en felles problemstilling for de fleste team og domener i DIPS.
+                  Team DDE vil innlede med en beskrivelse av problemstillingene og hvordan man kan identifisere slike problemer i egen datamodell, så vil team Selecta, team Nightingale og team DDE vil presentere ulike migreringsteknikker som  er gjennomført i produksjon i dag. Vi legger opp til diskusjoner underveis i presentasjonen.
+                
+                  Dette er en felles problemstilling for de fleste team og domener i DIPS.  
               speaker: Anders Skyrud Jensen
         - room: Klasserom    
           sessions:
@@ -332,12 +343,15 @@ schedule:
             - start: 2024-04-18:12.45
               end: 2024-04-18:13.45
               title: Hvordan kan bruk av AI og smartteknologi effektivisere arbeidsoppgaver til sykehuspersonell?  
-              ingress: Vi ønsker å skape en visuell fremstilling av hvordan helsepersonall samhandler med ulike systemer i hverdagen. 
-              description: |
+              ingress: | 
+                Vi ønsker å skape en visuell fremstilling av hvordan helsepersonall samhandler med ulike systemer i hverdagen. 
+                
                 Målet med workshopen er trefoldig: 
-                Øke kunnskapen om behovene til helsepersonell i ulike segmenter. 
-                Utforske hvordan kunstig intelligens (AI) og smarte løsninger kan effektivisere og redusere tiden helsepersonell bruker foran skjermen.
-                Skape en helhetlig visualisering som illustrerer ulike brukerbehov på tvers av forskjellige typer helsepersonell.
+                * Øke kunnskapen om behovene til helsepersonell i ulike segmenter. 
+                * Utforske hvordan kunstig intelligens (AI) og smarte løsninger kan effektivisere og redusere tiden helsepersonell bruker foran skjermen.
+                * Skape en helhetlig visualisering som illustrerer ulike brukerbehov på tvers av forskjellige typer helsepersonell.
+            
+              description: |
                 Gjennom denne workshopen håper vi å identifisere konkrete muligheter for implementering av teknologiske løsninger som kan forbedre arbeidsflyten og opplevelsen til helsepersonell i sitt daglige arbeid.
 
                 d:exchange gir oss en unik mulighet til å samle et mangfold av fagpersoner som arbeider med ulike aspekter av Arena. Her har vi sjansen til å grundig kartlegge brukerreiser for ulike helsepersonell og deres interaksjon med systemene. Dette gir oss en dyptgående forståelse av hvordan våre systemer kan forbedres for å bedre støtte behovene til helsepersonell og optimere deres arbeidsprosesser.
