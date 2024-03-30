@@ -32,13 +32,12 @@
 <style>
     
     
-    .tracks {
-        grid-area: 1/1;
+    .tracks {        
         display: grid;
         column-gap:4px;
     }
 
-    .overlay {
+    /*.overlay {
         display: blocks;
         visibility: hidden;
         position: fixed;
@@ -54,7 +53,7 @@
         height: 26px;
         width: 26px;
         margin-left: -6px;
-        /*border: white 2px solid;*/
+      
         border-radius: 13px;       
         align-items: center;
         justify-content: center;
@@ -74,5 +73,5 @@
             display: none;
             visibility: visible;
         }
-    }
+    }*/
 </style>

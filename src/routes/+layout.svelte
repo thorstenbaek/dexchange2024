@@ -58,6 +58,9 @@
     ** Variables
     -----------------------------*/
     :global(:root) {
+        --expanded-width: 273px;
+        --collapsed-width: 20px;
+
         --accent-0: #00149e;
         --accent-1: #00d4d4;
         --accent-2: #12565c;
@@ -102,7 +105,7 @@
         margin: 4px auto 4px auto;
         grid-area: 1;
         width: auto;
-        max-width: 1200px;
+        max-width: 1128px;
         min-width: 360px;
     }
 
