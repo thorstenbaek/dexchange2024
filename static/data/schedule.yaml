@@ -330,19 +330,8 @@ schedule:
               speaker: Anders Skyrud Jensen
         - room: Klasserom    
           sessions:
-            - start: 2024-04-18:10.20
+            - start: 2024-04-18:10.00
               end: 2024-04-18:11.15
-              title: Et ord er verd tusen tall – ord- og dokumentvektorer
-              ingress: En av de grunnleggende idéene bak ChatGPT og AI-basert tekstbehandling er å kunne behandle tekst i vektorform – ved å lage en framstilling av tekstene i tallform, kan vi begynne å sammenligne, kategorisere og gruppere dem.
-              description: | 
-                I denne workshopen gir vi en kort oppsummering av disse teknikkene, ser på hvordan vi kan implementere disse selv, og oppsummerer erfaringene våre fra Team Kamel.
-              speaker: Jørgen Aarmo Lund
-            - start: 2024-04-18:11.25
-              end: 2024-04-18:12.00
-              title: Et ord er verd tusen tall – ord- og dokumentvektorer forts.              
-              speaker: Jørgen Aarmo Lund        
-            - start: 2024-04-18:12.45
-              end: 2024-04-18:13.45
               title: Hvordan kan bruk av AI og smartteknologi effektivisere arbeidsoppgaver til sykehuspersonell?  
               ingress: | 
                 Vi ønsker å skape en visuell fremstilling av hvordan helsepersonall samhandler med ulike systemer i hverdagen. 
@@ -357,7 +346,19 @@ schedule:
 
                 d:exchange gir oss en unik mulighet til å samle et mangfold av fagpersoner som arbeider med ulike aspekter av Arena. Her har vi sjansen til å grundig kartlegge brukerreiser for ulike helsepersonell og deres interaksjon med systemene. Dette gir oss en dyptgående forståelse av hvordan våre systemer kan forbedres for å bedre støtte behovene til helsepersonell og optimere deres arbeidsprosesser.
               speaker: Lillian Ayla Ersoy
-            - start: 2024-04-18:13.55
-              end: 2024-04-18:14.40
+            - start: 2024-04-18:11.25
+              end: 2024-04-18:12.00
               title: Hvordan kan bruk av AI og smartteknologi effektivisere arbeidsoppgaver til sykehuspersonell? forts.
               speaker: Lillian Ersoy
+            - start: 2024-04-18:12.45
+              end: 2024-04-18:13.45
+              title: Et ord er verd tusen tall – ord- og dokumentvektorer
+              ingress: En av de grunnleggende idéene bak ChatGPT og AI-basert tekstbehandling er å kunne behandle tekst i vektorform – ved å lage en framstilling av tekstene i tallform, kan vi begynne å sammenligne, kategorisere og gruppere dem.
+              description: | 
+                I denne workshopen gir vi en kort oppsummering av disse teknikkene, ser på hvordan vi kan implementere disse selv, og oppsummerer erfaringene våre fra Team Kamel.
+              speaker: Jørgen Aarmo Lund
+            - start: 2024-04-18:13.55
+              end: 2024-04-18:14.40
+              title: Et ord er verd tusen tall – ord- og dokumentvektorer forts.              
+              speaker: Jørgen Aarmo Lund        
+            
