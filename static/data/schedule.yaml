@@ -350,7 +350,7 @@ schedule:
               end: 2024-04-18:12.00
               title: Hvordan kan bruk av AI og smartteknologi effektivisere arbeidsoppgaver til sykehuspersonell? forts.
               speaker: Lillian Ersoy
-            - start: 2024-04-18:12.45
+            - start: 2024-04-18:12.30
               end: 2024-04-18:13.45
               title: Et ord er verd tusen tall – ord- og dokumentvektorer
               ingress: En av de grunnleggende idéene bak ChatGPT og AI-basert tekstbehandling er å kunne behandle tekst i vektorform – ved å lage en framstilling av tekstene i tallform, kan vi begynne å sammenligne, kategorisere og gruppere dem.
