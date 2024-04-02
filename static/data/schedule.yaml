@@ -356,6 +356,10 @@ schedule:
               ingress: En av de grunnleggende idéene bak ChatGPT og AI-basert tekstbehandling er å kunne behandle tekst i vektorform – ved å lage en framstilling av tekstene i tallform, kan vi begynne å sammenligne, kategorisere og gruppere dem.
               description: | 
                 I denne workshopen gir vi en kort oppsummering av disse teknikkene, ser på hvordan vi kan implementere disse selv, og oppsummerer erfaringene våre fra Team Kamel.
+
+                Hvorfor er dette viktig for DIPS?
+                
+                Setnings- og tekstvektorer kan brukes for å lage søk som kan ta høyde for skrivefeil og sjargong i ulike fagfelt – de er også en fundamental del av chat- og spørsmålssvar-løsninger.
               speaker: Jørgen Aarmo Lund
             - start: 2024-04-18:13.55
               end: 2024-04-18:14.40
