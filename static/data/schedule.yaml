@@ -81,9 +81,10 @@ schedule:
               speaker: Runar B. Slettvoll
             - start: 2024-04-17:17.30
               end: 2024-04-17:18.15
-              title: FK Bodø/Glimt og bedriftskultur - "Ingenting er klin kokos umulig"
-              ingress:
-              description:
+              title: FK Bodø/Glimt og bedriftskultur – ‘Ingenting er klin kokos umulig’
+              ingress: Fotball og bedriftskultur
+              description: | 
+                Han er daglig leder i FK Bodø/Glimt og har hatt denne stillingen siden sommeren 2017. I fotballsammenheng har han mange år som styremedlem, nestleder og styreleder i Glimt. Han har vært trener på alle nivå, også i damefotballen. Han har også erfaring fra andre klubber som Ski- og fotballklubben Lyn, Stabæk og Vålerenga. Utover dette har han arbeidet 13-14 år som fakultetsdirektør ved Nord universitet, og før det igjen 9-10 år i Kulturdepartementet, hvor han arbeidet den siste perioden som underdirektør.
               speaker: Frode Thomassen              
         - room: Hinnøya
           sessions:
@@ -333,11 +334,14 @@ schedule:
               end: 2024-04-18:11.15
               title: Et ord er verd tusen tall – ord- og dokumentvektorer
               ingress:
-              description:
+              description: | 
+                En av de grunnleggende idéene bak ChatGPT og AI-basert tekstbehandling er å kunne behandle tekst i vektorform – ved å lage en framstilling av tekstene i tallform, kan vi begynne å sammenligne, kategorisere og gruppere dem.
+ 
+                I denne workshopen gir vi en kort oppsummering av disse teknikkene, ser på hvordan vi kan implementere disse selv, og oppsummerer erfaringene våre fra Team Kamel.
               speaker: Jørgen Aarmo Lund
             - start: 2024-04-18:11.25
               end: 2024-04-18:12.00
-              title: Et ord er verd tusen tall – ord- og dokumentvektorer forts.
+              title: Et ord er verd tusen tall – ord- og dokumentvektorer forts.              
               speaker: Jørgen Aarmo Lund        
             - start: 2024-04-18:12.45
               end: 2024-04-18:13.45
