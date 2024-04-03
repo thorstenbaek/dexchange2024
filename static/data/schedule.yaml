@@ -5,19 +5,19 @@ schedule:
       breaks:
         - start: 2024-04-17:12.00
           end: 2024-04-17:12.45
-          title: Lunsj
+          title: Lunsj 45 minutter
         - start: 2024-04-17:13.30
           end: 2024-04-17:13.50
-          title: 20 minutters pause
+          title: Pause 20 minutter
         - start: 2024-04-17:14.50
           end: 2024-04-17:15.10
-          title: 20 minutters pause
+          title: Pause 20 minutter
         - start: 2024-04-17:15.55
           end: 2024-04-17:16.15
-          title: 20 minutters pause
+          title: Pause 20 minutter
         - start: 2024-04-17:17.15
           end: 2024-04-17:17.30
-          title: 15 minutters pause
+          title: Pause 15 minutter
         - start: 2024-04-17:18.15
           end: 2024-04-17:20.00
           title: Middag
@@ -172,19 +172,19 @@ schedule:
       breaks:
         - start: 2024-04-18:10.00
           end: 2024-04-18:10.20
-          title: 20 minutter pause
+          title: Pause 20 minutter
         - start: 2024-04-18:11.15
           end: 2024-04-18:11.25
-          title: 10 minutters pause
+          title: Pause 10 minutter
         - start: 2024-04-18:12.00
           end: 2024-04-18:12.45
-          title: Lunsj
+          title: Lunsj 45 minutter
         - start: 2024-04-18:13.45
           end: 2024-04-18:13.55
-          title: 10 minutters pause          
+          title: Pause 10 minutter
         - start: 2024-04-18:14.40
           end: 2024-04-18:14.50
-          title: 10 minutters pause
+          title: Pause 10 minutter
         - start: 2024-04-18:15.45
           end: 2024-04-18:16.00
           title: Hjemreise         

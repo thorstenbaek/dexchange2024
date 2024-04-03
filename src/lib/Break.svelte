@@ -1,4 +1,5 @@
 <script lang="ts">
+    import moment from "moment";
     import Break from "./break";
     import {calculateTop, calculateHeight} from "./timeUtils";
     
@@ -11,13 +12,17 @@
     function getHeight() {        
         return calculateHeight(_break.start, _break.end);
     }
+
+    const displayTime = (() =>  {
+        return moment(_break.start).format("HH:mm");
+    });
 </script>
 
 
 
 <div class="break" style="top:{getTop()}px;height:{getHeight() - 4}px">    
     <div class="content">
-        {_break.title}
+        {displayTime()} {_break.title}
     </div>
 </div>
 
