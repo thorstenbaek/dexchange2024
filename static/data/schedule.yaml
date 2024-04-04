@@ -38,11 +38,12 @@ schedule:
                 All programvare starter som én linje kode. Over tid bygger vi på litt 
                 etter litt for å legge til funksjonalitet, helt til vi flere år senere 
                 sitter igjen med en enorm monolitt som er vanskelig å vedlikeholde og 
-                videreutvikle. Denne progresjonen er naturlig, men ikke optimal. Dersom 
-                vi istedenfor bygger programvare som mindre systemer integrert gjennom
+                videreutvikle. Denne progresjonen er naturlig, men ikke optimal.
+              description: |
+                Dersom vi istedenfor bygger programvare som mindre systemer integrert gjennom
                 dedikerte grensesnitt gir vi oss selv, og våre kunder, mer 
                 fleksibilitet, bedre fremtidssikring, og økt innovasjonspotensiale.
-              description: |
+
                 I dette foredraget vil vi se på hvordan LEGO har lyktes med dette i den 
                 fysiske verdenen, og hvilke lærdommer det kan gir oss om 
                 programvareutvikling.
