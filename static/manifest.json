@@ -1,6 +1,6 @@
 {
     "name": "d:exchange 2024",
-    "short_name": "dex24",
+    "short_name": "d:exchange",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#eeeeee",
