@@ -17,6 +17,23 @@
     const displayTime = (() =>  {
         return moment(session.start).format("HH:mm");
     });
+
+    const displayIcon = ((kind: string) => {
+        switch (kind) {
+            case "workshop": {
+                return "🛠️"
+            }
+            case "lightning": {
+                return "⚡";
+            }
+            case "speech": {
+                return "👨‍🏫"
+            }
+            default: {
+                return "";
+            }
+        }
+    })
 </script>
 
 <div class="session" style="top:{getTop()}px;height:{getHeight()-4}px;background-color:var(--accent-{session.track.index})">    
@@ -25,7 +42,7 @@
     <div class="inner-session">
         <div class="content">
             <div class="textbox">
-                <h3 class="title">{displayTime()} {session.title}</h3>
+                <h3 class="title">{displayTime()} {displayIcon(session.kind)} {session.title}</h3>
                 <h4 class="speaker">{session.speaker}</h4>        
                 <a href="./session/{session.id}" style="color:var(--contrast-{session.track.index}">
                     {#if session.ingress}

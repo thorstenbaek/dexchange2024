@@ -5,6 +5,7 @@ let sessionCounter: number = 0;
 
 export default class Session {
     id: number;
+    kind: string;
     title: string;
     ingress: string;
     description: string;
@@ -14,6 +15,7 @@ export default class Session {
     track: Track;
     constructor(session: any, track: Track) {
         this.id = sessionCounter++;
+        this.kind = session.kind;
         this.title = session.title;
         this.ingress = session.ingress;
         this.description = session.description;

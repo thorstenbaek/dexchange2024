@@ -26,6 +26,7 @@ schedule:
           sessions:
             - start: 2024-04-17:11.00
               end: 2024-04-17:11.15
+              kind: speech
               title: Velkommen
               speaker: Thomas Smedsrud
               ingress: Velkommen til d:exchange 2024! 
@@ -33,6 +34,7 @@ schedule:
                 Vi gleder oss til to dager med deling av kunnskap fra både interne og eksterne.
             - start: 2024-04-17:11.15
               end: 2024-04-17:12.00
+              kind: speech
               title: Keynote - Hva vi kan lære av LEGO om API'er?
               ingress: | 
                 All programvare starter som én linje kode. Over tid bygger vi på litt 
@@ -50,10 +52,12 @@ schedule:
               speaker: Jon Gjengset
             - start: 2024-04-17:12.45
               end: 2024-04-17:13.30
+              kind: speech
               title: Verdi og brukervennlighet
               speaker: Ove Dalen          
             - start: 2024-04-17:13.50
               end: 2024-04-17:14.50
+              kind: speech
               title: Hvordan foregår test av versjonsoppgraderinger i Sykehuspartner?
               ingress: Camilla og Marius skal ta oss igjennom hvordan de jobber med test av versjonsoppgraderinger i Sykehuspartner.
               description: |
@@ -63,6 +67,7 @@ schedule:
               speaker: Camilla Brynhildsen og Marius Emilson Holmesland, Sykehuspartner              
             - start: 2024-04-17:15.10
               end: 2024-04-17:15.55
+              kind: speech
               title: Transformasjon - hva kan DIPS lære av andre virksomheter?
               ingress: Siv Marie, Trond Fredrik og Agnete har gjennomført flere kaffeprater med sentrale personer involvert i transformasjonene hos Politiet, Gyldendal, Nav og Sparebank 1. 
               description: |
@@ -71,6 +76,7 @@ schedule:
               speaker: Trond Fredrik Schjander-Opsahl og Agnete Enga
             - start: 2024-04-17:16.15
               end: 2024-04-17:16.45              
+              kind: speech
               title: Hvorfor trenger vi å endre måten vi driver produktutvikling på?
               ingress: DIPS er i endring, både når det gjelder måten vi organiserer produktutviklingen og hvordan vi kan jobbe enda tettere på brukerne for å forstå hvordan vi kan gi kundene våre en enklere og mer effektiv hverdag. 
               description: |                 
@@ -82,6 +88,7 @@ schedule:
               speaker: Kjell-Arne Fransplass
             - start: 2024-04-17:16.45
               end: 2024-04-17:17.15
+              kind: speech
               title: Merkantil modell tilpasset moderne produktutvikling
               ingress: Hvordan kan vi tilpasse merkantile modeller til kunde- og brukernær og iterativ produktutvikling?
               description: |
@@ -89,6 +96,7 @@ schedule:
               speaker: Runar B. Slettvoll
             - start: 2024-04-17:17.30
               end: 2024-04-17:18.15
+              kind: speech
               title: FK Bodø/Glimt og bedriftskultur – ‘Ingenting er klin kokos umulig’
               ingress: Bodø Glimt har gått fra å være en klubb som kjempet for å holde seg i eliteserien til å vinne seriegull tre ganger, spille to cup-finaler og konkurrere i Europa. Frode Thomassen tar oss med på reisen - med stikkord som kultur, prestasjoner og bærekraft.
               description: | 
@@ -98,6 +106,7 @@ schedule:
           sessions:
             - start: 2024-04-17:12.45
               end: 2024-04-17:13.30
+              kind: speech
               title: Eventyr i Eventland
               ingress: Vi i Team Backbone deler vår erfaring med å publisere asynkrone meldinger basert på databasehendelser. For å komme frem til løsningen har vi vært gjennom en prosess, der arkitektur og løsningsforslag har endret seg underveis. 
               description: |
@@ -109,6 +118,7 @@ schedule:
               speaker: Team Backbone
             - start: 2024-04-17:15.10
               end: 2024-04-17:15.55
+              kind: speech
               title: Overgang til SMUD, business as usual?
               ingress: Vi i team Ember elsker SMUD! Men det betyr store endringer for teamet. Hva bør andre team forberede seg på?
               description: |
@@ -116,6 +126,7 @@ schedule:
               speaker: Per Arne Engstad 
             - start: 2024-04-17:16.15
               end: 2024-04-17:17.15
+              kind: speech
               title: Referansearkitektur Q&A
               ingress: Flere team er godt igang med å benytte ny referansearkitektur, mens andre mener det fortsatt er uklarheter og ønsker dialog.
               description: |
@@ -127,6 +138,7 @@ schedule:
           sessions:
             - start: 2024-04-17:12.45
               end: 2024-04-17:13.05
+              kind: lightning
               title: Diffusjonsmodeller er late
               ingress: Diffusjonsmodeller har den merkelige... 
               description: |
@@ -136,6 +148,7 @@ schedule:
               speaker: William Dalheim
             - start: 2024-04-17:13.05
               end: 2024-04-17:13.25
+              kind: lightning
               title: Personproxy i databasen
               ingress: Hva alle utviklere må vite om personproxy
               description: |
@@ -144,10 +157,12 @@ schedule:
               speaker: Helene Brinchmann Halvorsen            
             - start: 2024-04-17:13.50
               end: 2024-04-17:14.50
+              kind: workshop
               title: Verdi og brukervennlighet
               speaker: Ove Dalen  
             - start: 2024-04-17:15.10
               end: 2024-04-17:16.25
+              kind: workshop
               title: React golden path
               ingress: Workshop om hvordan komme i gang med utvikling i React på en rask og god måte
               description: |
@@ -155,6 +170,7 @@ schedule:
               speaker: Martin Vassbotten          
             - start: 2024-04-17:16.45
               end: 2024-04-17:17.15
+              kind: speech
               title: Taleassistent
               ingress: Bruk av open-source talemodell for diktering og talestyring i Arena.
               description: |
@@ -164,6 +180,7 @@ schedule:
           sessions: 
             - start: 2024-04-17:13.50
               end: 2024-04-17:14.50
+              kind: workshop
               title: Asynkrone integrasjoner
               ingress: Vi møtes for å dele erfaring rundt asynkrone integrasjoner. Først blir det en liten gjennomgang av teori rundt meldingssystemer for å ha et felles vokabular. Deretter diskuterer vi oss gjennom utfordringer, tankesett og løsninger i flere eksisterende implementasjoner i DIPS, hvor man har tatt i bruk asynkrone integrasjoner. 
               description: |
@@ -173,6 +190,7 @@ schedule:
               speaker: Øyvind Røed Lynne
             - start: 2024-04-17:15.10
               end: 2024-04-17:15.55
+              kind: workshop
               title: Asynkrone integrasjoner forts.
               speaker: Øyvind Røed Lynne
     - start: 2024-04-18:09.00
@@ -201,6 +219,7 @@ schedule:
           sessions:
             - start: 2024-04-18:09.00
               end: 2024-04-18:10.00
+              kind: speech
               title: AIpocalypse now?
               ingress: Vi har aldri visst så mye som vi gjør i dag om hvor lite vi vet om i morgen. Når fremtiden er usikker er den beste fremgangsmåten å bygge en portefølje av muligheter for hva fremtiden kan bringe. 
               description: |
@@ -211,12 +230,14 @@ schedule:
               speaker: Yngvar Ugland, DNB
             - start: 2024-04-18:10.20
               end: 2024-04-18:10.50
+              kind: speech
               title: Bifrost som innovasjonsprosjekt
               ingress:
               description:
               speaker: Bjørn Næss og Morten Hørthe
             - start: 2024-04-18:10.50
               end: 2024-04-18:11.15
+              kind: speech
               title: Journalen på 18 minutter
               ingress: Mange i DIPS jobber med kliniske data, enten direkte eller indirekte. På grunn av taushetsplikt er innholdet i disse utilgjengelig for den jevne DIPS-er. 
               description: |
@@ -225,6 +246,7 @@ schedule:
               speaker: Øystein Olsen
             - start: 2024-04-18:11.25
               end: 2024-04-18:12.00
+              kind: speech
               title: Embracing GitHub CoPilot in our daily work
               ingress: "GitHub CoPilot: Vi snakker om gevinster, svakheter og muligheter med dette verktøyet."
               description: |
@@ -233,6 +255,7 @@ schedule:
               speaker: Askar Mehdi og Bjørn Fjukstad
             - start: 2024-04-18:12.45
               end: 2024-04-18:13.15
+              kind: speech
               title: Innsikt i programvaren din med metrikker
               ingress: Med OpenTelemetry sender tjenesten din metrikker allerede i dag. Hvordan kan du bruke disse metrikkene og hvordan du kan lage dine egne metrikker for ditt domene?
               description: |                
@@ -240,6 +263,7 @@ schedule:
               speaker: Trond Andersen
             - start: 2024-04-18:13.15
               end: 2024-04-18:13.45
+              kind: speech
               title: 🐹 Hvorfor dør hamsterne mine? - en UX casestudie
               ingress: Bli med på reisen fra konseptualisering til andre iterasjon av en mobilapp for hamstereiere.
               description: |
@@ -250,6 +274,7 @@ schedule:
               speaker: Julie Amalie Karlsen
             - start: 2024-04-18:13.55
               end: 2024-04-18:14.40
+              kind: speech
               title: Arena og web
               ingress: |
                 *Vi skal på web!* - Hva betyr det egentlig? 
@@ -258,6 +283,7 @@ schedule:
               speaker: Trond Fredrik Schjander-Opsahl
             - start: 2024-04-18:14.50
               end: 2024-04-18:15.30
+              kind: speech
               title: Nina Kramer
               ingress: 
               description:
@@ -272,6 +298,7 @@ schedule:
           sessions:
             - start: 2024-04-18:10.20
               end: 2024-04-18:11.15
+              kind: workshop
               title: Automatisert test møter universell utforming
               ingress: Det finnes mye rart ute på nettet. Noen nettsteder er et mareritt å navigere for alle, andre er bare forferdelig for mennesker med nedsatt funksjonsevne. Noen nettsteder er umulige å navigere med en skjermleser. Andre inneholder tastaturfeller eller bruker farger som er bedre egnet til å kamuflere teksten enn å gjøre den lesbar. 
                 Heldigvis for oss er nettet bygget av mennesker. Vi kan gjøre det tilgjengelig hvis vi bare prøver å gjøre det.
@@ -281,10 +308,12 @@ schedule:
               speaker: Cecilie Haugstvedt, Soco
             - start: 2024-04-18:11.25
               end: 2024-04-18:12.00
+              kind: workshop
               title: Automatisert test møter universell utforming forts.
               speaker: Cecilie Haugstvedt, Soco
             - start: 2024-04-18:12.45
               end: 2024-04-18:13.45
+              kind: workshop
               title: Figmakurs
               ingress: For de som ønsker å lære seg å bruke figma. Det blir en interaktiv workshop der man får en oppgave, med veiledning. Det vil også være mulig å spørre om tips og triks for det *nivået* man har kommet i Figma.
               description: |                
@@ -292,6 +321,7 @@ schedule:
               speaker: Lisa Haugen
             - start: 2024-04-18:13.55
               end: 2024-04-18:14.40
+              kind: workshop
               title: Aktiv lytting
               ingress: Ønsker du å forstå mennesker for å lage løsninger som treffer? Da er det essensielt å lytte! Denne sesjonen vil handle om hva brukerinnsikt er og hvilke teknikker som finnes. Vi vil se nærmere på aktiv lytting og hvordan du kan bruke dette i din arbeidshverdag. Aktiv lytting er en metodikk som kommer fra psykologien og er et godt verktøy når vi ønsker å sette oss inn i og forstå perspektivene til folk.
               description: |
@@ -302,8 +332,9 @@ schedule:
               speaker: Nathalie Jonkers
         - room: Kantina
           sessions:
-            - start: 2024-04-18:10.10
+            - start: 2024-04-18:10.10              
               end: 2024-04-18:10.35
+              kind: speech
               title: Web og OpenTelemetry
               ingress: Viser hvordan en fort kan komme i gang med OpenTelemetry i en JavaScript-basert webklient. 
               description: |
@@ -312,6 +343,7 @@ schedule:
               speaker: Trond Andersen
             - start: 2024-04-18:10.35
               end: 2024-04-18:11.15
+              kind: speech
               title: Web Sockets / SignalR
               ingress: Foredraget handler om hvordan du gjennom bruk av websockets kan dytte data ut til brukeren uten at brukeren foretar seg noe.
               description: |
@@ -321,6 +353,7 @@ schedule:
               speaker: Øystein Danielsen
             - start: 2024-04-18:12.45
               end: 2024-04-18:13.45
+              kind: workshop
               title: Failure - plug and play. Right way to get it wrong.
               ingress: Go through the process of learning from failure step-by-step. Working with complex solutions in an uncertain environment, failure becomes a natural part of the work process. It is important to know how to turn challenges into opportunities.
               description: |                
@@ -328,6 +361,7 @@ schedule:
               speaker: Alexandra Bieliei            
             - start: 2024-04-18:13.55
               end: 2024-04-18:14.40
+              kind: workshop
               title: Avhengigheter i databasen
               ingress: Under AT-styrets roadshow ble det tydelig at en av de store utfordringene vi har i dag er mengden avhengigheter i databasen. Dette hindrer flere store målsettinger som oppgradering uten nedetid, migrere tjenester over til kubernetes og remodellering for å modernisere domenemodeller.
                 
@@ -340,6 +374,7 @@ schedule:
           sessions:
             - start: 2024-04-18:10.00
               end: 2024-04-18:11.15
+              kind: workshop
               title: Hvordan kan bruk av AI og smartteknologi effektivisere arbeidsoppgaver til sykehuspersonell?  
               ingress: | 
                 Vi ønsker å skape en visuell fremstilling av hvordan helsepersonall samhandler med ulike systemer i hverdagen. 
@@ -356,10 +391,12 @@ schedule:
               speaker: Lillian Ayla Ersoy
             - start: 2024-04-18:11.25
               end: 2024-04-18:12.00
+              kind: workshop
               title: Hvordan kan bruk av AI og smartteknologi effektivisere arbeidsoppgaver til sykehuspersonell? forts.
               speaker: Lillian Ersoy
             - start: 2024-04-18:12.30
               end: 2024-04-18:13.45
+              kind: workshop
               title: Et ord er verd tusen tall – ord- og dokumentvektorer
               ingress: En av de grunnleggende idéene bak ChatGPT og AI-basert tekstbehandling er å kunne behandle tekst i vektorform – ved å lage en framstilling av tekstene i tallform, kan vi begynne å sammenligne, kategorisere og gruppere dem.
               description: | 
@@ -371,6 +408,7 @@ schedule:
               speaker: Jørgen Aarmo Lund
             - start: 2024-04-18:13.55
               end: 2024-04-18:14.40
+              kind: workshop
               title: Et ord er verd tusen tall – ord- og dokumentvektorer forts.              
               speaker: Jørgen Aarmo Lund        
             
