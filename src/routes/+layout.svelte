@@ -9,11 +9,14 @@
             2024
         </h1>
     </div> 
-    <nav class="days">
-        <a class={$dayIndexStore == 0 ? 'selected':''} href="/day1">onsdag 17. apr</a>
-        |
-        <a class={$dayIndexStore == 1 ? 'selected':''} href="/day2">torsdag 18. apr</a>
-    </nav>   
+        <nav class="days">
+            <a class={$dayIndexStore == 0 ? 'selected':''} href="/day1">onsdag 17. apr</a>
+            |
+            <a class={$dayIndexStore == 1 ? 'selected':''} href="/day2">torsdag 18. apr</a>
+            
+            <span class="legend">👨‍🏫 foredrag | 🛠️ workshop | ⚡ lyntale</span>
+        </nav>   
+    
     <slot />
 </main>
 
@@ -32,6 +35,14 @@
         margin: 4px 0 4px 24px;
         padding: 4px 15px;
         border-radius: 10px;
+        position: relative;
+    }
+
+    .legend {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 5px;
+        right: 10px;
     }
 
     a {
