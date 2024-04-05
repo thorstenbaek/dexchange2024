@@ -1,0 +1,15 @@
+{
+    "name": "d:exchange 2024",
+    "short_name": "dex24",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#eeeeee",
+    "theme_color": "#eeeeee",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/favicon.png",
+        "type": "image/png", "sizes": "144x144"
+      }
+    ]
+  }
