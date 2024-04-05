@@ -39,6 +39,7 @@
     }
 
     .legend {
+        visibility: hidden;
         font-size: 0.8rem;
         position: absolute;
         top: 5px;
@@ -123,6 +124,12 @@
         width: auto;
         max-width: 1128px;
         min-width: 360px;
+    }
+
+    @media screen and (min-width: 42.5rem) {
+        .legend {            
+            visibility: visible;
+        }
     }
 
     @media print {

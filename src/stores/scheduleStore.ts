@@ -34,11 +34,12 @@ export const heightStore: Readable<number> = derived(
     });
 
 /*
+//export const startTime:Date = new Date(2024, 4, 17, 11, 0, 0);
 export const startTime:Date = new Date(2024, 4, 17, 11, 0, 0);
 
 let seconds = 0;
-export const nowStore: Readable<number> = readable(    
-    startTime.getTime(),
+export const secondsStore: Readable<number> = readable(    
+    seconds,
     (set) => {
         const interval = setInterval(() => {    
             set(1000*seconds++);        
@@ -46,7 +47,12 @@ export const nowStore: Readable<number> = readable(
         return () => clearInterval(interval);
     });
 
-// export const nowStore: Readable<number> = readable(
+export const nowStore: Readable<number> = derived(
+    [dayStore, secondsStore], ([$dayStore, $secondsStore], set) => {
+        set($dayStore.start.getTime() + $secondsStore);
+    });
+
+    // export const nowStore: Readable<number> = readable(
 //     Date.now(), 
 //     (set) => {
 //         const interval = setInterval(() => {    
