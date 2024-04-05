@@ -4,6 +4,7 @@
     import Day from "$lib/day";
     import Session from "$lib/session";
     import Schedule from "$lib/schedule";
+    import Button from "$lib/Button.svelte";
     import {marked} from "marked";
     import moment from "moment";
 
@@ -44,7 +45,7 @@
     <p>
         {@html marked(session.description)}
     </p> 
-    <button on:click={() => history.back()}>Tilbake</button>   
+    <Button on:click={() => history.back()}>Tilbake</Button>   
 </div>    
 {/if}
 
