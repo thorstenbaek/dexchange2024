@@ -375,19 +375,21 @@ schedule:
             - start: 2024-04-18:10.00
               end: 2024-04-18:11.15
               kind: workshop
-              title: Hvordan kan bruk av AI og smartteknologi effektivisere arbeidsoppgaver til sykehuspersonell?  
+              title: Helsejournal med din AI «Assistent»  
               ingress: | 
-                Vi ønsker å skape en visuell fremstilling av hvordan helsepersonall samhandler med ulike systemer i hverdagen. 
+                Hvordan kan bruk av AI og smartteknologi effektivisere arbeidsoppgaver til helsepersonell? Team Assistant deler hva vi har jobbet med innenfor AI og journal. 
                 
                 Målet med workshopen er trefoldig: 
-                * Øke kunnskapen om behovene til helsepersonell i ulike segmenter. 
-                * Utforske hvordan kunstig intelligens (AI) og smarte løsninger kan effektivisere og redusere tiden helsepersonell bruker foran skjermen.
-                * Skape en helhetlig visualisering som illustrerer ulike brukerbehov på tvers av forskjellige typer helsepersonell.
+                * Value Proposition Design: kartlegge behov og pains til helsepersonell
+                * Kartlegge hvordan AI kan effektivisere arbeidshverdagen til helsepersonell
+                * Brukerteste «Assistent» med innspill til forbedring
             
               description: |
                 Gjennom denne workshopen håper vi å identifisere konkrete muligheter for implementering av teknologiske løsninger som kan forbedre arbeidsflyten og opplevelsen til helsepersonell i sitt daglige arbeid.
 
                 d:exchange gir oss en unik mulighet til å samle et mangfold av fagpersoner som arbeider med ulike aspekter av Arena. Her har vi sjansen til å grundig kartlegge brukerreiser for ulike helsepersonell og deres interaksjon med systemene. Dette gir oss en dyptgående forståelse av hvordan våre systemer kan forbedres for å bedre støtte behovene til helsepersonell og optimere deres arbeidsprosesser.
+
+                Maks antall 16 personer
               speaker: Lillian Ayla Ersoy
             - start: 2024-04-18:11.25
               end: 2024-04-18:12.00
