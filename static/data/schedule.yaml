@@ -28,6 +28,7 @@ schedule:
               end: 2024-04-17:11.15
               kind: speech
               title: Velkommen
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGI3NzNmMjctMmYxMS00ODRjLWE2ZWItMDJlMmI2NTc5ZDYx%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d              
               speaker: Thomas Smedsrud
               ingress: Velkommen til d:exchange 2024! 
               description: |
@@ -36,6 +37,7 @@ schedule:
               end: 2024-04-17:12.00
               kind: speech
               title: Keynote - Hva vi kan lære av LEGO om API'er?
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTE3ZWI1ZjctYmE5OS00Mjk4LTkzMDItMGI2NTRhOThmNWY4%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: | 
                 All programvare starter som én linje kode. Over tid bygger vi på litt 
                 etter litt for å legge til funksjonalitet, helt til vi flere år senere 
@@ -54,11 +56,13 @@ schedule:
               end: 2024-04-17:13.30
               kind: speech
               title: Verdi og brukervennlighet
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGRiMDcwN2EtOGJiOC00YWRiLWFkM2UtMTI1NWQ3OGY1Yjgy%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               speaker: Ove Dalen          
             - start: 2024-04-17:13.50
               end: 2024-04-17:14.50
               kind: speech
               title: Hvordan foregår test av versjonsoppgraderinger i Sykehuspartner?
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTI4YzZlYWYtMmFlMy00ZmRlLTg2N2EtMzljYThjMWM1ZDlj%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Camilla og Marius skal ta oss igjennom hvordan de jobber med test av versjonsoppgraderinger i Sykehuspartner.
               description: |
                 De vil beskrive hvordan de nå jobber parallelt med at HF-ene konsolideres inn i felles base.
@@ -69,6 +73,7 @@ schedule:
               end: 2024-04-17:15.55
               kind: speech
               title: Transformasjon - hva kan DIPS lære av andre virksomheter?
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGJiMGM4ZWUtMDk5OC00ZTJmLTk2OGUtOTc5MWU2ZDcxYmNk%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Siv Marie, Trond Fredrik og Agnete har gjennomført flere kaffeprater med sentrale personer involvert i transformasjonene hos Politiet, Gyldendal, Nav og Sparebank 1. 
               description: |
                 Dette var for å hente inspirasjon fra hvordan andre som ligger foran oss i løypa har jobbet med transformasjon. Trond Fredrik og Agnete deler hva som kom frem i samtalene. Dette blir delvis presentasjon og delvis diskusjon 
@@ -78,6 +83,7 @@ schedule:
               end: 2024-04-17:16.45              
               kind: speech
               title: Hvorfor trenger vi å endre måten vi driver produktutvikling på?
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTA4NTdmM2ItMjgyMC00OWQ4LWJlM2EtYzkxZjBjNTY0MzYy%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: DIPS er i endring, både når det gjelder måten vi organiserer produktutviklingen og hvordan vi kan jobbe enda tettere på brukerne for å forstå hvordan vi kan gi kundene våre en enklere og mer effektiv hverdag. 
               description: |                 
                 Vi har over flere år rigget utviklingsprosessen rundt overgangen fra Classic til Arena med mål om å få 99% av funksjonalieten over, og der strategien har vært å lage programvare som er «god nok» til at vi får rullet ut Arena hos våre største kunder. 
@@ -90,6 +96,7 @@ schedule:
               end: 2024-04-17:17.15
               kind: speech
               title: Merkantil modell tilpasset moderne produktutvikling
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTZmNzcxMmMtYzg3ZC00ZWMyLWE0NjUtOTcxODI4NWFhM2Q1%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Hvordan kan vi tilpasse merkantile modeller til kunde- og brukernær og iterativ produktutvikling?
               description: |
                 Vi ønsker å fortelle om hva vi jobber med og ønsker feedback.
@@ -98,6 +105,7 @@ schedule:
               end: 2024-04-17:18.15
               kind: speech
               title: FK Bodø/Glimt og bedriftskultur – ‘Ingenting er klin kokos umulig’
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGFiODRlMTgtZTQ0MC00MmM0LThlMmEtNzEyYzgzNGUzNTY5%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Bodø Glimt har gått fra å være en klubb som kjempet for å holde seg i eliteserien til å vinne seriegull tre ganger, spille to cup-finaler og konkurrere i Europa. Frode Thomassen tar oss med på reisen - med stikkord som kultur, prestasjoner og bærekraft.
               description: | 
                 Han er daglig leder i FK Bodø/Glimt og har hatt denne stillingen siden sommeren 2017. I fotballsammenheng har han mange år som styremedlem, nestleder og styreleder i Glimt. Han har vært trener på alle nivå, også i damefotballen. Han har også erfaring fra andre klubber som Ski- og fotballklubben Lyn, Stabæk og Vålerenga. Utover dette har han arbeidet 13-14 år som fakultetsdirektør ved Nord universitet, og før det igjen 9-10 år i Kulturdepartementet, hvor han arbeidet den siste perioden som underdirektør.
@@ -108,6 +116,7 @@ schedule:
               end: 2024-04-17:13.30
               kind: speech
               title: Eventyr i Eventland
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGRiMmYwYTgtZmM5OS00MTFiLTllNzgtYzAyMTMwNDJjMmQw%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Vi i Team Backbone deler vår erfaring med å publisere asynkrone meldinger basert på databasehendelser. For å komme frem til løsningen har vi vært gjennom en prosess, der arkitektur og løsningsforslag har endret seg underveis. 
               description: |
                 Vi har hatt løpende dialog med konsumenter, arkitekter og AT-styre. I dette foredraget forteller vi om de sentrale problemstillingene og beslutningene. Målet er å dele og diskutere våre erfaringer. 
@@ -120,6 +129,7 @@ schedule:
               end: 2024-04-17:15.55
               kind: speech
               title: Overgang til SMUD, business as usual?
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDExMWIxYTQtYzllZC00M2NmLTk5MzYtMjBlN2RhNmVhOTFl%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Vi i team Ember elsker SMUD! Men det betyr store endringer for teamet. Hva bør andre team forberede seg på?
               description: |
                 Hvordan påvirker overgang til SMUD utviklingsprosessen og leveranse av programvaren og dokumentasjon til kunder? Hva bør team være spesielt oppmerksomme på?
@@ -128,6 +138,7 @@ schedule:
               end: 2024-04-17:17.15
               kind: speech
               title: Referansearkitektur Q&A
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWJkNGRiZDktMWQ2MC00MmFkLWI4ZmQtZTQ1YzhlODFmZDkx%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Flere team er godt igang med å benytte ny referansearkitektur, mens andre mener det fortsatt er uklarheter og ønsker dialog.
               description: |
                 I denne sesjonen tar vi en gjennomgang av hva som har skjedd i etterkant av roadshow og spørsmål vi har fått. 
@@ -140,6 +151,7 @@ schedule:
               end: 2024-04-17:13.05
               kind: lightning
               title: Diffusjonsmodeller er late
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2E2MzgzM2QtOTJkMC00ZDEwLThkOGMtNDcxNDcxMTg1ZjJh%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Diffusjonsmodeller har den merkelige... 
               description: |
                 egenskapen at de gjør den minste mengden arbeid som er nødvendig for å nå målet sitt. Dette kan vi utnytte for å få et innblikk i deres beslutningsevne og skjønne hvorfor visse data blir generert. 
@@ -150,6 +162,7 @@ schedule:
               end: 2024-04-17:13.25
               kind: lightning
               title: Personproxy i databasen
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzcwNjUxZTctNTc5Yy00OTg5LThhZTYtZGFmNDZmMjAwYzg2%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Hva alle utviklere må vite om personproxy
               description: |
                 Beskrivelse av modellen og hvorfor det er viktig å forstå denne. Ved pasientsammenslåing kan én person få flere ulike proxyguid'er. Dersom koden ikke tar høyde for dette kan det føre til at brukeren går glipp av viktig informasjon om en pasient. 
@@ -172,6 +185,7 @@ schedule:
               end: 2024-04-17:17.15
               kind: speech
               title: Taleassistent
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzc4NTlhOTMtYWVjMC00NWZiLTg0MTItYjk2NWIwZTE1ZWIw%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Bruk av open-source talemodell for diktering og talestyring i Arena.
               description: |
                 Talegjenkjenning opplever en renessanse takket være open-source modeller med god ytelse. Dette kommer til å bli relevant for EPJ og viktig å bli kjent med.
@@ -221,6 +235,7 @@ schedule:
               end: 2024-04-18:10.00
               kind: speech
               title: AIpocalypse now?
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWVjY2I3MzktNWNjZi00OWRjLWFhYWMtMGZhMjdlYzM5YjQ4%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Vi har aldri visst så mye som vi gjør i dag om hvor lite vi vet om i morgen. Når fremtiden er usikker er den beste fremgangsmåten å bygge en portefølje av muligheter for hva fremtiden kan bringe. 
               description: |
                 Med kunstig intelligens kommer denne fremtiden enda nærmere enn tidligere. 
@@ -232,6 +247,7 @@ schedule:
               end: 2024-04-18:10.50
               kind: speech
               title: Bifrost som innovasjonsprosjekt
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODNiODk5OTMtNjhhNC00YzEyLWJiMTEtNzljNzU3OTBmNzRi%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress:
               description:
               speaker: Bjørn Næss og Morten Hørthe
@@ -239,6 +255,7 @@ schedule:
               end: 2024-04-18:11.15
               kind: speech
               title: Journalen på 18 minutter
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTdlZjRlNjUtNDkwNS00MGEyLTk0NGYtY2Y3NjMzYThkMmYw%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Mange i DIPS jobber med kliniske data, enten direkte eller indirekte. På grunn av taushetsplikt er innholdet i disse utilgjengelig for den jevne DIPS-er. 
               description: |
                 Dette foredraget tar utgangspunkt i tall fra kundenes databaser for å gi et overordnet blikk på hva slags informasjon kundene faktisk legger inn i journalen. 
@@ -248,6 +265,7 @@ schedule:
               end: 2024-04-18:12.00
               kind: speech
               title: Embracing GitHub CoPilot in our daily work
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzRkOTg3N2QtZGYxNi00ZmM1LWI4YWQtNjdjZjBjMzVkMDE0%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: "GitHub CoPilot: Vi snakker om gevinster, svakheter og muligheter med dette verktøyet."
               description: |
                 Vi kommer til å vise en live-demo med real world eksempler fra hvordan en utvikler i DIPS har brukt CoPilot i sitt daglige arbeid.
@@ -257,6 +275,7 @@ schedule:
               end: 2024-04-18:13.15
               kind: speech
               title: Innsikt i programvaren din med metrikker
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTU3NjMzZGItZDU1ZC00ODdkLWE3Y2EtODk4NmRiM2Y5ZDY3%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Med OpenTelemetry sender tjenesten din metrikker allerede i dag. Hvordan kan du bruke disse metrikkene og hvordan du kan lage dine egne metrikker for ditt domene?
               description: |                
                 I et distribuert system er det viktig å ha innsikt i hvordan programvaren kjører på kjøreplattformen. Metrikker gir viktig kunnskap som bidrar til denne innsikten. Utviklere kan lage metrikker innenfor sitt domene og måle effekten av sin kode. 
@@ -265,6 +284,7 @@ schedule:
               end: 2024-04-18:13.45
               kind: speech
               title: 🐹 Hvorfor dør hamsterne mine? - en UX casestudie
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTBjYzdmODMtOWFlYi00NDk1LWIxZjctZTcwZTkyM2I5MmY4%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Bli med på reisen fra konseptualisering til andre iterasjon av en mobilapp for hamstereiere.
               description: |
                 Få et innblikk i hvordan en designer jobber med å identifisere et problem og komme frem til en løsning. 
@@ -276,6 +296,7 @@ schedule:
               end: 2024-04-18:14.40
               kind: speech
               title: Arena og web
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTI0MDljNDQtYWM5Ni00ZDdjLTgzYzctNDg5OTkzODU4Yzgx%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: |
                 *Vi skal på web!* - Hva betyr det egentlig? 
               description: |
@@ -336,6 +357,7 @@ schedule:
               end: 2024-04-18:10.35
               kind: speech
               title: Web og OpenTelemetry
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTc2MjAxNTEtMjI5Zi00ZWQ5LTkwMzktODYwNmNhODhlYzcx%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Viser hvordan en fort kan komme i gang med OpenTelemetry i en JavaScript-basert webklient. 
               description: |
                 Foredraget vil vise hvordan du kan få distribuert sporing som henger i hop med resten av programvaren i DIPS og hvordan du kan sende metrikker fra webklienten.
@@ -345,6 +367,7 @@ schedule:
               end: 2024-04-18:11.15
               kind: speech
               title: Web Sockets / SignalR
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTU4YzJjMjAtYjdhZi00NWNkLTgzYjgtZTUzYzExZGM5NGRl%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Foredraget handler om hvordan du gjennom bruk av websockets kan dytte data ut til brukeren uten at brukeren foretar seg noe.
               description: |
                 Det blir litt koding med WebSockets først for å forstå konseptet. Deretter begir vi oss ut i .NET-biblioteket SignalR som lar deg bruke WeSockets i .NET. Vi blir å lage en liten webapp, men konseptene kan også brukes på andre plattformer.
