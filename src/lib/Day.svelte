@@ -1,7 +1,7 @@
 <script lang="ts">
     import Times from "./Times.svelte";
     import Schedule from "./Schedule.svelte";
-    import TimeMarker from "./TimeMarker.svelte";
+    // import TimeMarker from "./TimeMarker.svelte";
     import { loadAll } from "@square/svelte-store";
     import {scheduleStore, dayIndexStore, dayStore} from "../stores/scheduleStore";
 
