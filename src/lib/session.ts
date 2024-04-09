@@ -7,6 +7,7 @@ export default class Session {
     id: number;
     kind: string;
     title: string;
+    teams: string;
     ingress: string;
     description: string;
     speaker: string;
@@ -17,6 +18,7 @@ export default class Session {
         this.id = sessionCounter++;
         this.kind = session.kind;
         this.title = session.title;
+        this.teams = session.teams;
         this.ingress = session.ingress;
         this.description = session.description;
         this.speaker = session.speaker;

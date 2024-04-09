@@ -13,6 +13,10 @@
 	/** @type {import('./$types').PageData} */
     export let data: any;
     
+    function open(url: string) {
+        window.open(url, '_blank');
+    }
+
     function findSession(schedule: Schedule, sessionId: number) {
         if (schedule) {
             schedule.days.forEach((d: Day) => {
@@ -45,6 +49,10 @@
     <p>
         {@html marked(session.description)}
     </p> 
+    
+    {#if (session.teams)}
+        <Button on:click={() => {open(session.teams)}}>Åpne i Teams</Button>
+    {/if}
     <Button on:click={() => history.back()}>Tilbake</Button>   
 </div>    
 {/if}
