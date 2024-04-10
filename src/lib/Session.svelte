@@ -44,7 +44,7 @@
             <div class="textbox">
                 <h3 class="title">{displayTime()} {displayIcon(session.kind)} {session.title}</h3>
                 <h4 class="speaker">{session.speaker}</h4>        
-                <a href="./session/{session.id}" style="color:var(--contrast-{session.track.index}">
+                <a href="./session/{session.id}" style="color:var(--contrast-{session.track.index}" aria-label="Les mer om {session.title}">
                     {#if session.ingress}
                         {@html marked(session.ingress)}
                         <!-- <img class="more-button {}" src="/noun-more-symbol.svg" alt="Les mer"/> -->

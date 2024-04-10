@@ -2,11 +2,14 @@
     import {dayIndexStore} from "../stores/scheduleStore";
 </script>
 
+<svelte:head>
+    <title>Program d:exchange 2024</title>
+</svelte:head>
+
 <main>
     <div class="logo">
         <h1>
-            <img src="/logo.svg" width="200" alt="d:exchange"/>
-            2024
+            <img src="/logo.svg" width="200" alt="d:exchange"/> 2024            
         </h1>
     </div> 
         <nav class="days">
@@ -53,7 +56,7 @@
     }
 
     .selected {
-        color: var(--accent-1);
+        color: var(--accent-3);
     }
 
     h1 {
