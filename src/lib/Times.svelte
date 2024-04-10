@@ -34,7 +34,7 @@
     {#each getTimes() as time}
         <div class="time" style="top:{getTop(time)}px">
             {#if time.getMinutes() == 0}
-                <div class="time-marker" style="border-bottom: 2px solid #aaaaaa">
+                <div class="time-marker" style="border-bottom: 2px solid #4f4f4f">
                     {formatHours(time)}
                 </div>    
                 <div>
@@ -57,7 +57,7 @@
     
     .times {     
         position: relative;   
-        color: #aaaaaa;
+        color: #4f4f4f;
         border-radius: 10px;
         font-size: 0.8rem;   
         padding-left: 4px;     
