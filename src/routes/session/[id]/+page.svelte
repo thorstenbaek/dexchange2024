@@ -41,7 +41,19 @@
         {session.track.room} <br/>
         {moment(session.start).format("DD. MMMM HH.mm")} - {moment(session.end).format("HH.mm")}
     </h4>
-    <h1>{session?.title}</h1>
+    <h1>
+        {session?.title}
+        <span class="label">
+            {#if session.kind=="speech"}
+                FOREDRAG
+            {:else if session.kind=="lightning"}
+                LYNTALE
+            {:else}
+                WORKSHOP
+            {/if}
+        </span>
+    </h1>
+    
     <h2>{session.speaker}</h2>
     <p class="ingress">
         {@html marked(session.ingress)}
@@ -49,15 +61,28 @@
     <p>
         {@html marked(session.description)}
     </p> 
-    
-    {#if (session.teams)}
-        <Button on:click={() => {open(session.teams)}}>Åpne i Teams</Button>
-    {/if}
-    <Button on:click={() => history.back()}>Tilbake</Button>   
+    <div class="button-panel">
+        {#if (session.teams)}
+            <Button on:click={() => {open(session.teams)}}>Åpne i Teams</Button>
+        {/if}
+        <Button on:click={() => history.back()}>Tilbake</Button>   
+    </div>
 </div>    
 {/if}
 
 <style>
+    .label {
+        font-size: small;
+        font-weight: bold;
+        color: #eeeeee;
+        background: black;
+        padding: 1px 3px;
+    }
+
+    .button-panel {
+        padding-top: 20px;
+    }
+
     .session {
         padding: 24px;
     }

@@ -16,8 +16,6 @@
             <a class={$dayIndexStore == 0 ? 'selected':''} href="/day1">onsdag 17. apr</a>
             |
             <a class={$dayIndexStore == 1 ? 'selected':''} href="/day2">torsdag 18. apr</a>
-            
-            <span class="legend">👨‍🏫 foredrag | 🛠️ workshop | ⚡ lyntale</span>
         </nav>   
     
     <slot />
@@ -39,14 +37,6 @@
         padding: 4px 15px;
         border-radius: 10px;
         position: relative;
-    }
-
-    .legend {
-        visibility: hidden;
-        font-size: 0.8rem;
-        position: absolute;
-        top: 5px;
-        right: 10px;
     }
 
     a {
@@ -130,9 +120,6 @@
     }
 
     @media screen and (min-width: 42.5rem) {
-        .legend {            
-            visibility: visible;
-        }
     }
 
     @media print {
