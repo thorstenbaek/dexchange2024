@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Session from "./Session.svelte";
+    import Session from "./session";
 
     export let session: Session;
 </script>
