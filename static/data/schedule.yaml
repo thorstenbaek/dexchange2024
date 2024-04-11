@@ -348,7 +348,9 @@ schedule:
               ingress: For de som ønsker å lære seg å bruke figma. Det blir en interaktiv workshop der man får en oppgave, med veiledning. Det vil også være mulig å spørre om tips og triks for det *nivået* man har kommet i Figma.
               description: |                
                 Flere har uttrykt et ønske om å lære seg Figma for å raskere kunne lage skisser eller prototyper, og kunne diskutere løsningsforslag med visuelle virkemidler. Men terskelen for å komme i gang kan være litt stor. Dette kurset er ment som en inngangsport for å senke terskelen.
-              speaker: Lisa Haugen
+                
+                Deltakerne ha med seg pc, og helst ha opprettet en figmabruker med sin dips-epost i forkant av kurset. 
+              speaker: Lisa Frodadottir Haugen
             - start: 2024-04-18:13.55
               end: 2024-04-18:14.40
               kind: workshop
