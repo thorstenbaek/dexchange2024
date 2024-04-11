@@ -4,15 +4,17 @@
     export let session: Session;
 </script>
 
-<span class="label" style="color: var(--accent-{session.track.index}); background: var(--contrast-{session.track.index}">
-    {#if session.kind=="speech"}
-        FOREDRAG
-    {:else if session.kind=="lightning"}
-        LYNTALE
-    {:else}
-        WORKSHOP
-    {/if}
-</span>
+{#if session.kind}
+    <span class="label" style="color: var(--accent-{session.track.index}); background: var(--contrast-{session.track.index}">    
+        {#if session.kind=="speech"}
+            FOREDRAG
+        {:else if session.kind=="lightning"}
+            LYNTALE
+        {:else}
+            WORKSHOP
+        {/if}
+    </span>
+{/if}
 
 <style>
      .label {

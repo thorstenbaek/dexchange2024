@@ -43,15 +43,13 @@
     </h4>
     <h1>
         {session?.title}
-        <span class="label">
             {#if session.kind=="speech"}
-                FOREDRAG
+                <span class="label">FOREDRAG</span>
             {:else if session.kind=="lightning"}
-                LYNTALE
-            {:else}
-                WORKSHOP
+                <span class="label">LYNTALE</span>
+            {:else if session.kind=="workshop"}
+                <span class="label">WORKSHOP</span>  
             {/if}
-        </span>
     </h1>
     
     <h2>{session.speaker}</h2>
