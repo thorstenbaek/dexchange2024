@@ -4,6 +4,8 @@
     import {calculateTop, calculateHeight} from "./timeUtils";
     import Session from "./session";
     import Label from "./Label.svelte";
+    import {activeTrackStore} from "../stores/scheduleStore";
+
 
     export let session: Session;
     
@@ -29,7 +31,7 @@
                 <h3 class="title">{displayTime()} {session.title}</h3>
                 <Label {session}/>
                 <h4 class="speaker">{session.speaker}</h4>        
-                <a href="./session/{session.id}" style="color:var(--contrast-{session.track.index}" aria-label="Les mer om {session.title}">
+                <a class="{$activeTrackStore == session.track.index ? "active":""}" href="./session/{session.id}" style="color:var(--contrast-{session.track.index}" aria-label="Les mer om {session.title}">
                     {#if session.ingress}
                         {@html marked(session.ingress)}
                         <!-- <img class="more-button {}" src="/noun-more-symbol.svg" alt="Les mer"/> -->
@@ -63,6 +65,11 @@
     a {
         font-size: 0.8rem;  
         text-decoration: none;             
+        pointer-events: none;
+    }
+
+    a.active {
+        pointer-events: all;
     }
      /*.more-button {
         margin: 0;
@@ -100,4 +107,11 @@
         position: absolute;                
         width: 240px;
     }
+
+    @media screen and (min-width: 1150px) {
+        a {
+            pointer-events: all;
+        }
+    }
+
 </style>
