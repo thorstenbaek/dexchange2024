@@ -18,8 +18,6 @@
      .label {
         font-size: xx-small;
         font-weight: bold;
-        color: var(--accent-0);
-        background: var(--contrast-0);
         padding: 1px 3px;
     }
 </style>

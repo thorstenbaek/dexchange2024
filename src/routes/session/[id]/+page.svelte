@@ -89,5 +89,6 @@
 
     .ingress {
         font-weight: bold;
+        padding-bottom: 1rem;
     }
 </style>
