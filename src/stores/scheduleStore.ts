@@ -5,6 +5,7 @@ import yaml from "js-yaml";
 import type Day from "../lib/day";
 import Schedule from "../lib/schedule";
 import Session from "../lib/session";
+import { calculateTop } from "../lib/timeUtils";
 
 export const scheduleStore = asyncReadable(undefined, async () => {
     const response = await fetch(`/data/schedule.yaml`);
@@ -33,31 +34,23 @@ export const heightStore: Readable<number> = derived(
         set(value);
     });
 
-/*
-//export const startTime:Date = new Date(2024, 4, 17, 11, 0, 0);
-export const startTime:Date = new Date(2024, 4, 17, 11, 0, 0);
-
-let seconds = 0;
-export const secondsStore: Readable<number> = readable(    
-    seconds,
+export const timeStore: Readable<Date> = readable(
+    new Date(Date.now()/* + 3600000*24*5.621*/), 
     (set) => {
-        const interval = setInterval(() => {    
-            set(1000*seconds++);        
-    }, 60000);
+        const interval = setInterval(() => 
+            {    
+                set(new Date(Date.now()/* + 3600000*24*5.621*/));        
+            }, 
+            10000);
         return () => clearInterval(interval);
     });
 
-export const nowStore: Readable<number> = derived(
-    [dayStore, secondsStore], ([$dayStore, $secondsStore], set) => {
-        set($dayStore.start.getTime() + $secondsStore);
+export const timePositionStore: Readable<number> = derived(
+    [timeStore, dayStore],  ([$timeStore, $dayStore], set) => {
+        set(calculateTop($timeStore, $dayStore.start) + 35);
     });
 
-    // export const nowStore: Readable<number> = readable(
-//     Date.now(), 
-//     (set) => {
-//         const interval = setInterval(() => {    
-//             set(Date.now());        
-//     }, 1000);
-//         return () => clearInterval(interval);
-//     });
-*/
+export const timeDisplayStore: Readable<string> = derived(
+        [timeStore, dayStore],  ([$timeStore, $dayStore], set) => {
+            set($timeStore.toLocaleDateString() + " " + $timeStore.toLocaleTimeString());
+        });    

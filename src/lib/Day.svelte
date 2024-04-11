@@ -1,11 +1,12 @@
 <script lang="ts">
     import Times from "./Times.svelte";
     import Schedule from "./Schedule.svelte";
-    // import TimeMarker from "./TimeMarker.svelte";
+    import TimeMarker from "./TimeMarker.svelte";
     import { loadAll } from "@square/svelte-store";
     import {scheduleStore, dayIndexStore, dayStore} from "../stores/scheduleStore";
 
-    export let day = 0;
+    export let day: number = 0;
+    let width: number;
 
     $: {
         $dayIndexStore = day;
@@ -15,15 +16,16 @@
 {#await loadAll([scheduleStore])}
     Loading Schedule...
 {:then}    
-    <div class="container">
+    <div class="container" bind:clientWidth={width}>
         <Times/>
         <Schedule/>
-        <!-- <TimeMarker/> -->
+        <TimeMarker parentWidth={width}/>
     </div>
 {/await}
 
 <style>
     .container {
+        position: relative;
         display: grid;
         grid-template-columns: 24px auto;
     }
