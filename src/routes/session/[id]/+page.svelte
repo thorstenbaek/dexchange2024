@@ -36,41 +36,51 @@
 </script>    
 
 {#if session}
-<div class="session">
-    <h4>        
-        {session.track.room} <br/>
-        {moment(session.start).format("DD. MMMM HH.mm")} - {moment(session.end).format("HH.mm")}
-    </h4>
-    <h1>
-        {session?.title}
-            {#if session.kind=="speech"}
-                <span class="label">FOREDRAG</span>
-            {:else if session.kind=="lightning"}
-                <span class="label">LYNTALE</span>
-            {:else if session.kind=="workshop"}
-                <span class="label">WORKSHOP</span>  
-            {/if}
-    </h1>
-    
-    <h2>{session.speaker}</h2>
-    <p class="ingress">
-        {@html marked(session.ingress)}
-    </p>    
-    <p>
-        {@html marked(session.description)}
-    </p> 
-    <div class="button-panel">
-        {#if (session.teams)}
-            <Button on:click={() => {open(session.teams)}}>Åpne i Teams</Button>
+<div class="container">
+    <div/>
+    <div class="session">
+        <h4>        
+            {session.track.room} <br/>
+            {moment(session.start).format("DD. MMMM HH.mm")} - {moment(session.end).format("HH.mm")}
+        </h4>
+        
+        {#if session.kind=="speech"}
+            <span class="tag">FOREDRAG</span>
+        {:else if session.kind=="lightning"}
+            <span class="tag">LYNTALE</span>
+        {:else if session.kind=="workshop"}
+            <span class="tag">WORKSHOP</span>  
         {/if}
-        <Button on:click={() => history.back()}>Tilbake</Button>   
+
+        <h1>    
+            {session?.title}
+        </h1>
+        
+        <h2>{session.speaker}</h2>
+        <p class="ingress">
+            {@html marked(session.ingress)}
+        </p>    
+        <p>
+            {@html marked(session.description)}
+        </p> 
+        <div class="button-panel">
+            {#if (session.teams)}
+                <Button on:click={() => {open(session.teams)}}>Åpne i Teams</Button>
+            {/if}
+            <Button on:click={() => history.back()}>Tilbake</Button>   
+        </div>
     </div>
-</div>    
+    <div/>   
+</div> 
 {/if}
 
 <style>
-    .label {
-        font-size: small;
+    h1 {
+        margin: 5px 0;
+    }
+
+    .tag {
+        font-size: 1rem;
         font-weight: bold;
         color: #eeeeee;
         background: black;
@@ -81,8 +91,14 @@
         padding-top: 20px;
     }
 
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
     .session {
         padding: 24px;
+        max-width: 700px;
     }
 
     .ingress {

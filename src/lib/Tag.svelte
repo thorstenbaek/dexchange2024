@@ -5,7 +5,7 @@
 </script>
 
 {#if session.kind}
-    <span class="label" style="color: var(--accent-{session.track.index}); background: var(--contrast-{session.track.index}">    
+    <span class="tag" style="color: var(--accent-{session.track.index}); background: var(--contrast-{session.track.index}">    
         {#if session.kind=="speech"}
             FOREDRAG
         {:else if session.kind=="lightning"}
@@ -17,9 +17,9 @@
 {/if}
 
 <style>
-     .label {
+     .tag {
         font-size: xx-small;
         font-weight: bold;
-        padding: 1px 3px;
+        padding: 1px 3px;        
     }
 </style>
