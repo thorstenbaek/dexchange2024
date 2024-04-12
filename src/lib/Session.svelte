@@ -3,7 +3,7 @@
     import {marked} from "marked";
     import {calculateTop, calculateHeight} from "./timeUtils";
     import Session from "./session";
-    import Label from "./Label.svelte";
+    import Tag from "./Tag.svelte";
     import {activeTrackStore} from "../stores/scheduleStore";
 
 
@@ -29,9 +29,9 @@
         <div class="content">
             <div class="textbox">
                 <h3 class="title">{displayTime()} {session.title}</h3>
-                <Label {session}/>
+                <Tag {session}/>
                 <h4 class="speaker">{session.speaker}</h4>        
-                <a class="{$activeTrackStore == session.track.index ? "active":""}" href="./session/{session.id}" style="color:var(--contrast-{session.track.index}" aria-label="Les mer om {session.title}">
+                <a class="ingress {$activeTrackStore == session.track.index ? "active":""}" href="./session/{session.id}" style="color:var(--contrast-{session.track.index}" aria-label="Les mer om {session.title}">
                     {#if session.ingress}
                         {@html marked(session.ingress)}
                         <!-- <img class="more-button {}" src="/noun-more-symbol.svg" alt="Les mer"/> -->
@@ -59,7 +59,7 @@
 
     h4 {
         font-size: 0.7rem;
-        margin: 2px 0;    
+        margin: 6px 0;    
     }
 
     a {
@@ -88,6 +88,10 @@
         position: absolute;        
         width: 100%;
         border-radius: 10px;        
+    }
+
+    .ingress {
+        line-height: 1.1rem;
     }
 
     .inner-session {
