@@ -66,10 +66,12 @@
         font-size: 0.8rem;  
         text-decoration: none;             
         pointer-events: none;
+        touch-action: none;
     }
 
     a.active {
         pointer-events: all;
+        touch-action: auto;
     }
      /*.more-button {
         margin: 0;
@@ -115,6 +117,7 @@
     @media screen and (min-width: 1150px) {
         a {
             pointer-events: all;
+            touch-action: auto;
         }
     }
 
