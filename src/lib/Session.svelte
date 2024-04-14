@@ -63,6 +63,7 @@
     }
 
     a {
+        display: inline-block;
         font-size: 0.8rem;  
         text-decoration: none;             
         pointer-events: none;
