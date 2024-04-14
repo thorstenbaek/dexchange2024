@@ -65,13 +65,11 @@
     a {
         font-size: 0.8rem;  
         text-decoration: none;             
-        visibility: hidden;
         pointer-events: none;
         touch-action: none;
     }
 
     a.active {
-        visibility: visible;
         pointer-events: all;
         touch-action: auto;
     }
@@ -118,7 +116,6 @@
 
     @media screen and (min-width: 1150px) {
         a {
-            visibility: visible;
             pointer-events: all;
             touch-action: auto;
         }
