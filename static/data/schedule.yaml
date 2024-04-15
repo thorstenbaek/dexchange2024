@@ -186,9 +186,11 @@ schedule:
               ingress: Workshop om hvordan komme i gang med utvikling i React på en rask og god måte
               description: |
                 Kunnskapsdeling er alltid viktig. Spesielt nå som DIPS skal ut på web. Da er det kritisk at man bygger webkunnskapen i firmaet samt danner et fagmiljø som holder kunnskapsdelingen gående
-              speaker: Martin Vassbotten          
-            - start: 2024-04-17:16.45
-              end: 2024-04-17:17.15
+              speaker: Martin Vassbotten                      
+        - room: Klasserom
+          sessions: 
+            - start: 2024-04-17:12.45
+              end: 2024-04-17:13.15
               kind: speech
               title: Taleassistent
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzc4NTlhOTMtYWVjMC00NWZiLTg0MTItYjk2NWIwZTE1ZWIw%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
@@ -196,8 +198,6 @@ schedule:
               description: |
                 Talegjenkjenning opplever en renessanse takket være open-source modeller med god ytelse. Dette kommer til å bli relevant for EPJ og viktig å bli kjent med.
               speaker: Eivind Holt
-        - room: Klasserom
-          sessions: 
             - start: 2024-04-17:13.50
               end: 2024-04-17:14.50
               kind: workshop
