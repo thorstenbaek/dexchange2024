@@ -326,20 +326,30 @@ schedule:
               speaker: d:exchange-komiteen
         - room: Hinnøya
           sessions:
-            - start: 2024-04-18:10.20
-              end: 2024-04-18:11.15
-              kind: workshop
+            - start: 2024-04-18:10.10
+              end: 2024-04-18:11.00
+              kind: speech
               title: Automatisert test møter universell utforming
               ingress: Det finnes mye rart ute på nettet. Noen nettsteder er et mareritt å navigere for alle, andre er bare forferdelig for mennesker med nedsatt funksjonsevne. Noen nettsteder er umulige å navigere med en skjermleser. Andre inneholder tastaturfeller eller bruker farger som er bedre egnet til å kamuflere teksten enn å gjøre den lesbar. 
-                Heldigvis for oss er nettet bygget av mennesker. Vi kan gjøre det tilgjengelig hvis vi bare prøver å gjøre det.
+                
               description: |
+                Heldigvis for oss er nettet bygget av mennesker. Vi kan gjøre det tilgjengelig hvis vi bare prøver å gjøre det.
+                
                 Det finnes flere verktøy som kan være til stor hjelp hvis du vil verifisere at du lager et tilgjengelig nettsted. Automatiske tilgjengelighetstester kan være til enda større hjelp, og frigjøre tid til å fokusere på endringene som vil gjøre nettstedet ditt bedre for alle. 
+                                
                 I dette foredraget vil du lære hva automatiske tilgjengelighetstester er, hvorfor du bør bruke de og hvordan du kan bruke de i et prosjekt. Underveis vil du lære om noen av de vanligste tilgjengelighetsfeilene som kan oppdages automatisk. 
               speaker: Cecilie Haugstvedt, Soco
-            - start: 2024-04-18:11.25
+            - start: 2024-04-18:11.00
               end: 2024-04-18:12.00
               kind: workshop
-              title: Automatisert test møter universell utforming forts.
+              title: Automatisert testing av universell utforming - linting og Cypress
+              ingress: Det finnes mange verktøy som kan hjelpe deg å lage en mer universelt utformet løsning. Automatiserte tilgjengelighetstester er et av disse verktøyene. Gjort på riktig måte vil de hjelpe deg å luke ut problemer og frigjøre tid til å fokusere på endringene som vil gjøre nettstedet ditt bedre for alle.
+              description: |
+                I denne workshopen lærer du hvordan du setter opp og skriver dine egne tilgjengelighetstester. Mens vi gjør dette, vil vi også dekke noen av de vanligste tilgjengelighetsfeilene som kan oppdages automatisk, og lære hvordan du fikser dem.
+ 
+                Lær hvordan du ekskluderer problemer/legger til unntak, setter passende nivå (WCAG A, AA, AAA) og begrenser testing til spesifikke komponenter.
+ 
+                Dette er en praktisk workshop og du må ha med PC/mac med git og node.js installert.
               speaker: Cecilie Haugstvedt, Soco
             - start: 2024-04-18:12.45
               end: 2024-04-18:13.45
