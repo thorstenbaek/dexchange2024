@@ -1,12 +1,27 @@
 <script lang="ts">
+    import {get} from "svelte/store";
+    import { browser } from '$app/environment';
     import Times from "./Times.svelte";
     import Schedule from "./Schedule.svelte";
     import TimeMarker from "./TimeMarker.svelte";
     import { loadAll } from "@square/svelte-store";
-    import {scheduleStore, dayIndexStore, dayStore} from "../stores/scheduleStore";
+    import {scheduleStore, dayIndexStore, timeScrollStore, heightStore} from "../stores/scheduleStore";
 
     export let day: number = 0;
     let width: number;
+
+    function scrollTo(position: number) {
+        if (browser) {
+            if (position > 0 && position < get(heightStore)) {
+                window.scroll(0, position);
+            }
+        }
+    }
+    
+    timeScrollStore.subscribe(positiom => 
+    {
+        scrollTo(positiom);
+    });
 
     $: {
         $dayIndexStore = day;
