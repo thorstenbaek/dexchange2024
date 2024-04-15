@@ -31,10 +31,9 @@
                 <h3 class="title">{displayTime()} {session.title}</h3>
                 <Tag {session}/>
                 <h4 class="speaker">{session.speaker}</h4>        
-                <a class="ingress {$activeTrackStore == session.track.index ? "active":""}" href="./session/{session.id}" style="color:var(--contrast-{session.track.index}" aria-label="Les mer om {session.title}">
+                <a class="ingress {$activeTrackStore == session.track.index ? "active":""}" href="./session/{session.id}" style="color:var(--contrast-{session.track.index}" aria-label="Les mer om {session.title}" title="Klikk for å lese mer">
                     {#if session.ingress}
                         {@html marked(session.ingress)}
-                        <!-- <img class="more-button {}" src="/noun-more-symbol.svg" alt="Les mer"/> -->
                     {/if}         
                     
                 </a>
@@ -44,14 +43,6 @@
 </div>
 
 <style>
-    /*.time {
-        display: inline-block;
-        font-size: 0.8rem;
-        font-weight: bold;
-    }*/
-
-   
-
     h3 {
         font-size: 0.9rem;
         margin: 2px 0;    
