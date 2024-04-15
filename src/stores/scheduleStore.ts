@@ -37,11 +37,11 @@ export const heightStore: Readable<number> = derived(
 export const autoScroll: Writable<boolean> = writable(false);    
 
 export const timeStore: Readable<Date> = readable(
-    new Date(Date.now() + 3600000*24*2), 
+    new Date(Date.now()/* + 3600000*24*2*/), 
     (set) => {
         const interval = setInterval(() => 
             {    
-                set(new Date(Date.now() + 3600000*24*2));        
+                set(new Date(Date.now()/* + 3600000*24*2*/));        
             }, 
             15000);
         return () => clearInterval(interval);
@@ -61,5 +61,8 @@ export const timeScrollStore: Readable<number> = derived(
     [autoScroll, timeStore, dayStore],  ([$autoScroll, $timeStore, $dayStore], set) => {
         if ($autoScroll && $timeStore && $dayStore) {
             set(calculateTop($timeStore, $dayStore?.start) + 35);
-        } 
+        } else {
+            //console.log("no autoscroll")
+            set(0);
+        }
     });
