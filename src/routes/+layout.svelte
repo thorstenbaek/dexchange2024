@@ -7,9 +7,12 @@
 </svelte:head>
 
 <main>
-    <div class="logo">
-        <h1>
-            <img src="/logo.svg" width="200" alt="d:exchange"/> 2024            
+    <div class="header">
+        <h1 class="logo">
+            <a href="/">
+                <img src="/logo.svg" width="200" alt="d:exchange"/>              
+                <span class="year">2024</span>
+            </a>
         </h1>
     </div> 
         <nav class="days">
@@ -22,11 +25,18 @@
 </main>
 
 <style>
-    .logo {
+    .header {
         background: linear-gradient(90deg, rgba(0,20,158,1) 30%, rgba(243,88,61,1) 100%);
         margin: 0 0 0 24px;
         padding: 0 0 0 12px;
         border-radius: 10px;
+        align-items: center;
+    }
+
+    .year {
+        color: white;
+        margin: 0;        
+        vertical-align: middle;
     }
 
     .days {
@@ -57,7 +67,7 @@
     }
 
     img {
-        padding: 0 12px 0 0;
+        vertical-align: middle;      
     }
     /*---------------------------
     ** Variables
