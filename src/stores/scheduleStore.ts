@@ -37,11 +37,16 @@ export const heightStore: Readable<number> = derived(
 export const autoScroll: Writable<boolean> = writable(false);    
 
 export const timeStore: Readable<Date> = readable(
-    new Date(Date.now()/* + 3600000*24*2*/), 
+    new Date(1900, 0, 0), 
     (set) => {
         const interval = setInterval(() => 
-            {    
-                set(new Date(Date.now()/* + 3600000*24*2*/));        
+            { 
+                let now: Date = new Date(Date.now() + 1000*60*60*24 - 116*60*1000);
+                if (now >= new Date(2024, 3, 17, 11, 0, 0) && now <= new Date(2024, 3, 18, 16, 0, 0)) {
+                    set(now)
+                } else {
+                    set(new Date(1900, 0, 0));
+                }
             }, 
             15000);
         return () => clearInterval(interval);
