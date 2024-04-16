@@ -1,7 +1,7 @@
 schedule:  
   days: 
     - start: 2024-04-17:11.00
-      end: 2024-04-17:20.00
+      end: 2024-04-17:21.00
       breaks:
         - start: 2024-04-17:12.00
           end: 2024-04-17:12.45
@@ -22,7 +22,7 @@ schedule:
           end: 2024-04-17:18.30
           title: Kald drikke
         - start: 2024-04-17:18.30
-          end: 2024-04-17:20.00
+          end: 2024-04-17:21.00
           title: Middag
       tracks:
         - room: Arena
