@@ -169,7 +169,7 @@ schedule:
               kind: lightning
               title: Personproxy i databasen
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzcwNjUxZTctNTc5Yy00OTg5LThhZTYtZGFmNDZmMjAwYzg2%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              ingress: Hva alle utviklere må vite om personproxy
+              ingress: Hva alle utviklere og testere må vite om personproxy
               description: |
                 Beskrivelse av modellen og hvorfor det er viktig å forstå denne. Ved pasientsammenslåing kan én person få flere ulike proxyguid'er. Dersom koden ikke tar høyde for dette kan det føre til at brukeren går glipp av viktig informasjon om en pasient. 
                 **Feil på dette området er vanskelig å oppdage, og kan ha alvorlige konsekvenser.**
@@ -251,6 +251,8 @@ schedule:
                 Det er stor sjanse for at KI gjør verden til et bedre sted for de aller - aller fleste. 
                 Det er likevel en bitte liten sjanse for at det kan gå skikkelig galt. 
                 Dette foredraget handler om hvordan innrette seg for at det skal gå skikkelig bra. 
+
+                **Det tas ikke opptak av dette foredraget.**
               speaker: Yngvar Ugland, DNB
             - start: 2024-04-18:10.20
               end: 2024-04-18:10.50
@@ -319,11 +321,12 @@ schedule:
               end: 2024-04-18:15.30
               kind: speech
               title: Relasjonell kommunikasjon og kulturbygging 
+              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTc5ZmEwM2MtODE2NS00NzA3LThmN2UtNDVjODZhMjI3ZjBl%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
               ingress: Hvordan kan vi bruke relasjonell kommunikasjon til å bygge gode team i en organisasjon i utvikling?
               description: |
                 Nina Kramer Fromreide har mange års erfaring som leder i private og offentlige virksomheter der utvikling og endring gjennom lagspill målorientering, kreativitet og relasjonsledelse har stått i sentrum. De siste ti årene har hun vært ansatt som universitetslektor ved Handelshøgskolen, Nord Universitet i Bodø. Hun er fagansvarlig og underviser innen fagområdene organisasjon og ledelse samt markedsføring og strategi. Nina har lang erfaring som organisasjons- og lederutvikler samt som foredragsholder innen strategisk ledelse. Hun er opptatt av samspill og hvordan mennesker påvirker hverandre til å oppnå best mulige resultater i fellesskap.
-
-                Dette foredraget streames ikke i Teams. 
+                
+                **Det tas ikke opptak av dette foredraget.**
               speaker: Nina Kramer Fromreide, Nord universitet
             - start: 2024-04-18:15.30
               end: 2024-04-18:15.45
