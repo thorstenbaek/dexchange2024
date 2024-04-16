@@ -41,7 +41,7 @@ export const timeStore: Readable<Date> = readable(
     (set) => {
         const interval = setInterval(() => 
             { 
-                let now: Date = new Date(Date.now() + 1000*60*60*24 - 116*60*1000);
+                let now: Date = new Date(Date.now());
                 if (now >= new Date(2024, 3, 17, 11, 0, 0) && now <= new Date(2024, 3, 18, 16, 0, 0)) {
                     set(now)
                 } else {
