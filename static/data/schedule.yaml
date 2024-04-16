@@ -315,10 +315,13 @@ schedule:
             - start: 2024-04-18:14.50
               end: 2024-04-18:15.30
               kind: speech
-              title: Nina Kramer
-              ingress: 
-              description:
-              speaker: Nina Kramer, Nord universitet
+              title: Relasjonell kommunikasjon og kulturbygging 
+              ingress: Hvordan kan vi bruke relasjonell kommunikasjon til å bygge gode team i en organisasjon i utvikling?
+              description: |
+                Nina Kramer Fromreide har mange års erfaring som leder i private og offentlige virksomheter der utvikling og endring gjennom lagspill målorientering, kreativitet og relasjonsledelse har stått i sentrum. De siste ti årene har hun vært ansatt som universitetslektor ved Handelshøgskolen, Nord Universitet i Bodø. Hun er fagansvarlig og underviser innen fagområdene organisasjon og ledelse samt markedsføring og strategi. Nina har lang erfaring som organisasjons- og lederutvikler samt som foredragsholder innen strategisk ledelse. Hun er opptatt av samspill og hvordan mennesker påvirker hverandre til å oppnå best mulige resultater i fellesskap.
+
+                Dette foredraget streames ikke i Teams. 
+              speaker: Nina Kramer Fromreide, Nord universitet
             - start: 2024-04-18:15.30
               end: 2024-04-18:15.45
               title: Avslutning
