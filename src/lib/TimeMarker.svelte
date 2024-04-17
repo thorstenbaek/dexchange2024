@@ -1,6 +1,6 @@
 <script lang="ts">
     import { get } from "svelte/store";
-    import {timePositionStore, timeStore} from "../stores/scheduleStore";
+    import {timePositionStore, timeStore, autoScroll} from "../stores/scheduleStore";
 
     function format(timeString: string): string {
         if (timeString.length == 2) {
@@ -10,6 +10,11 @@
         return "0" + timeString;
     }
 
+    function toggleAutoScroll() {
+        $autoScroll = !$autoScroll;
+        console.log($autoScroll);
+    }
+
     export let parentWidth: number;
 </script>
 
@@ -17,13 +22,16 @@
 
 
 <div class="overlay" style="top:{$timePositionStore}px">    
-    <div class="time-marker">
+    <div class="time-marker" on:click={toggleAutoScroll}>
         <div style="border-bottom: 2px solid">
             {format($timeStore.getHours().toString())}
         </div>    
         <div>
             {format($timeStore.getMinutes().toString())}
-        </div>            
+        </div>  
+        {#if $autoScroll}
+        ▼  
+        {/if}          
     </div>    
     <span class="line" style="width:{parentWidth - 24}px"/>
 </div>    
