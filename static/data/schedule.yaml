@@ -188,7 +188,9 @@ schedule:
               title: React golden path
               ingress: Workshop om hvordan komme i gang med utvikling i React på en rask og god måte
               description: |
-                Kunnskapsdeling er alltid viktig. Spesielt nå som DIPS skal ut på web. Da er det kritisk at man bygger webkunnskapen i firmaet samt danner et fagmiljø som holder kunnskapsdelingen gående
+                Kunnskapsdeling er alltid viktig. Spesielt nå som DIPS skal ut på web. Da er det kritisk at man bygger webkunnskapen i firmaet samt danner et fagmiljø som holder kunnskapsdelingen gående.
+
+                Ta gjerne med PC.
               speaker: Martin Vassbotten                      
         - room: Klasserom
           sessions: 
