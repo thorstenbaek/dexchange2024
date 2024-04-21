@@ -67,6 +67,9 @@
             {#if (session.teams)}
                 <Button on:click={() => {open(session.teams)}}>Åpne i Teams</Button>
             {/if}
+            {#if (session.recording)}
+                <Button on:click={() => {open(session.recording)}}>Se opptak</Button>
+            {/if}
             <Button on:click={() => history.back()}>Tilbake</Button>   
         </div>
     </div>

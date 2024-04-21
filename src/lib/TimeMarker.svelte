@@ -22,6 +22,8 @@
 
 
 <div class="overlay" style="top:{$timePositionStore}px">    
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
     <div class="time-marker" on:click={toggleAutoScroll}>
         <div style="border-bottom: 2px solid">
             {format($timeStore.getHours().toString())}

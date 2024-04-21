@@ -16,6 +16,7 @@
         font-size: 1rem;
         font-weight: bold;
         border: none;
+        margin: 0 5px 0 0;
         padding: 10px;
         border-radius: 10px;
     }
