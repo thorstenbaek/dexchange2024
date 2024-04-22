@@ -40,7 +40,7 @@ schedule:
               kind: speech
               title: Keynote - Hva vi kan lære av LEGO om API'er?
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTE3ZWI1ZjctYmE5OS00Mjk4LTkzMDItMGI2NTRhOThmNWY4%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/mos_dips_no/Documents/Recordings/Keynote%20-%20Hva%20vi%20kan%20l%C3%A6re%20av%20LEGO%20om%20API%27er_%20Jon%20Gjengset-20240417_111323-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=5H4wBP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FKeynote%20%2D%20Hva%20vi%20kan%20l%C3%A6re%20av%20LEGO%20om%20API%27er%5F%20Jon%20Gjengset%2D20240417%5F111323%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyLjQyMDg2M319&referrer=StreamPlaylist%2EWeb&referrerScenario=PopOut%2Emis%2Ed942e22c%2D6dea%2D4862%2Db1e2%2Db25f41daeebc
               ingress: | 
                 All programvare starter som én linje kode. Over tid bygger vi på litt 
                 etter litt for å legge til funksjonalitet, helt til vi flere år senere 
@@ -61,7 +61,7 @@ schedule:
               title: | 
                 Fra leveranse til verdi: Effekt i digitale produkter i helsesektoren
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGRiMDcwN2EtOGJiOC00YWRiLWFkM2UtMTI1NWQ3OGY1Yjgy%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/mos_dips_no/Documents/Recordings/Verdi%20og%20brukervennlighet%20Ove%20Dalen-20240417_124519-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=F4Lxcj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FVerdi%20og%20brukervennlighet%20Ove%20Dalen%2D20240417%5F124519%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjg4MDgwNX19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               speaker: Ove Dalen    
               ingress: Hvordan måle suksess når vi ikke selger joggesko eller driver nettbutikk? Brukervennlighet i apper og digitale produkter i helsektoren er ikke koselig pynt. Det er ofte helt avgjørende for at leger og helsepersonell skal få gjort jobben sin. Dette foredraget handler om hvordan vi kan lage løsninger som gir verdi til både brukerne, samfunnet og virksomhetene.
               description: | 
@@ -71,7 +71,7 @@ schedule:
               kind: speech
               title: Hvordan foregår test av versjonsoppgraderinger i Sykehuspartner?
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTI4YzZlYWYtMmFlMy00ZmRlLTg2N2EtMzljYThjMWM1ZDlj%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/mos_dips_no/Documents/Recordings/Hvordan%20foreg%C3%A5r%20test%20av%20versjonsoppgraderinger%20i%20Sykehuspartner_%20Camilla%20Brynhildsen%20og%20Marius%20Emilson%20Holmesland,%20Sykehuspartner-20240417_135028-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=Khs4M1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FHvordan%20foreg%C3%A5r%20test%20av%20versjonsoppgraderinger%20i%20Sykehuspartner%5F%20Camilla%20Brynhildsen%20og%20Marius%20Emilson%20Holmesland%2C%20Sykehuspartner%2D20240417%5F135028%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozLjM4MTczNH19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Camilla og Marius skal ta oss igjennom hvordan de jobber med test av versjonsoppgraderinger i Sykehuspartner.
               description: |
                 De vil beskrive hvordan de nå jobber parallelt med at HF-ene konsolideres inn i felles base.
@@ -83,7 +83,7 @@ schedule:
               kind: speech
               title: Transformasjon - hva kan DIPS lære av andre virksomheter?
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGJiMGM4ZWUtMDk5OC00ZTJmLTk2OGUtOTc5MWU2ZDcxYmNk%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/mos_dips_no/Documents/Recordings/Transformasjon%20-%20hva%20kan%20DIPS%20l%C3%A6re%20av%20andre%20virksomheter_%20Trond%20Fredrik%20Schjander-Opsahl%20og%20Agnete%20Enga-20240417_151053-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=tt9M60&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FTransformasjon%20%2D%20hva%20kan%20DIPS%20l%C3%A6re%20av%20andre%20virksomheter%5F%20Trond%20Fredrik%20Schjander%2DOpsahl%20og%20Agnete%20Enga%2D20240417%5F151053%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjUzNDIwNn19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Siv Marie, Trond Fredrik og Agnete har gjennomført flere kaffeprater med sentrale personer involvert i transformasjonene hos Politiet, Gyldendal, Nav og Sparebank 1. 
               description: |
                 Dette var for å hente inspirasjon fra hvordan andre som ligger foran oss i løypa har jobbet med transformasjon. Siv Marie, Trond Fredrik og Agnete deler hva som kom frem i samtalene. Dette blir delvis presentasjon og delvis diskusjon 
@@ -94,7 +94,7 @@ schedule:
               kind: speech
               title: Hvorfor trenger vi å endre måten vi driver produktutvikling på?
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTA4NTdmM2ItMjgyMC00OWQ4LWJlM2EtYzkxZjBjNTY0MzYy%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/mos_dips_no/Documents/Recordings/Hvorfor%20trenger%20vi%20%C3%A5%20endre%20m%C3%A5ten%20vi%20driver%20produktutvikling%20p%C3%A5_%20Kjell-Arne%20Fransplass-20240417_161303-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=JgTD27&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FHvorfor%20trenger%20vi%20%C3%A5%20endre%20m%C3%A5ten%20vi%20driver%20produktutvikling%20p%C3%A5%5F%20Kjell%2DArne%20Fransplass%2D20240417%5F161303%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozLjkxMTk0Nn19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: DIPS er i endring, både når det gjelder måten vi organiserer produktutviklingen og hvordan vi kan jobbe enda tettere på brukerne for å forstå hvordan vi kan gi kundene våre en enklere og mer effektiv hverdag. 
               description: |                 
                 Vi har over flere år rigget utviklingsprosessen rundt overgangen fra Classic til Arena med mål om å få 99% av funksjonalieten over, og der strategien har vært å lage programvare som er «god nok» til at vi får rullet ut Arena hos våre største kunder. 
@@ -108,7 +108,7 @@ schedule:
               kind: speech
               title: Merkantil modell tilpasset moderne produktutvikling
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTZmNzcxMmMtYzg3ZC00ZWMyLWE0NjUtOTcxODI4NWFhM2Q1%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/mos_dips_no/Documents/Recordings/Merkantil%20modell%20tilpasset%20moderne%20produktutvikling%20Runar%20B.%20Slettvoll-20240417_164436-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=t4SmyU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FMerkantil%20modell%20tilpasset%20moderne%20produktutvikling%20Runar%20B%2E%20Slettvoll%2D20240417%5F164436%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjEwNzk0OX19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Hvordan kan vi tilpasse merkantile modeller til kunde- og brukernær og iterativ produktutvikling?
               description: |
                 Vi ønsker å fortelle om hva vi jobber med og ønsker feedback.
@@ -129,7 +129,7 @@ schedule:
               kind: speech
               title: Eventyr i Eventland
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGRiMmYwYTgtZmM5OS00MTFiLTllNzgtYzAyMTMwNDJjMmQw%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/msle_dips_no/Documents/Recordings/Eventyr%20i%20Eventland%20Team%20Backbone-20240417_124412-Meeting%20Recording.mp4?csf=1&web=1&e=yEEYc8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FEventyr%20i%20Eventland%20Team%20Backbone%2D20240417%5F124412%2DMeeting%20Recording%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjYyNTgwOH19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Vi i Team Backbone deler vår erfaring med å publisere asynkrone meldinger basert på databasehendelser. For å komme frem til løsningen har vi vært gjennom en prosess, der arkitektur og løsningsforslag har endret seg underveis. 
               description: |
                 Vi har hatt løpende dialog med konsumenter, arkitekter og AT-styre. I dette foredraget forteller vi om de sentrale problemstillingene og beslutningene. Målet er å dele og diskutere våre erfaringer. 
@@ -143,7 +143,7 @@ schedule:
               kind: speech
               title: Overgang til SMUD, business as usual?
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDExMWIxYTQtYzllZC00M2NmLTk5MzYtMjBlN2RhNmVhOTFl%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/evjo_dips_no/Documents/Recordings/Overgang%20til%20SMUD,%20business%20as%20usual_%20Per%20Arne%20Engstad-20240417_151001-Meeting%20Recording.mp4?csf=1&web=1&e=VwsaQ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FOvergang%20til%20SMUD%2C%20business%20as%20usual%5F%20Per%20Arne%20Engstad%2D20240417%5F151001%2DMeeting%20Recording%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjgyMjk0OH19&referrer=StreamPlaylist%2EWeb&referrerScenario=PopOut%2Emis%2Ed942e22c%2D6dea%2D4862%2Db1e2%2Db25f41daeebc
               ingress: Vi i team Ember elsker SMUD! Men det betyr store endringer for teamet. Hva bør andre team forberede seg på?
               description: |
                 Hvordan påvirker overgang til SMUD utviklingsprosessen og leveranse av programvaren og dokumentasjon til kunder? Hva bør team være spesielt oppmerksomme på?
@@ -153,7 +153,7 @@ schedule:
               kind: speech
               title: Referansearkitektur Q&A
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWJkNGRiZDktMWQ2MC00MmFkLWI4ZmQtZTQ1YzhlODFmZDkx%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/evjo_dips_no/Documents/Recordings/Referansearkitektur%20Q%26A%20AT-styret-20240417_161436-Meeting%20Recording.mp4?csf=1&web=1&e=qdbkn7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FReferansearkitektur%20Q%26A%20AT%2Dstyret%2D20240417%5F161436%2DMeeting%20Recording%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjI3NTIwOH19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Flere team er godt igang med å benytte ny referansearkitektur, mens andre mener det fortsatt er uklarheter og ønsker dialog.
               description: |
                 I denne sesjonen tar vi en gjennomgang av hva som har skjedd i etterkant av roadshow og spørsmål vi har fått. 
@@ -167,7 +167,7 @@ schedule:
               kind: lightning
               title: Diffusjonsmodeller er late
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2E2MzgzM2QtOTJkMC00ZDEwLThkOGMtNDcxNDcxMTg1ZjJh%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/embo_dips_no/Documents/Recordings/Diffusjonsmodeller%20er%20late%20William%20Dalheim-20240417_124456-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=wWXABC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FDiffusjonsmodeller%20er%20late%20William%20Dalheim%2D20240417%5F124456%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyLjQ0OTk4N319&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Diffusjonsmodeller har den merkelige... 
               description: |
                 egenskapen at de gjør den minste mengden arbeid som er nødvendig for å nå målet sitt. Dette kan vi utnytte for å få et innblikk i deres beslutningsevne og skjønne hvorfor visse data blir generert. 
@@ -179,7 +179,7 @@ schedule:
               kind: lightning
               title: Personproxy i databasen
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzcwNjUxZTctNTc5Yy00OTg5LThhZTYtZGFmNDZmMjAwYzg2%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/embo_dips_no/Documents/Recordings/Personproxy%20i%20databasen%20Helene%20Brinchmann%20Halvorsen-20240417_130456-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=2PxAQi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FPersonproxy%20i%20databasen%20Helene%20Brinchmann%20Halvorsen%2D20240417%5F130456%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjU5OTM4M319&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Hva alle utviklere og testere må vite om personproxy
               description: |
                 Beskrivelse av modellen og hvorfor det er viktig å forstå denne. Ved pasientsammenslåing kan én person få flere ulike proxyguid'er. Dersom koden ikke tar høyde for dette kan det føre til at brukeren går glipp av viktig informasjon om en pasient. 
@@ -210,7 +210,7 @@ schedule:
               kind: speech
               title: Taleassistent
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzc4NTlhOTMtYWVjMC00NWZiLTg0MTItYjk2NWIwZTE1ZWIw%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/eih_dips_no/Documents/Recordings/Taleassistent%20Eivind%20Holt-20240417_124533-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=nnS0Uh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FTaleassistent%20Eivind%20Holt%2D20240417%5F124533%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTg4LjAzMDUyN319&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Bruk av open-source talemodell for diktering og talestyring i Arena.
               description: |
                 Talegjenkjenning opplever en renessanse takket være open-source modeller med god ytelse. Dette kommer til å bli relevant for EPJ og viktig å bli kjent med.
@@ -273,7 +273,7 @@ schedule:
               kind: speech
               title: Bifrost modellen
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODNiODk5OTMtNjhhNC00YzEyLWJiMTEtNzljNzU3OTBmNzRi%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/jhs_dips_no/Documents/Recordings/Bifrost%20som%20innovasjonsprosjekt%20Bj%C3%B8rn%20N%C3%A6ss%20og%20Morten%20H%C3%B8rthe-20240418_102041-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=AeDhBB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FBifrost%20som%20innovasjonsprosjekt%20Bj%C3%B8rn%20N%C3%A6ss%20og%20Morten%20H%C3%B8rthe%2D20240418%5F102041%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjYyOTMyfX0%3D&referrer=StreamPlaylist%2EWeb&referrerScenario=PopOut%2Emis%2Ed942e22c%2D6dea%2D4862%2Db1e2%2Db25f41daeebc
               ingress: Bifrost har etablert en samarbeidsmodell for bruker- og kundenær utvikling. Ved å ansvarliggjøre sluttbrukeren gjennom tidlig testing i DIPS Arena blir tilbakemeldingene på funksjonalitet vesentlig mer relevant.
               description: | 
                 I foredraget presenteres modellen ved å vise til prosjekt som har blitt veldig gode. Kanskje enda viktigere for læring er å snakke om faktorer som virker negativt på resultatet.
@@ -285,7 +285,7 @@ schedule:
               kind: speech
               title: Journalen på 18 minutter
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTdlZjRlNjUtNDkwNS00MGEyLTk0NGYtY2Y3NjMzYThkMmYw%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/jhs_dips_no/Documents/Recordings/Journalen%20p%C3%A5%2018%20minutter%20%C3%98ystein%20Olsen-20240418_105116-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=9HioAU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FJournalen%20p%C3%A5%2018%20minutter%20%C3%98ystein%20Olsen%2D20240418%5F105116%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjE3NjU3N319&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Mange i DIPS jobber med kliniske data, enten direkte eller indirekte. På grunn av taushetsplikt er innholdet i disse utilgjengelig for den jevne DIPS-er. 
               description: |
                 Dette foredraget tar utgangspunkt i tall fra kundenes databaser for å gi et overordnet blikk på hva slags informasjon kundene faktisk legger inn i journalen. 
@@ -296,7 +296,7 @@ schedule:
               kind: speech
               title: Embracing GitHub Copilot in our daily work
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzRkOTg3N2QtZGYxNi00ZmM1LWI4YWQtNjdjZjBjMzVkMDE0%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/jhs_dips_no/Documents/Recordings/Embracing%20GitHub%20CoPilot%20in%20our%20daily%20work%20Askar%20Mehdi%20og%20Bj%C3%B8rn%20Fjukstad-20240418_112510-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=3gRR5v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FEmbracing%20GitHub%20CoPilot%20in%20our%20daily%20work%20Askar%20Mehdi%20og%20Bj%C3%B8rn%20Fjukstad%2D20240418%5F112510%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyLjkzNjMxNX19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Vi diskuterer GitHub Copilot, og presenterer eksempler på bruk fra virkeligheten hentet fra DIPS.
               description: |
                 Vi diskuterer gevinster, svakheter og muligheter, og deler eksempler fra virkeligheten om hvordan en utvikler i DIPS har brukt Copilot i sitt daglige arbeid.
@@ -308,7 +308,7 @@ schedule:
               kind: speech
               title: Innsikt i programvaren din med metrikker
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTU3NjMzZGItZDU1ZC00ODdkLWE3Y2EtODk4NmRiM2Y5ZDY3%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/jhs_dips_no/Documents/Recordings/Innsikt%20i%20programvaren%20din%20med%20metrikker%20Trond%20Andersen-20240418_124507-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=66gaaq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FInnsikt%20i%20programvaren%20din%20med%20metrikker%20Trond%20Andersen%2D20240418%5F124507%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjYxMzg1Nn19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Med OpenTelemetry sender tjenesten din metrikker allerede i dag. Hvordan kan du bruke disse metrikkene og hvordan du kan lage dine egne metrikker for ditt domene?
               description: |                
                 I et distribuert system er det viktig å ha innsikt i hvordan programvaren kjører på kjøreplattformen. Metrikker gir viktig kunnskap som bidrar til denne innsikten. Utviklere kan lage metrikker innenfor sitt domene og måle effekten av sin kode. 
@@ -318,7 +318,7 @@ schedule:
               kind: speech
               title: 🐹 Hvorfor dør hamsterne mine? - en UX casestudie
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTBjYzdmODMtOWFlYi00NDk1LWIxZjctZTcwZTkyM2I5MmY4%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/jhs_dips_no/Documents/Recordings/%F0%9F%90%B9%20Hvorfor%20d%C3%B8r%20hamsterne%20mine_%20-%20en%20UX%20casestudie%20Julie%20Amalie%20Karlsen-20240418_130951-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=RS0O2w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2F%F0%9F%90%B9%20Hvorfor%20d%C3%B8r%20hamsterne%20mine%5F%20%2D%20en%20UX%20casestudie%20Julie%20Amalie%20Karlsen%2D20240418%5F130951%2DOpptak%20av%20m%C3%B8te%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Bli med på reisen fra konseptualisering til andre iterasjon av en mobilapp for hamstereiere.
               description: |
                 Få et innblikk i hvordan en designer jobber med å identifisere et problem og komme frem til en løsning. 
@@ -331,7 +331,7 @@ schedule:
               kind: speech
               title: Arena og web
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTI0MDljNDQtYWM5Ni00ZDdjLTgzYzctNDg5OTkzODU4Yzgx%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/jhs_dips_no/Documents/Recordings/Arena%20og%20web%20Trond%20Fredrik%20Schjander-Opsahl-20240418_135805-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=beyASb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FArena%20og%20web%20Trond%20Fredrik%20Schjander%2DOpsahl%2D20240418%5F135805%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyLjk0Nzk5Mn19&referrer=StreamPlaylist%2EWeb&referrerScenario=PopOut%2Emis%2Ed942e22c%2D6dea%2D4862%2Db1e2%2Db25f41daeebc
               ingress: |
                 *Vi skal på web!* - Hva betyr det egentlig? 
               description: |
@@ -360,7 +360,7 @@ schedule:
               end: 2024-04-18:11.00
               kind: speech
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTY4OWJkMjktMjUyZS00Y2JjLTlmNDMtZDRlMGEzYjRiMTVm%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/aso_dips_no/Documents/Recordings/Automatisert%20test%20m%C3%B8ter%20universell%20utforming%20Cecilie%20Haugstvedt,%20Soco-20240418_101345-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=DqIRrM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FAutomatisert%20test%20m%C3%B8ter%20universell%20utforming%20Cecilie%20Haugstvedt%2C%20Soco%2D20240418%5F101345%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjE4ODkwNH19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               title: Automatisert test møter universell utforming
               ingress: Det finnes mye rart ute på nettet. Noen nettsteder er et mareritt å navigere for alle, andre er bare forferdelig for mennesker med nedsatt funksjonsevne. Noen nettsteder er umulige å navigere med en skjermleser. Andre inneholder tastaturfeller eller bruker farger som er bedre egnet til å kamuflere teksten enn å gjøre den lesbar. 
                 
@@ -411,7 +411,7 @@ schedule:
               kind: speech
               title: Web og OpenTelemetry
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTc2MjAxNTEtMjI5Zi00ZWQ5LTkwMzktODYwNmNhODhlYzcx%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/embo_dips_no/Documents/Recordings/Web%20og%20OpenTelemetry%20Trond%20Andersen-20240418_100925-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=x3SLxo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FVerdi%20og%20brukervennlighet%20Ove%20Dalen%2D20240417%5F124519%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjg4MDgwNX19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Viser hvordan en fort kan komme i gang med OpenTelemetry i en JavaScript-basert webklient. 
               description: |
                 Foredraget vil vise hvordan du kan få distribuert sporing som henger i hop med resten av programvaren i DIPS og hvordan du kan sende metrikker fra webklienten.
@@ -422,7 +422,7 @@ schedule:
               kind: speech
               title: Web Sockets / SignalR
               teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTU4YzJjMjAtYjdhZi00NWNkLTgzYjgtZTUzYzExZGM5NGRl%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips-my.sharepoint.com/:v:/r/personal/embo_dips_no/Documents/Recordings/Web%20Sockets%20_%20SignalR%20%C3%98ystein%20Danielsen-20240418_103613-Opptak%20av%20m%C3%B8te.mp4?csf=1&web=1&e=db2eiX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FWeb%20Sockets%20%5F%20SignalR%20%C3%98ystein%20Danielsen%2D20240418%5F103613%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjc3MjI3N319&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
               ingress: Foredraget handler om hvordan du gjennom bruk av websockets kan dytte data ut til brukeren uten at brukeren foretar seg noe.
               description: |
                 Det blir litt koding med WebSockets først for å forstå konseptet. Deretter begir vi oss ut i .NET-biblioteket SignalR som lar deg bruke WeSockets i .NET. Vi blir å lage en liten webapp, men konseptene kan også brukes på andre plattformer.
